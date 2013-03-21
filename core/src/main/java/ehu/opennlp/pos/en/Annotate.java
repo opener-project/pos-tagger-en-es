@@ -97,7 +97,8 @@ public class Annotate {
         String termId = "t" + Integer.toString(realTermCounter++);
         String posId = posTagged[j];
         String type = "";
-        String lemma = "";
+        //String lemma = "";
+        String lemma=tokens[j];
         String spanString = tokens[j];
         ArrayList<String> tokenIds = new ArrayList<String>();
         tokenIds.add("w" + Integer.toString(noTarget++));
