@@ -16,6 +16,7 @@ The contents of the module are the following:
     + opener/                 trained models
     + pom.xml                 maven pom file which deals with everything related to compilation and execution of the module
     + src/                    java source code of the module
+    + wn30/dict		      WordNet 3.0 dictionary
     + Furthermore, the installation process, as described in the README.md, will generate another directory:
     target/                 it contains binary executable and other directories
 
@@ -61,20 +62,20 @@ You should now see that your jdk is 1.6
 Download MAVEN 3 from
 
 ````shell
-wget http://www.apache.org/dyn/closer.cgi/maven/maven-3/3.0.4/binaries/apache-maven-3.0.4-bin.tar.gz
+wget http://apache.rediris.es/maven/maven-3/3.0.5/binaries/apache-maven-3.0.5-bin.tar.gz
 ````
 
 Now you need to configure the PATH. For Bash Shell:
 
 ````shell
-export MAVEN_HOME=/home/ragerri/local/apache-maven-3.0.4
+export MAVEN_HOME=/home/ragerri/local/apache-maven-3.0.5
 export PATH=${MAVEN_HOME}/bin:${PATH}
 ````
 
 For tcsh shell:
 
 ````shell
-setenv MAVEN3_HOME ~/local/apache-maven-3.0.4
+setenv MAVEN3_HOME ~/local/apache-maven-3.0.5
 setenv PATH ${MAVEN3}/bin:{PATH}
 ````
 
@@ -115,13 +116,20 @@ ehu-opennlp-pos-en-1.0.jar
 This executable contains every dependency the module needs, so it is completely portable as long
 as you have a JVM 1.6 installed.
 
+6. RUNNING EHU-opennlp-pos-en
+-----------------------------
+
 The program accepts tokenized text in KAF format as standard input and outputs KAF.
 
 To run the program execute:
 
 ````shell
-cat wordforms.kaf | java -jar $PATH/target/ehu-opennlp-pos-en-1.0.jar
+cat wordforms.kaf | java -jar $PATH/target/ehu-opennlp-pos-en-1.0.jar -l $lang -w $wn/dict
 ````
+
+The paramaters are mandatory. They specify the language to load the models and the path of WordNet
+dict directory to obtain the lemmas.
+
 
 GENERATING JAVADOC
 ==================

@@ -5,7 +5,7 @@
   <artifactId>ehu-opennlp-pos-en</artifactId>
   <name>ehu-opennlp-pos-en</name>
   <version>1.0</version>
-  <description>English POS tagging module based on Apache OpenNLP API.
+  <description>POS tagging module based on Apache OpenNLP API.
 	All models have been trained by the IXA NLP Group of the University of the
 	Basque Country (ixa.si.ehu.es).</description>
   <url>http://maven.apache.org</url>

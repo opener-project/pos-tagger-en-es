@@ -21,13 +21,14 @@ public class POS {
   private POSTaggerME posTagger;
 
   /**
-   * It constructs an object NERC from the NERC class. First it loads a model,
-   * then it initializes the nercModel and finally it creates a nercDetector
-   * using such model.
+   * It constructs an object POS from the POS class. First it loads a model,
+   * then it initializes the posModel and finally it creates a posTagger using
+   * such model.
    */
-  public POS() {
+  public POS(InputStream trainedModel) {
 
-    InputStream trainedModel = getClass().getResourceAsStream("/en-pos-perceptron-dev.bin");
+    // InputStream trainedModel =
+    // getClass().getResourceAsStream("/en-pos-perceptron-1000-dev.bin");
 
     try {
       posModel = new POSModel(trainedModel);
@@ -47,13 +48,8 @@ public class POS {
 
   /**
    * This method receives as an input an array of Apache OpenNLP tokenized text
-   * and calls the NameFinderME.find(tokens) to recognize and classify Named
-   * Entities.
+   * and calls the posTagger.tag function to POS tag text.
    * 
-   * From Apache OpenNLP documentation: "After every document clearAdaptiveData
-   * must be called to clear the adaptive data in the feature generators. Not
-   * calling clearAdaptiveData can lead to a sharp drop in the detection rate
-   * after a few documents."
    * 
    * @param tokens
    *          an array of tokenized text
