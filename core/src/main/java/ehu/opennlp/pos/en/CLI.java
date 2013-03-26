@@ -12,6 +12,7 @@ import java.util.List;
 
 import net.didion.jwnl.JWNLException;
 import net.sourceforge.argparse4j.ArgumentParsers;
+import net.sourceforge.argparse4j.impl.Arguments;
 import net.sourceforge.argparse4j.inf.ArgumentParser;
 import net.sourceforge.argparse4j.inf.ArgumentParserException;
 import net.sourceforge.argparse4j.inf.Namespace;
@@ -64,8 +65,8 @@ public class CLI {
         .required(true)
         .help("It is REQUIRED to choose a language to perform annotation with IXA-OpenNLP");
     
-    // parser.addArgument("-f","--format").choices("kaf","plain").setDefault("kaf").help("output annotation in plain native "
-    // "Apache OpenNLP format or in KAF format. The default is KAF");
+    parser.addArgument("-t","--timestamp").action(Arguments.storeTrue()).help("flag to make timestamp static for continous " +
+    		"integration testing");
 
     // specify wordnet dict path
     parser
@@ -123,7 +124,14 @@ public class CLI {
       // add already contained header plus this module linguistic
       // processor
       annotator.addKafHeader(lingProc, kaf);
-      kaf.addlps("terms", "ehu-opennlp-pos-" + lang, kaf.getTimestamp(), "1.0");
+      
+      if (parsedArguments.getBoolean("timestamp") == true) {
+        kaf.addlps("terms","ehu-opennlp-pos-"+ lang, "now","1.0");
+      }
+      else {
+        kaf.addlps("terms", "ehu-opennlp-pos-" + lang, kaf.getTimestamp(), "1.0");
+      }
+      
 
       // annotate POS tags to KAF and lemmatize
       annotator.annotatePOSToKAF(sentences, kaf);
