@@ -87,8 +87,8 @@ mvn -version
 
 You should see reference to the MAVEN version you have just installed plus the JDK 6 that is using.
 
-3. Get module from bitbucket
--------------------------
+3. Get module
+-------------
 
 ````shell
 git clone git@github.com:opener-project/EHU-pos-tagger_EN_kernel.git
