@@ -1,11 +1,54 @@
-
-EHU-OpenNLP-POS-en
-===========
+# Opener::Kernel::EHU::POSTagger::EN
 
 This module provides a simple wrapper that uses Apache OpenNLP
 programatically to perform POS tagging in English.
 Models have been trained using WSJ treebank (performance 96.48%)
 by the IXA NLP Group (ixa.si.ehu.es).
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'EHU-pos-tagger_EN_kernel', :git=>"git@github.com/opener-project/EHU-pos-tagger_EN_kernel.git"
+
+And then execute:
+
+    $ bundle install
+
+Or install it yourself as:
+
+    $ gem specific_install EHU-pos-tagger_EN_kernel -l https://github.com/opener-project/EHU-pos-tagger_EN_kernel.git
+
+
+If you dont have specific_install already:
+
+    $ gem install specific_install
+
+## Usage
+
+Once installed as a gem you can access the gem from anywhere:
+
+
+TODO: Change output below as needed
+````shell
+echo "foo" | EHU-pos-tagger_EN_kernel
+````
+
+Will output
+
+````
+oof
+````
+
+## Contributing
+
+1. Pull it
+2. Create your feature branch (`git checkout -b features/my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin features/my-new-feature`)
+5. If you're confident, merge your changes into master.
+
+
 
 Contents
 ========
