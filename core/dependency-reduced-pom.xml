@@ -61,10 +61,6 @@
   </build>
   <repositories>
     <repository>
-      <id>kafgithub</id>
-      <url>https://raw.github.com/zbeloki/mvn-kaflib/master</url>
-    </repository>
-    <repository>
       <id>opener</id>
       <url>file://${project.basedir}</url>
     </repository>

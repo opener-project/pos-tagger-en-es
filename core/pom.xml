@@ -26,10 +26,6 @@
 	<url>http://maven.apache.org</url>
 
 	<repositories>
-	    <repository>
-	    <id>kafgithub</id>
-	    <url>https://raw.github.com/zbeloki/mvn-kaflib/master</url>
-	    </repository>
 		<repository>
 			<id>opener</id>
 			<url>file://${project.basedir}</url>
@@ -47,12 +43,6 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-        
-        <dependency>
-        <groupId>ixa.github.kaflib</groupId>
-        <artifactId>kaflib</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        </dependency>
         
 		<dependency>
 			<groupId>net.sourceforge.argparse4j</groupId>
