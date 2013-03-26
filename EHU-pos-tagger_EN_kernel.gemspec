@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.version       = Opener::Kernel::EHU::POSTagger::EN::VERSION
   gem.authors       = ["sb-olr","sparkboxx"]
   gem.email         = ["sujit@olery.com", "wilco@olery.com"]
-  gem.description   = %q{NER kernel for spanish lite version}
+  gem.description   = %q{POS Tagger kernel for english}
   gem.summary       = %q{Use this gem in a component}
   gem.homepage      = "http://opener-project.github.com/"
 
