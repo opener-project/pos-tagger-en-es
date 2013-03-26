@@ -12,15 +12,15 @@ module Opener
             def initialize
               core_dir    = File.expand_path("../core", File.dirname(__FILE__))
 
-              @kernel      = core_dir+'/ehu-opennlp-pos-en-1.0.jar'
+              @kernel      = core_dir+'/ehu-opennlp-pos-en-1.0.jar -l en -w core/wn30/dict'
             end
 
             def command(opts={})
               arguments = opts[:arguments] || []
-              arguments << "-n" if opts[:test]
+              arguments << "-t" if opts[:test]
+              
 
-              "cat #{opts[:input]} | java -jar #{kernel} -l en"
-              #"cat #{opts[:input]} | java -jar #{kernel} #{opts[:input]} #{arguments.join(' ')}"
+		"cat #{opts[:input]} | java -jar #{kernel} #{arguments.join(' ')}"
 
             end
 
