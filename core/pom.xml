@@ -27,10 +27,6 @@
 
 	<repositories>
 		<repository>
-			<id>opener</id>
-			<url>file://${project.basedir}</url>
-		</repository>
-		<repository>
 			<id>org.apache.opennlp</id>
 			<url>https://repository.apache.org/content/groups/snapshots</url>
 		</repository>
@@ -43,7 +39,7 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-        
+
 		<dependency>
 			<groupId>net.sourceforge.argparse4j</groupId>
 			<artifactId>argparse4j</artifactId>
@@ -81,12 +77,6 @@
 			<groupId>net.sf.jwordnet</groupId>
 			<artifactId>jwnl</artifactId>
 			<version>1.4_rc3</version>
-		</dependency>
-
-		<dependency>
-			<groupId>opener</groupId>
-			<artifactId>pos-en-model</artifactId>
-			<version>1.0</version>
 		</dependency>
 	</dependencies>
 

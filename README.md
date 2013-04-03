@@ -56,7 +56,6 @@ Contents
 The contents of the module are the following:
 
     + formatter.xml           Apache OpenNLP code formatter for Eclipse SDK
-    + opener/                 trained models
     + pom.xml                 maven pom file which deals with everything related to compilation and execution of the module
     + src/                    java source code of the module
     + wn30/dict		      WordNet 3.0 dictionary
@@ -148,7 +147,7 @@ cd $repo/core
 -----------------------------
 
 ````shell
-mvn clean install
+mvn clean package
 ````
 
 This step will create a directory called target/ which contains various directories and files.
@@ -158,6 +157,12 @@ ehu-opennlp-pos-en-1.0.jar
 
 This executable contains every dependency the module needs, so it is completely portable as long
 as you have a JVM 1.6 installed.
+
+To install the module in your local maven repository, usually located in ~/.m2/, execute:
+
+````shell
+mvn clean install
+````
 
 6. RUNNING EHU-opennlp-pos-en
 -----------------------------
