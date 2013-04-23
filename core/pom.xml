@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ehu</groupId>
-	<artifactId>ehu-opennlp-pos-en</artifactId>
+	<artifactId>ehu-pos</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0</version>
-	<name>ehu-opennlp-pos-en</name>
+	<name>ehu-pos</name>
 	<description>POS tagging module based on Apache OpenNLP API.
 	All models have been trained by the IXA NLP Group of the University of the
 	Basque Country (ixa.si.ehu.es).
@@ -26,14 +26,6 @@
 	<url>http://maven.apache.org</url>
 
 	<repositories>
-		<repository>
-			<id>opener</id>
-			<url>file://${project.basedir}</url>
-		</repository>
-		<repository>
-			<id>org.apache.opennlp</id>
-			<url>https://repository.apache.org/content/groups/snapshots</url>
-		</repository>
 	</repositories>
 
 	<dependencies>
@@ -62,31 +54,18 @@
 			<artifactId>jdom2</artifactId>
 			<version>2.0.4</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.carrot2</groupId>
+			<artifactId>morfologik-stemming</artifactId>
+			<version>1.6.0</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.apache.opennlp</groupId>
 			<artifactId>opennlp-tools</artifactId>
-			<version>1.5.3-SNAPSHOT</version>
-			<exclusions>
-				<!-- only needed for coreference -->
-				<exclusion>
-					<groupId>jwnl</groupId>
-					<artifactId>jwnl</artifactId>
-				</exclusion>
-			</exclusions>
+			<version>1.5.3</version>
 				<scope>compile</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>net.sf.jwordnet</groupId>
-			<artifactId>jwnl</artifactId>
-			<version>1.4_rc3</version>
-		</dependency>
-
-		<dependency>
-			<groupId>opener</groupId>
-			<artifactId>pos-en-model</artifactId>
-			<version>1.0</version>
 		</dependency>
 	</dependencies>
 
@@ -107,7 +86,7 @@
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
 									<manifestEntries>
-										<Main-Class>ehu.opennlp.pos.en.CLI</Main-Class>
+										<Main-Class>ehu.pos.CLI</Main-Class>
 										<!-- <Class-Path>../models/models.jar</Class-Path> -->
 									</manifestEntries>
 								</transformer>
@@ -125,7 +104,7 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.2.1</version>
 				<configuration>
-					<mainClass>ehu.opennlp.pos.en.CLI</mainClass>
+					<mainClass>ehu.pos.CLI</mainClass>
 				</configuration>
 			</plugin>
 

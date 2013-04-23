@@ -1,9 +1,14 @@
 # Opener::Kernel::EHU::POSTagger::EN
 
-This module provides a simple wrapper that uses Apache OpenNLP
-programatically to perform POS tagging in English.
-Models have been trained using WSJ treebank (performance 96.48%)
-by the IXA NLP Group (ixa.si.ehu.es).
+This module uses Apache OpenNLP programatically to perform POS tagging.
+It has been developed by the IXA NLP Group (ixa.si.ehu.es).
+
++ English perceptron models have been trained and evaluated using the WSJ treebank as explained in
+  K. Toutanova, D. Klein, and C. D. Manning. Feature-rich part-of-speech tagging with a cyclic dependency network.
+  In Proceedings of HLT-NAACL’03, 2003. Currently we obtain a performance of 96.48% vs 97.24% obtained by Toutanova et al. (2003).
+
++ Spanish Maximum Entropy models have been trained and evaluated using the Ancora corpus; it was randomly
+  divided in 90% for training (440K words) and 10% testing (70K words), obtaining a performance of 98.88%.
 
 ## Installation
 
@@ -56,20 +61,16 @@ Contents
 The contents of the module are the following:
 
     + formatter.xml           Apache OpenNLP code formatter for Eclipse SDK
-    + opener/                 trained models
     + pom.xml                 maven pom file which deals with everything related to compilation and execution of the module
     + src/                    java source code of the module
-    + wn30/dict		      WordNet 3.0 dictionary
     + Furthermore, the installation process, as described in the README.md, will generate another directory:
     target/                 it contains binary executable and other directories
-
-- README.md: This README
 
 
 INSTALLATION
 ============
 
-Installing the ixa-opennlp-pos-en requires the following steps:
+Installing the ehu-pos requires the following steps:
 
 If you already have installed in your machine JDK6 and MAVEN 3, please go to step 3
 directly. Otherwise, follow these steps:
@@ -130,48 +131,81 @@ mvn -version
 
 You should see reference to the MAVEN version you have just installed plus the JDK 6 that is using.
 
-3. Get module
--------------
+3. Get module source code
+--------------------------
 
 ````shell
 git clone git@github.com:opener-project/EHU-pos-tagger_EN_kernel.git
 ````
 
-4. Move into main directory
+4. Download models and other resources
+--------------------------------------
+
+To perform English lemmatization the module uses three different methods for English and two for Spanish:
+
++ English:
+    + WordNet-3.0. You will to give $repo/core/wn30/dict as a value of the -w option when running ehu-pos (see point 7. below).
+    + Plain text dictionary: en-lemmas.dict is a "Word POStag lemma" dictionary in plain text to perform lemmatization.
+    + Morfologik-stemming: english.dict is the same as en-lemmas.dict but binarized as a finite state automata using the
+      morfologik-stemming project (see NOTICE file for details) This method uses 10% of RAM with respect to the plain text
+     dictionary and works 2x faster.
+
++ Spanish:
+    + Plain text dictionary: es-lemmas.dict.
+    + Morfologik stemming: spanish.dict.
+
+To get WordNet go to:
+
+````shell
+wget http://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz
+````
+
+5. Move into main directory
 ---------------------------
 
 ````shell
-cd $repo/core
+cd $REPO/core
 ````
 
-5. Install module using maven
+6. Install module using maven
 -----------------------------
 
 ````shell
-mvn clean install
+mvn clean package
 ````
 
 This step will create a directory called target/ which contains various directories and files.
 Most importantly, there you will find the module executable:
 
-ehu-opennlp-pos-en-1.0.jar
+ehu-pos-1.0.jar
 
 This executable contains every dependency the module needs, so it is completely portable as long
 as you have a JVM 1.6 installed.
 
-6. RUNNING EHU-opennlp-pos-en
------------------------------
+To install the module in the local maven repository, usually located at ~/.m2/, execute:
+
+````shell
+mvn clean install
+````
+
+7. USING ehu-pos
+=====================
 
 The program accepts tokenized text in KAF format as standard input and outputs KAF.
 
-To run the program execute:
+You can get the tokenized input for this module from Vicom-tokenizer module. To run the program execute:
 
 ````shell
-cat wordforms.kaf | java -jar $PATH/target/ehu-opennlp-pos-en-1.0.jar -l $lang -w $wn/dict
+cat wordforms.kaf | java -jar $PATH/target/ehu-pos-1.0.jar -l $lang
 ````
 
-The paramaters are mandatory. They specify the language to load the models and the path of WordNet
-dict directory to obtain the lemmas.
+Current paramaters for specifying the language (to load the relevant models) is mandatory. See
+
+````shell
+java -jar $PATH/target/ehu-pos-1.0.jar -help
+````
+
+for more options running the module
 
 
 GENERATING JAVADOC
@@ -183,7 +217,7 @@ You can also generate the javadoc of the module by executing:
 mvn javadoc:jar
 ````
 
-Which will create a jar file core/target/ehu-opennlp-pos-en-1.0-javadoc.jar
+Which will create a jar file target/ehu-pos-1.0-javadoc.jar
 
 
 Contact information
