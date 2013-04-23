@@ -20,7 +20,7 @@ module Opener
               arguments << "-t" if opts[:test]
 
 
-		"cat #{opts[:input]} | java -jar #{kernel} -l en"
+		"cat #{opts[:input]} | java -jar #{kernel} -l en #{arguments.join(' ')}"
 
             end
 
