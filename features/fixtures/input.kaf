@@ -1,144 +1,775 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <KAF xml:lang="en" version="v1.opener">
   <kafHeader>
-    <linguisticProcessors layer="tokens">
-      <lp name="ixa-opennlp-tok-en" timestamp="2013-03-72T12:59:46+0000" version="1.0" />
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="openlp-en-sent" version="1.0" timestamp="2013-04-23T08:36:44Z"/>
+      <lp name="openlp-en-tok" version="1.0" timestamp="2013-04-23T08:36:44Z"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
-    <wf wid="w1" sent="1">After</wf>
-    <wf wid="w2" sent="1">three</wf>
-    <wf wid="w3" sent="1">failed</wf>
-    <wf wid="w4" sent="1">attempts</wf>
-    <wf wid="w5" sent="1">,</wf>
-    <wf wid="w6" sent="1">North</wf>
-    <wf wid="w7" sent="1">Korea</wf>
-    <wf wid="w8" sent="1">,</wf>
-    <wf wid="w9" sent="1">though</wf>
-    <wf wid="w10" sent="1">struggling</wf>
-    <wf wid="w11" sent="1">to</wf>
-    <wf wid="w12" sent="1">feed</wf>
-    <wf wid="w13" sent="1">its</wf>
-    <wf wid="w14" sent="1">people</wf>
-    <wf wid="w15" sent="1">,</wf>
-    <wf wid="w16" sent="1">is</wf>
-    <wf wid="w17" sent="1">now</wf>
-    <wf wid="w18" sent="1">one</wf>
-    <wf wid="w19" sent="1">of</wf>
-    <wf wid="w20" sent="1">the</wf>
-    <wf wid="w21" sent="1">few</wf>
-    <wf wid="w22" sent="1">countries</wf>
-    <wf wid="w23" sent="1">to</wf>
-    <wf wid="w24" sent="1">have</wf>
-    <wf wid="w25" sent="1">successfully</wf>
-    <wf wid="w26" sent="1">launched</wf>
-    <wf wid="w27" sent="1">a</wf>
-    <wf wid="w28" sent="1">satellite</wf>
-    <wf wid="w29" sent="1">into</wf>
-    <wf wid="w30" sent="1">space</wf>
-    <wf wid="w31" sent="1">from</wf>
-    <wf wid="w32" sent="1">its</wf>
-    <wf wid="w33" sent="1">own</wf>
-    <wf wid="w34" sent="1">soil</wf>
-    <wf wid="w35" sent="1">.</wf>
-    <wf wid="w36" sent="2">Bitter</wf>
-    <wf wid="w37" sent="2">rival</wf>
-    <wf wid="w38" sent="2">South</wf>
-    <wf wid="w39" sent="2">Korea</wf>
-    <wf wid="w40" sent="2">is</wf>
-    <wf wid="w41" sent="2">not</wf>
-    <wf wid="w42" sent="2">on</wf>
-    <wf wid="w43" sent="2">the</wf>
-    <wf wid="w44" sent="2">list</wf>
-    <wf wid="w45" sent="2">,</wf>
-    <wf wid="w46" sent="2">although</wf>
-    <wf wid="w47" sent="2">it</wf>
-    <wf wid="w48" sent="2">has</wf>
-    <wf wid="w49" sent="2">tried</wf>
-    <wf wid="w50" sent="2">.</wf>
-    <wf wid="w51" sent="3">North</wf>
-    <wf wid="w52" sent="3">Korean</wf>
-    <wf wid="w53" sent="3">space</wf>
-    <wf wid="w54" sent="3">officials</wf>
-    <wf wid="w55" sent="3">insist</wf>
-    <wf wid="w56" sent="3">the</wf>
-    <wf wid="w57" sent="3">rocket</wf>
-    <wf wid="w58" sent="3">is</wf>
-    <wf wid="w59" sent="3">meant</wf>
-    <wf wid="w60" sent="3">to</wf>
-    <wf wid="w61" sent="3">send</wf>
-    <wf wid="w62" sent="3">a</wf>
-    <wf wid="w63" sent="3">satellite</wf>
-    <wf wid="w64" sent="3">into</wf>
-    <wf wid="w65" sent="3">orbit</wf>
-    <wf wid="w66" sent="3">that</wf>
-    <wf wid="w67" sent="3">can</wf>
-    <wf wid="w68" sent="3">study</wf>
-    <wf wid="w69" sent="3">crops</wf>
-    <wf wid="w70" sent="3">and</wf>
-    <wf wid="w71" sent="3">weather</wf>
-    <wf wid="w72" sent="3">patterns</wf>
-    <wf wid="w73" sent="3">.</wf>
-    <wf wid="w74" sent="4">But</wf>
-    <wf wid="w75" sent="4">Western</wf>
-    <wf wid="w76" sent="4">experts</wf>
-    <wf wid="w77" sent="4">note</wf>
-    <wf wid="w78" sent="4">that</wf>
-    <wf wid="w79" sent="4">the</wf>
-    <wf wid="w80" sent="4">technology</wf>
-    <wf wid="w81" sent="4">involved</wf>
-    <wf wid="w82" sent="4">in</wf>
-    <wf wid="w83" sent="4">a</wf>
-    <wf wid="w84" sent="4">satellite</wf>
-    <wf wid="w85" sent="4">launch</wf>
-    <wf wid="w86" sent="4">is</wf>
-    <wf wid="w87" sent="4">similar</wf>
-    <wf wid="w88" sent="4">to</wf>
-    <wf wid="w89" sent="4">that</wf>
-    <wf wid="w90" sent="4">needed</wf>
-    <wf wid="w91" sent="4">to</wf>
-    <wf wid="w92" sent="4">develop</wf>
-    <wf wid="w93" sent="4">a</wf>
-    <wf wid="w94" sent="4">very</wf>
-    <wf wid="w95" sent="4">long-range</wf>
-    <wf wid="w96" sent="4">missile</wf>
-    <wf wid="w97" sent="4">.</wf>
-    <wf wid="w98" sent="5">The</wf>
-    <wf wid="w99" sent="5">launch</wf>
-    <wf wid="w100" sent="5">of</wf>
-    <wf wid="w101" sent="5">a</wf>
-    <wf wid="w102" sent="5">rocket</wf>
-    <wf wid="w103" sent="5">similar</wf>
-    <wf wid="w104" sent="5">in</wf>
-    <wf wid="w105" sent="5">design</wf>
-    <wf wid="w106" sent="5">to</wf>
-    <wf wid="w107" sent="5">one</wf>
-    <wf wid="w108" sent="5">capable</wf>
-    <wf wid="w109" sent="5">of</wf>
-    <wf wid="w110" sent="5">carrying</wf>
-    <wf wid="w111" sent="5">an</wf>
-    <wf wid="w112" sent="5">atomic-tipped</wf>
-    <wf wid="w113" sent="5">warhead</wf>
-    <wf wid="w114" sent="5">as</wf>
-    <wf wid="w115" sent="5">far</wf>
-    <wf wid="w116" sent="5">as</wf>
-    <wf wid="w117" sent="5">California</wf>
-    <wf wid="w118" sent="5">raises</wf>
-    <wf wid="w119" sent="5">the</wf>
-    <wf wid="w120" sent="5">stakes</wf>
-    <wf wid="w121" sent="5">in</wf>
-    <wf wid="w122" sent="5">the</wf>
-    <wf wid="w123" sent="5">international</wf>
-    <wf wid="w124" sent="5">standoff</wf>
-    <wf wid="w125" sent="5">over</wf>
-    <wf wid="w126" sent="5">North</wf>
-    <wf wid="w127" sent="5">Korea</wf>
-    <wf wid="w128" sent="5">'s</wf>
-    <wf wid="w129" sent="5">expanding</wf>
-    <wf wid="w130" sent="5">atomic</wf>
-    <wf wid="w131" sent="5">arsenal</wf>
-    <wf wid="w132" sent="5">.</wf>
+    <wf wid="w1" sent="1" para="1" offset="0">Twelve</wf>
+    <wf wid="w2" sent="1" para="1" offset="7">years</wf>
+    <wf wid="w3" sent="1" para="1" offset="13">after</wf>
+    <wf wid="w4" sent="1" para="1" offset="19">the</wf>
+    <wf wid="w5" sent="1" para="1" offset="23">fall</wf>
+    <wf wid="w6" sent="1" para="1" offset="28">of</wf>
+    <wf wid="w7" sent="1" para="1" offset="31">the</wf>
+    <wf wid="w8" sent="1" para="1" offset="35">Taliban</wf>
+    <wf wid="w9" sent="1" para="1" offset="42">,</wf>
+    <wf wid="w10" sent="1" para="1" offset="44">Afghanistan</wf>
+    <wf wid="w11" sent="1" para="1" offset="56">is</wf>
+    <wf wid="w12" sent="1" para="1" offset="59">heading</wf>
+    <wf wid="w13" sent="1" para="1" offset="67">for</wf>
+    <wf wid="w14" sent="1" para="1" offset="71">a</wf>
+    <wf wid="w15" sent="1" para="1" offset="73">near-record</wf>
+    <wf wid="w16" sent="1" para="1" offset="85">opium</wf>
+    <wf wid="w17" sent="1" para="1" offset="91">crop</wf>
+    <wf wid="w18" sent="1" para="1" offset="96">as</wf>
+    <wf wid="w19" sent="1" para="1" offset="99">instability</wf>
+    <wf wid="w20" sent="1" para="1" offset="111">pushes</wf>
+    <wf wid="w21" sent="1" para="1" offset="118">up</wf>
+    <wf wid="w22" sent="1" para="1" offset="121">the</wf>
+    <wf wid="w23" sent="1" para="1" offset="125">amount</wf>
+    <wf wid="w24" sent="1" para="1" offset="132">of</wf>
+    <wf wid="w25" sent="1" para="1" offset="135">land</wf>
+    <wf wid="w26" sent="1" para="1" offset="140">planted</wf>
+    <wf wid="w27" sent="1" para="1" offset="148">with</wf>
+    <wf wid="w28" sent="1" para="1" offset="153">illegal</wf>
+    <wf wid="w29" sent="1" para="1" offset="161">but</wf>
+    <wf wid="w30" sent="1" para="1" offset="165">lucrative</wf>
+    <wf wid="w31" sent="1" para="1" offset="175">poppies</wf>
+    <wf wid="w32" sent="1" para="1" offset="182">,</wf>
+    <wf wid="w33" sent="1" para="1" offset="184">according</wf>
+    <wf wid="w34" sent="1" para="1" offset="194">to</wf>
+    <wf wid="w35" sent="1" para="1" offset="197">a</wf>
+    <wf wid="w36" sent="1" para="1" offset="199">bleak</wf>
+    <wf wid="w37" sent="1" para="1" offset="205">UN</wf>
+    <wf wid="w38" sent="1" para="1" offset="208">report</wf>
+    <wf wid="w39" sent="1" para="1" offset="214">.</wf>
+    <wf wid="w40" sent="2" para="2" offset="215">The</wf>
+    <wf wid="w41" sent="2" para="2" offset="219">rapid</wf>
+    <wf wid="w42" sent="2" para="2" offset="225">growth</wf>
+    <wf wid="w43" sent="2" para="2" offset="232">of</wf>
+    <wf wid="w44" sent="2" para="2" offset="235">poppy</wf>
+    <wf wid="w45" sent="2" para="2" offset="241">farming</wf>
+    <wf wid="w46" sent="2" para="2" offset="249">as</wf>
+    <wf wid="w47" sent="2" para="2" offset="252">western</wf>
+    <wf wid="w48" sent="2" para="2" offset="260">troops</wf>
+    <wf wid="w49" sent="2" para="2" offset="267">head</wf>
+    <wf wid="w50" sent="2" para="2" offset="272">home</wf>
+    <wf wid="w51" sent="2" para="2" offset="277">reflects</wf>
+    <wf wid="w52" sent="2" para="2" offset="286">particularly</wf>
+    <wf wid="w53" sent="2" para="2" offset="299">badly</wf>
+    <wf wid="w54" sent="2" para="2" offset="305">on</wf>
+    <wf wid="w55" sent="2" para="2" offset="308">Britain</wf>
+    <wf wid="w56" sent="2" para="2" offset="315">,</wf>
+    <wf wid="w57" sent="2" para="2" offset="317">which</wf>
+    <wf wid="w58" sent="2" para="2" offset="323">was</wf>
+    <wf wid="w59" sent="2" para="2" offset="327">designated</wf>
+    <wf wid="w60" sent="2" para="2" offset="338">"lead</wf>
+    <wf wid="w61" sent="2" para="2" offset="344">nation</wf>
+    <wf wid="w62" sent="2" para="2" offset="350">"</wf>
+    <wf wid="w63" sent="2" para="2" offset="352">for</wf>
+    <wf wid="w64" sent="2" para="2" offset="356">counter-narcotics</wf>
+    <wf wid="w65" sent="2" para="2" offset="374">work</wf>
+    <wf wid="w66" sent="2" para="2" offset="379">over</wf>
+    <wf wid="w67" sent="2" para="2" offset="384">a</wf>
+    <wf wid="w68" sent="2" para="2" offset="386">decade</wf>
+    <wf wid="w69" sent="2" para="2" offset="393">ago</wf>
+    <wf wid="w70" sent="2" para="2" offset="396">.</wf>
+    <wf wid="w71" sent="3" para="3" offset="397">"</wf>
+    <wf wid="w72" sent="3" para="3" offset="398">Poppy</wf>
+    <wf wid="w73" sent="3" para="3" offset="404">cultivation</wf>
+    <wf wid="w74" sent="3" para="3" offset="416">is</wf>
+    <wf wid="w75" sent="3" para="3" offset="419">not</wf>
+    <wf wid="w76" sent="3" para="3" offset="423">only</wf>
+    <wf wid="w77" sent="3" para="3" offset="428">expected</wf>
+    <wf wid="w78" sent="3" para="3" offset="437">to</wf>
+    <wf wid="w79" sent="3" para="3" offset="440">expand</wf>
+    <wf wid="w80" sent="3" para="3" offset="447">in</wf>
+    <wf wid="w81" sent="3" para="3" offset="450">areas</wf>
+    <wf wid="w82" sent="3" para="3" offset="456">where</wf>
+    <wf wid="w83" sent="3" para="3" offset="462">it</wf>
+    <wf wid="w84" sent="3" para="3" offset="465">already</wf>
+    <wf wid="w85" sent="3" para="3" offset="473">existed</wf>
+    <wf wid="w86" sent="3" para="3" offset="481">in</wf>
+    <wf wid="w87" sent="3" para="3" offset="484">2012</wf>
+    <wf wid="w88" sent="3" para="3" offset="489">…</wf>
+    <wf wid="w89" sent="3" para="3" offset="491">but</wf>
+    <wf wid="w90" sent="3" para="3" offset="495">also</wf>
+    <wf wid="w91" sent="3" para="3" offset="500">in</wf>
+    <wf wid="w92" sent="3" para="3" offset="503">new</wf>
+    <wf wid="w93" sent="3" para="3" offset="507">areas</wf>
+    <wf wid="w94" sent="3" para="3" offset="513">or</wf>
+    <wf wid="w95" sent="3" para="3" offset="516">areas</wf>
+    <wf wid="w96" sent="3" para="3" offset="522">where</wf>
+    <wf wid="w97" sent="3" para="3" offset="528">poppy</wf>
+    <wf wid="w98" sent="3" para="3" offset="534">cultivation</wf>
+    <wf wid="w99" sent="3" para="3" offset="546">was</wf>
+    <wf wid="w100" sent="3" para="3" offset="550">stopped</wf>
+    <wf wid="w101" sent="3" para="3" offset="557">,</wf>
+    <wf wid="w102" sent="3" para="3" offset="558">"</wf>
+    <wf wid="w103" sent="3" para="3" offset="560">the</wf>
+    <wf wid="w104" sent="3" para="3" offset="564">Afghanistan</wf>
+    <wf wid="w105" sent="3" para="3" offset="576">Opium</wf>
+    <wf wid="w106" sent="3" para="3" offset="582">Winter</wf>
+    <wf wid="w107" sent="3" para="3" offset="589">Risk</wf>
+    <wf wid="w108" sent="3" para="3" offset="594">Assessment</wf>
+    <wf wid="w109" sent="3" para="3" offset="605">found</wf>
+    <wf wid="w110" sent="3" para="3" offset="610">.</wf>
+    <wf wid="w111" sent="4" para="4" offset="611">The</wf>
+    <wf wid="w112" sent="4" para="4" offset="615">growth</wf>
+    <wf wid="w113" sent="4" para="4" offset="622">in</wf>
+    <wf wid="w114" sent="4" para="4" offset="625">opium</wf>
+    <wf wid="w115" sent="4" para="4" offset="631">cultivation</wf>
+    <wf wid="w116" sent="4" para="4" offset="643">reflects</wf>
+    <wf wid="w117" sent="4" para="4" offset="652">both</wf>
+    <wf wid="w118" sent="4" para="4" offset="657">spreading</wf>
+    <wf wid="w119" sent="4" para="4" offset="667">instability</wf>
+    <wf wid="w120" sent="4" para="4" offset="679">and</wf>
+    <wf wid="w121" sent="4" para="4" offset="683">concerns</wf>
+    <wf wid="w122" sent="4" para="4" offset="692">about</wf>
+    <wf wid="w123" sent="4" para="4" offset="698">the</wf>
+    <wf wid="w124" sent="4" para="4" offset="702">future</wf>
+    <wf wid="w125" sent="4" para="4" offset="708">.</wf>
+    <wf wid="w126" sent="5" para="4" offset="710">Farmers</wf>
+    <wf wid="w127" sent="5" para="4" offset="718">are</wf>
+    <wf wid="w128" sent="5" para="4" offset="722">more</wf>
+    <wf wid="w129" sent="5" para="4" offset="727">likely</wf>
+    <wf wid="w130" sent="5" para="4" offset="734">to</wf>
+    <wf wid="w131" sent="5" para="4" offset="737">plant</wf>
+    <wf wid="w132" sent="5" para="4" offset="743">the</wf>
+    <wf wid="w133" sent="5" para="4" offset="747">deadly</wf>
+    <wf wid="w134" sent="5" para="4" offset="754">crop</wf>
+    <wf wid="w135" sent="5" para="4" offset="759">in</wf>
+    <wf wid="w136" sent="5" para="4" offset="762">areas</wf>
+    <wf wid="w137" sent="5" para="4" offset="768">of</wf>
+    <wf wid="w138" sent="5" para="4" offset="771">high</wf>
+    <wf wid="w139" sent="5" para="4" offset="776">violence</wf>
+    <wf wid="w140" sent="5" para="4" offset="785">or</wf>
+    <wf wid="w141" sent="5" para="4" offset="788">where</wf>
+    <wf wid="w142" sent="5" para="4" offset="794">they</wf>
+    <wf wid="w143" sent="5" para="4" offset="799">have</wf>
+    <wf wid="w144" sent="5" para="4" offset="804">not</wf>
+    <wf wid="w145" sent="5" para="4" offset="808">received</wf>
+    <wf wid="w146" sent="5" para="4" offset="817">any</wf>
+    <wf wid="w147" sent="5" para="4" offset="821">agricultural</wf>
+    <wf wid="w148" sent="5" para="4" offset="834">aid</wf>
+    <wf wid="w149" sent="5" para="4" offset="837">,</wf>
+    <wf wid="w150" sent="5" para="4" offset="839">the</wf>
+    <wf wid="w151" sent="5" para="4" offset="843">report</wf>
+    <wf wid="w152" sent="5" para="4" offset="850">said</wf>
+    <wf wid="w153" sent="5" para="4" offset="854">.</wf>
+    <wf wid="w154" sent="6" para="5" offset="855">Opium</wf>
+    <wf wid="w155" sent="6" para="5" offset="861">traders</wf>
+    <wf wid="w156" sent="6" para="5" offset="869">are</wf>
+    <wf wid="w157" sent="6" para="5" offset="873">often</wf>
+    <wf wid="w158" sent="6" para="5" offset="879">happy</wf>
+    <wf wid="w159" sent="6" para="5" offset="885">to</wf>
+    <wf wid="w160" sent="6" para="5" offset="888">provide</wf>
+    <wf wid="w161" sent="6" para="5" offset="896">seeds</wf>
+    <wf wid="w162" sent="6" para="5" offset="901">,</wf>
+    <wf wid="w163" sent="6" para="5" offset="903">fertilisers</wf>
+    <wf wid="w164" sent="6" para="5" offset="915">and</wf>
+    <wf wid="w165" sent="6" para="5" offset="919">even</wf>
+    <wf wid="w166" sent="6" para="5" offset="924">advance</wf>
+    <wf wid="w167" sent="6" para="5" offset="932">payments</wf>
+    <wf wid="w168" sent="6" para="5" offset="941">to</wf>
+    <wf wid="w169" sent="6" para="5" offset="944">encourage</wf>
+    <wf wid="w170" sent="6" para="5" offset="954">crops</wf>
+    <wf wid="w171" sent="6" para="5" offset="959">,</wf>
+    <wf wid="w172" sent="6" para="5" offset="961">leaving</wf>
+    <wf wid="w173" sent="6" para="5" offset="969">farmers</wf>
+    <wf wid="w174" sent="6" para="5" offset="977">who</wf>
+    <wf wid="w175" sent="6" para="5" offset="981">do</wf>
+    <wf wid="w176" sent="6" para="5" offset="984">not</wf>
+    <wf wid="w177" sent="6" para="5" offset="988">have</wf>
+    <wf wid="w178" sent="6" para="5" offset="993">western</wf>
+    <wf wid="w179" sent="6" para="5" offset="1001">or</wf>
+    <wf wid="w180" sent="6" para="5" offset="1004">government</wf>
+    <wf wid="w181" sent="6" para="5" offset="1015">agricultural</wf>
+    <wf wid="w182" sent="6" para="5" offset="1028">help</wf>
+    <wf wid="w183" sent="6" para="5" offset="1033">very</wf>
+    <wf wid="w184" sent="6" para="5" offset="1038">vulnerable</wf>
+    <wf wid="w185" sent="6" para="5" offset="1049">to</wf>
+    <wf wid="w186" sent="6" para="5" offset="1052">their</wf>
+    <wf wid="w187" sent="6" para="5" offset="1058">inducements</wf>
+    <wf wid="w188" sent="6" para="5" offset="1069">.</wf>
+    <wf wid="w189" sent="7" para="6" offset="1070">At</wf>
+    <wf wid="w190" sent="7" para="6" offset="1073">the</wf>
+    <wf wid="w191" sent="7" para="6" offset="1077">same</wf>
+    <wf wid="w192" sent="7" para="6" offset="1082">time</wf>
+    <wf wid="w193" sent="7" para="6" offset="1087">the</wf>
+    <wf wid="w194" sent="7" para="6" offset="1091">more</wf>
+    <wf wid="w195" sent="7" para="6" offset="1096">powerful</wf>
+    <wf wid="w196" sent="7" para="6" offset="1105">figures</wf>
+    <wf wid="w197" sent="7" para="6" offset="1113">in</wf>
+    <wf wid="w198" sent="7" para="6" offset="1116">the</wf>
+    <wf wid="w199" sent="7" para="6" offset="1120">drugs</wf>
+    <wf wid="w200" sent="7" para="6" offset="1126">trade</wf>
+    <wf wid="w201" sent="7" para="6" offset="1131">,</wf>
+    <wf wid="w202" sent="7" para="6" offset="1133">from</wf>
+    <wf wid="w203" sent="7" para="6" offset="1138">traffickers</wf>
+    <wf wid="w204" sent="7" para="6" offset="1150">to</wf>
+    <wf wid="w205" sent="7" para="6" offset="1153">corrupt</wf>
+    <wf wid="w206" sent="7" para="6" offset="1161">government</wf>
+    <wf wid="w207" sent="7" para="6" offset="1172">officials</wf>
+    <wf wid="w208" sent="7" para="6" offset="1181">,</wf>
+    <wf wid="w209" sent="7" para="6" offset="1183">who</wf>
+    <wf wid="w210" sent="7" para="6" offset="1187">take</wf>
+    <wf wid="w211" sent="7" para="6" offset="1192">over</wf>
+    <wf wid="w212" sent="7" para="6" offset="1197">half</wf>
+    <wf wid="w213" sent="7" para="6" offset="1202">the</wf>
+    <wf wid="w214" sent="7" para="6" offset="1206">profit</wf>
+    <wf wid="w215" sent="7" para="6" offset="1213">from</wf>
+    <wf wid="w216" sent="7" para="6" offset="1218">each</wf>
+    <wf wid="w217" sent="7" para="6" offset="1223">kilo</wf>
+    <wf wid="w218" sent="7" para="6" offset="1228">of</wf>
+    <wf wid="w219" sent="7" para="6" offset="1231">opium</wf>
+    <wf wid="w220" sent="7" para="6" offset="1236">,</wf>
+    <wf wid="w221" sent="7" para="6" offset="1238">have</wf>
+    <wf wid="w222" sent="7" para="6" offset="1243">shrinking</wf>
+    <wf wid="w223" sent="7" para="6" offset="1253">opportunities</wf>
+    <wf wid="w224" sent="7" para="6" offset="1267">to</wf>
+    <wf wid="w225" sent="7" para="6" offset="1270">earn</wf>
+    <wf wid="w226" sent="7" para="6" offset="1275">money</wf>
+    <wf wid="w227" sent="7" para="6" offset="1281">from</wf>
+    <wf wid="w228" sent="7" para="6" offset="1286">Nato</wf>
+    <wf wid="w229" sent="7" para="6" offset="1291">or</wf>
+    <wf wid="w230" sent="7" para="6" offset="1294">international</wf>
+    <wf wid="w231" sent="7" para="6" offset="1308">aid</wf>
+    <wf wid="w232" sent="7" para="6" offset="1312">contracts</wf>
+    <wf wid="w233" sent="7" para="6" offset="1322">–</wf>
+    <wf wid="w234" sent="7" para="6" offset="1324">and</wf>
+    <wf wid="w235" sent="7" para="6" offset="1328">may</wf>
+    <wf wid="w236" sent="7" para="6" offset="1332">be</wf>
+    <wf wid="w237" sent="7" para="6" offset="1335">preparing</wf>
+    <wf wid="w238" sent="7" para="6" offset="1345">a</wf>
+    <wf wid="w239" sent="7" para="6" offset="1347">war</wf>
+    <wf wid="w240" sent="7" para="6" offset="1351">chest</wf>
+    <wf wid="w241" sent="7" para="6" offset="1357">for</wf>
+    <wf wid="w242" sent="7" para="6" offset="1361">upcoming</wf>
+    <wf wid="w243" sent="7" para="6" offset="1370">presidential</wf>
+    <wf wid="w244" sent="7" para="6" offset="1383">and</wf>
+    <wf wid="w245" sent="7" para="6" offset="1387">parliamentary</wf>
+    <wf wid="w246" sent="7" para="6" offset="1401">elections</wf>
+    <wf wid="w247" sent="7" para="6" offset="1410">.</wf>
+    <wf wid="w248" sent="8" para="7" offset="1411">"</wf>
+    <wf wid="w249" sent="8" para="7" offset="1412">Opium</wf>
+    <wf wid="w250" sent="8" para="7" offset="1418">cultivation</wf>
+    <wf wid="w251" sent="8" para="7" offset="1430">is</wf>
+    <wf wid="w252" sent="8" para="7" offset="1433">up</wf>
+    <wf wid="w253" sent="8" para="7" offset="1436">for</wf>
+    <wf wid="w254" sent="8" para="7" offset="1440">the</wf>
+    <wf wid="w255" sent="8" para="7" offset="1444">third</wf>
+    <wf wid="w256" sent="8" para="7" offset="1450">successive</wf>
+    <wf wid="w257" sent="8" para="7" offset="1461">year</wf>
+    <wf wid="w258" sent="8" para="7" offset="1465">,</wf>
+    <wf wid="w259" sent="8" para="7" offset="1467">and</wf>
+    <wf wid="w260" sent="8" para="7" offset="1471">production</wf>
+    <wf wid="w261" sent="8" para="7" offset="1482">is</wf>
+    <wf wid="w262" sent="8" para="7" offset="1485">heading</wf>
+    <wf wid="w263" sent="8" para="7" offset="1493">towards</wf>
+    <wf wid="w264" sent="8" para="7" offset="1501">record</wf>
+    <wf wid="w265" sent="8" para="7" offset="1508">levels</wf>
+    <wf wid="w266" sent="8" para="7" offset="1514">,</wf>
+    <wf wid="w267" sent="8" para="7" offset="1515">"</wf>
+    <wf wid="w268" sent="8" para="7" offset="1517">said</wf>
+    <wf wid="w269" sent="8" para="7" offset="1522">Jean-Luc</wf>
+    <wf wid="w270" sent="8" para="7" offset="1531">Lemahieu</wf>
+    <wf wid="w271" sent="8" para="7" offset="1539">,</wf>
+    <wf wid="w272" sent="8" para="7" offset="1541">Afghanistan</wf>
+    <wf wid="w273" sent="8" para="7" offset="1553">head</wf>
+    <wf wid="w274" sent="8" para="7" offset="1558">of</wf>
+    <wf wid="w275" sent="8" para="7" offset="1561">the</wf>
+    <wf wid="w276" sent="8" para="7" offset="1565">UN</wf>
+    <wf wid="w277" sent="8" para="7" offset="1568">Office</wf>
+    <wf wid="w278" sent="8" para="7" offset="1575">on</wf>
+    <wf wid="w279" sent="8" para="7" offset="1578">Drugs</wf>
+    <wf wid="w280" sent="8" para="7" offset="1584">and</wf>
+    <wf wid="w281" sent="8" para="7" offset="1588">Crime</wf>
+    <wf wid="w282" sent="8" para="7" offset="1593">.</wf>
+    <wf wid="w283" sent="9" para="7" offset="1411">"</wf>
+    <wf wid="w284" sent="9" para="7" offset="1596">People</wf>
+    <wf wid="w285" sent="9" para="7" offset="1603">are</wf>
+    <wf wid="w286" sent="9" para="7" offset="1607">hedging</wf>
+    <wf wid="w287" sent="9" para="7" offset="1615">against</wf>
+    <wf wid="w288" sent="9" para="7" offset="1623">an</wf>
+    <wf wid="w289" sent="9" para="7" offset="1626">insecure</wf>
+    <wf wid="w290" sent="9" para="7" offset="1635">future</wf>
+    <wf wid="w291" sent="9" para="7" offset="1642">both</wf>
+    <wf wid="w292" sent="9" para="7" offset="1647">politically</wf>
+    <wf wid="w293" sent="9" para="7" offset="1659">and</wf>
+    <wf wid="w294" sent="9" para="7" offset="1663">economically</wf>
+    <wf wid="w295" sent="9" para="7" offset="1675">.</wf>
+    <wf wid="w296" sent="9" para="7" offset="1676">"</wf>
+    <wf wid="w297" sent="10" para="8" offset="1677">Just</wf>
+    <wf wid="w298" sent="10" para="8" offset="1682">14</wf>
+    <wf wid="w299" sent="10" para="8" offset="1685">of</wf>
+    <wf wid="w300" sent="10" para="8" offset="1688">Afghanistan</wf>
+    <wf wid="w301" sent="10" para="8" offset="1699">'s</wf>
+    <wf wid="w302" sent="10" para="8" offset="1702">34</wf>
+    <wf wid="w303" sent="10" para="8" offset="1705">provinces</wf>
+    <wf wid="w304" sent="10" para="8" offset="1715">are</wf>
+    <wf wid="w305" sent="10" para="8" offset="1719">now</wf>
+    <wf wid="w306" sent="10" para="8" offset="1723">"poppy</wf>
+    <wf wid="w307" sent="10" para="8" offset="1730">free"</wf>
+    <wf wid="w308" sent="10" para="8" offset="1735">,</wf>
+    <wf wid="w309" sent="10" para="8" offset="1737">down</wf>
+    <wf wid="w310" sent="10" para="8" offset="1742">from</wf>
+    <wf wid="w311" sent="10" para="8" offset="1747">20</wf>
+    <wf wid="w312" sent="10" para="8" offset="1750">in</wf>
+    <wf wid="w313" sent="10" para="8" offset="1753">2010</wf>
+    <wf wid="w314" sent="10" para="8" offset="1757">.</wf>
+    <wf wid="w315" sent="11" para="8" offset="1759">In</wf>
+    <wf wid="w316" sent="11" para="8" offset="1762">three</wf>
+    <wf wid="w317" sent="11" para="8" offset="1768">provinces</wf>
+    <wf wid="w318" sent="11" para="8" offset="1777">,</wf>
+    <wf wid="w319" sent="11" para="8" offset="1779">the</wf>
+    <wf wid="w320" sent="11" para="8" offset="1783">spring</wf>
+    <wf wid="w321" sent="11" para="8" offset="1790">sowing</wf>
+    <wf wid="w322" sent="11" para="8" offset="1797">was</wf>
+    <wf wid="w323" sent="11" para="8" offset="1801">the</wf>
+    <wf wid="w324" sent="11" para="8" offset="1805">first</wf>
+    <wf wid="w325" sent="11" para="8" offset="1811">time</wf>
+    <wf wid="w326" sent="11" para="8" offset="1816">this</wf>
+    <wf wid="w327" sent="11" para="8" offset="1821">decade</wf>
+    <wf wid="w328" sent="11" para="8" offset="1828">that</wf>
+    <wf wid="w329" sent="11" para="8" offset="1833">farmers</wf>
+    <wf wid="w330" sent="11" para="8" offset="1841">had</wf>
+    <wf wid="w331" sent="11" para="8" offset="1845">risked</wf>
+    <wf wid="w332" sent="11" para="8" offset="1852">an</wf>
+    <wf wid="w333" sent="11" para="8" offset="1855">attempt</wf>
+    <wf wid="w334" sent="11" para="8" offset="1863">at</wf>
+    <wf wid="w335" sent="11" para="8" offset="1866">growing</wf>
+    <wf wid="w336" sent="11" para="8" offset="1874">opium</wf>
+    <wf wid="w337" sent="11" para="8" offset="1879">.</wf>
+    <wf wid="w338" sent="12" para="9" offset="1880">The</wf>
+    <wf wid="w339" sent="12" para="9" offset="1884">only</wf>
+    <wf wid="w340" sent="12" para="9" offset="1889">figures</wf>
+    <wf wid="w341" sent="12" para="9" offset="1897">showing</wf>
+    <wf wid="w342" sent="12" para="9" offset="1905">a</wf>
+    <wf wid="w343" sent="12" para="9" offset="1907">fall</wf>
+    <wf wid="w344" sent="12" para="9" offset="1912">in</wf>
+    <wf wid="w345" sent="12" para="9" offset="1915">cultivation</wf>
+    <wf wid="w346" sent="12" para="9" offset="1926">,</wf>
+    <wf wid="w347" sent="12" para="9" offset="1928">for</wf>
+    <wf wid="w348" sent="12" para="9" offset="1932">western</wf>
+    <wf wid="w349" sent="12" para="9" offset="1940">Herat</wf>
+    <wf wid="w350" sent="12" para="9" offset="1946">province</wf>
+    <wf wid="w351" sent="12" para="9" offset="1954">,</wf>
+    <wf wid="w352" sent="12" para="9" offset="1956">may</wf>
+    <wf wid="w353" sent="12" para="9" offset="1960">actually</wf>
+    <wf wid="w354" sent="12" para="9" offset="1969">be</wf>
+    <wf wid="w355" sent="12" para="9" offset="1972">due</wf>
+    <wf wid="w356" sent="12" para="9" offset="1976">to</wf>
+    <wf wid="w357" sent="12" para="9" offset="1979">a</wf>
+    <wf wid="w358" sent="12" para="9" offset="1981">statistics</wf>
+    <wf wid="w359" sent="12" para="9" offset="1992">blip</wf>
+    <wf wid="w360" sent="12" para="9" offset="1996">.</wf>
+    <wf wid="w361" sent="13" para="9" offset="1880">The</wf>
+    <wf wid="w362" sent="13" para="9" offset="2002">UN</wf>
+    <wf wid="w363" sent="13" para="9" offset="2005">was</wf>
+    <wf wid="w364" sent="13" para="9" offset="2009">forced</wf>
+    <wf wid="w365" sent="13" para="9" offset="2016">to</wf>
+    <wf wid="w366" sent="13" para="9" offset="2019">use</wf>
+    <wf wid="w367" sent="13" para="9" offset="2023">external</wf>
+    <wf wid="w368" sent="13" para="9" offset="2032">data</wf>
+    <wf wid="w369" sent="13" para="9" offset="2037">last</wf>
+    <wf wid="w370" sent="13" para="9" offset="2042">year</wf>
+    <wf wid="w371" sent="13" para="9" offset="2047">instead</wf>
+    <wf wid="w372" sent="13" para="9" offset="2055">of</wf>
+    <wf wid="w373" sent="13" para="9" offset="2058">the</wf>
+    <wf wid="w374" sent="13" para="9" offset="2062">satellite</wf>
+    <wf wid="w375" sent="13" para="9" offset="2072">images</wf>
+    <wf wid="w376" sent="13" para="9" offset="2079">that</wf>
+    <wf wid="w377" sent="13" para="9" offset="2084">are</wf>
+    <wf wid="w378" sent="13" para="9" offset="2088">usually</wf>
+    <wf wid="w379" sent="13" para="9" offset="2096">the</wf>
+    <wf wid="w380" sent="13" para="9" offset="2100">basis</wf>
+    <wf wid="w381" sent="13" para="9" offset="2106">of</wf>
+    <wf wid="w382" sent="13" para="9" offset="2109">poppy</wf>
+    <wf wid="w383" sent="13" para="9" offset="2115">growing</wf>
+    <wf wid="w384" sent="13" para="9" offset="2123">calculations</wf>
+    <wf wid="w385" sent="13" para="9" offset="2135">,</wf>
+    <wf wid="w386" sent="13" para="9" offset="2137">and</wf>
+    <wf wid="w387" sent="13" para="9" offset="2141">local</wf>
+    <wf wid="w388" sent="13" para="9" offset="2147">officials</wf>
+    <wf wid="w389" sent="13" para="9" offset="2157">protested</wf>
+    <wf wid="w390" sent="13" para="9" offset="2167">heavily</wf>
+    <wf wid="w391" sent="13" para="9" offset="2175">that</wf>
+    <wf wid="w392" sent="13" para="9" offset="2180">the</wf>
+    <wf wid="w393" sent="13" para="9" offset="2184">opium</wf>
+    <wf wid="w394" sent="13" para="9" offset="2190">crop</wf>
+    <wf wid="w395" sent="13" para="9" offset="2195">there</wf>
+    <wf wid="w396" sent="13" para="9" offset="2201">had</wf>
+    <wf wid="w397" sent="13" para="9" offset="2205">been</wf>
+    <wf wid="w398" sent="13" para="9" offset="2210">overestimated</wf>
+    <wf wid="w399" sent="13" para="9" offset="2223">.</wf>
+    <wf wid="w400" sent="14" para="10" offset="2224">If</wf>
+    <wf wid="w401" sent="14" para="10" offset="2227">this</wf>
+    <wf wid="w402" sent="14" para="10" offset="2232">year</wf>
+    <wf wid="w403" sent="14" para="10" offset="2236">'s</wf>
+    <wf wid="w404" sent="14" para="10" offset="2239">poppy</wf>
+    <wf wid="w405" sent="14" para="10" offset="2245">fields</wf>
+    <wf wid="w406" sent="14" para="10" offset="2252">are</wf>
+    <wf wid="w407" sent="14" para="10" offset="2256">harvested</wf>
+    <wf wid="w408" sent="14" para="10" offset="2266">without</wf>
+    <wf wid="w409" sent="14" para="10" offset="2274">disruption</wf>
+    <wf wid="w410" sent="14" para="10" offset="2284">,</wf>
+    <wf wid="w411" sent="14" para="10" offset="2286">the</wf>
+    <wf wid="w412" sent="14" para="10" offset="2290">country</wf>
+    <wf wid="w413" sent="14" para="10" offset="2298">would</wf>
+    <wf wid="w414" sent="14" para="10" offset="2304">likely</wf>
+    <wf wid="w415" sent="14" para="10" offset="2311">regain</wf>
+    <wf wid="w416" sent="14" para="10" offset="2318">its</wf>
+    <wf wid="w417" sent="14" para="10" offset="2322">status</wf>
+    <wf wid="w418" sent="14" para="10" offset="2329">as</wf>
+    <wf wid="w419" sent="14" para="10" offset="2332">producer</wf>
+    <wf wid="w420" sent="14" para="10" offset="2341">of</wf>
+    <wf wid="w421" sent="14" para="10" offset="2344">90</wf>
+    <wf wid="w422" sent="14" para="10" offset="2346">%</wf>
+    <wf wid="w423" sent="14" para="10" offset="2348">of</wf>
+    <wf wid="w424" sent="14" para="10" offset="2351">the</wf>
+    <wf wid="w425" sent="14" para="10" offset="2355">world</wf>
+    <wf wid="w426" sent="14" para="10" offset="2360">'s</wf>
+    <wf wid="w427" sent="14" para="10" offset="2363">opium</wf>
+    <wf wid="w428" sent="14" para="10" offset="2368">.</wf>
+    <wf wid="w429" sent="15" para="10" offset="2370">Afghanistan</wf>
+    <wf wid="w430" sent="15" para="10" offset="2381">'s</wf>
+    <wf wid="w431" sent="15" para="10" offset="2384">share</wf>
+    <wf wid="w432" sent="15" para="10" offset="2390">of</wf>
+    <wf wid="w433" sent="15" para="10" offset="2393">the</wf>
+    <wf wid="w434" sent="15" para="10" offset="2397">deadly</wf>
+    <wf wid="w435" sent="15" para="10" offset="2404">market</wf>
+    <wf wid="w436" sent="15" para="10" offset="2411">slipped</wf>
+    <wf wid="w437" sent="15" para="10" offset="2419">to</wf>
+    <wf wid="w438" sent="15" para="10" offset="2422">around</wf>
+    <wf wid="w439" sent="15" para="10" offset="2429">75</wf>
+    <wf wid="w440" sent="15" para="10" offset="2431">%</wf>
+    <wf wid="w441" sent="15" para="10" offset="2433">after</wf>
+    <wf wid="w442" sent="15" para="10" offset="2439">bad</wf>
+    <wf wid="w443" sent="15" para="10" offset="2443">weather</wf>
+    <wf wid="w444" sent="15" para="10" offset="2451">and</wf>
+    <wf wid="w445" sent="15" para="10" offset="2455">a</wf>
+    <wf wid="w446" sent="15" para="10" offset="2457">blight</wf>
+    <wf wid="w447" sent="15" para="10" offset="2464">slashed</wf>
+    <wf wid="w448" sent="15" para="10" offset="2472">production</wf>
+    <wf wid="w449" sent="15" para="10" offset="2483">over</wf>
+    <wf wid="w450" sent="15" para="10" offset="2488">the</wf>
+    <wf wid="w451" sent="15" para="10" offset="2492">past</wf>
+    <wf wid="w452" sent="15" para="10" offset="2497">two</wf>
+    <wf wid="w453" sent="15" para="10" offset="2501">years</wf>
+    <wf wid="w454" sent="15" para="10" offset="2506">.</wf>
+    <wf wid="w455" sent="16" para="11" offset="2507">But</wf>
+    <wf wid="w456" sent="16" para="11" offset="2511">the</wf>
+    <wf wid="w457" sent="16" para="11" offset="2515">decline</wf>
+    <wf wid="w458" sent="16" para="11" offset="2523">in</wf>
+    <wf wid="w459" sent="16" para="11" offset="2526">opium</wf>
+    <wf wid="w460" sent="16" para="11" offset="2532">production</wf>
+    <wf wid="w461" sent="16" para="11" offset="2543">also</wf>
+    <wf wid="w462" sent="16" para="11" offset="2548">drove</wf>
+    <wf wid="w463" sent="16" para="11" offset="2554">up</wf>
+    <wf wid="w464" sent="16" para="11" offset="2557">prices</wf>
+    <wf wid="w465" sent="16" para="11" offset="2563">,</wf>
+    <wf wid="w466" sent="16" para="11" offset="2565">to</wf>
+    <wf wid="w467" sent="16" para="11" offset="2568">a</wf>
+    <wf wid="w468" sent="16" para="11" offset="2570">record</wf>
+    <wf wid="w469" sent="16" para="11" offset="2577">$</wf>
+    <wf wid="w470" sent="16" para="11" offset="2578">300</wf>
+    <wf wid="w471" sent="16" para="11" offset="2582">a</wf>
+    <wf wid="w472" sent="16" para="11" offset="2584">kilogramme</wf>
+    <wf wid="w473" sent="16" para="11" offset="2594">.</wf>
+    <wf wid="w474" sent="17" para="11" offset="2596">Prices</wf>
+    <wf wid="w475" sent="17" para="11" offset="2603">have</wf>
+    <wf wid="w476" sent="17" para="11" offset="2608">now</wf>
+    <wf wid="w477" sent="17" para="11" offset="2612">slipped</wf>
+    <wf wid="w478" sent="17" para="11" offset="2620">by</wf>
+    <wf wid="w479" sent="17" para="11" offset="2623">over</wf>
+    <wf wid="w480" sent="17" para="11" offset="2628">$</wf>
+    <wf wid="w481" sent="17" para="11" offset="2629">100</wf>
+    <wf wid="w482" sent="17" para="11" offset="2633">but</wf>
+    <wf wid="w483" sent="17" para="11" offset="2637">are</wf>
+    <wf wid="w484" sent="17" para="11" offset="2641">still</wf>
+    <wf wid="w485" sent="17" para="11" offset="2647">far</wf>
+    <wf wid="w486" sent="17" para="11" offset="2651">above</wf>
+    <wf wid="w487" sent="17" para="11" offset="2657">historic</wf>
+    <wf wid="w488" sent="17" para="11" offset="2666">levels</wf>
+    <wf wid="w489" sent="17" para="11" offset="2672">,</wf>
+    <wf wid="w490" sent="17" para="11" offset="2674">helping</wf>
+    <wf wid="w491" sent="17" para="11" offset="2682">tempt</wf>
+    <wf wid="w492" sent="17" para="11" offset="2688">more</wf>
+    <wf wid="w493" sent="17" para="11" offset="2693">farmers</wf>
+    <wf wid="w494" sent="17" para="11" offset="2701">to</wf>
+    <wf wid="w495" sent="17" para="11" offset="2704">turn</wf>
+    <wf wid="w496" sent="17" para="11" offset="2709">land</wf>
+    <wf wid="w497" sent="17" para="11" offset="2714">over</wf>
+    <wf wid="w498" sent="17" para="11" offset="2719">to</wf>
+    <wf wid="w499" sent="17" para="11" offset="2722">poppy</wf>
+    <wf wid="w500" sent="17" para="11" offset="2727">.</wf>
+    <wf wid="w501" sent="18" para="12" offset="2728">It</wf>
+    <wf wid="w502" sent="18" para="12" offset="2731">seems</wf>
+    <wf wid="w503" sent="18" para="12" offset="2737">unlikely</wf>
+    <wf wid="w504" sent="18" para="12" offset="2746">that</wf>
+    <wf wid="w505" sent="18" para="12" offset="2751">the</wf>
+    <wf wid="w506" sent="18" para="12" offset="2755">poor</wf>
+    <wf wid="w507" sent="18" para="12" offset="2760">harvests</wf>
+    <wf wid="w508" sent="18" para="12" offset="2769">of</wf>
+    <wf wid="w509" sent="18" para="12" offset="2772">the</wf>
+    <wf wid="w510" sent="18" para="12" offset="2776">last</wf>
+    <wf wid="w511" sent="18" para="12" offset="2781">year</wf>
+    <wf wid="w512" sent="18" para="12" offset="2786">will</wf>
+    <wf wid="w513" sent="18" para="12" offset="2791">be</wf>
+    <wf wid="w514" sent="18" para="12" offset="2794">repeated</wf>
+    <wf wid="w515" sent="18" para="12" offset="2802">;</wf>
+    <wf wid="w516" sent="18" para="12" offset="2804">there</wf>
+    <wf wid="w517" sent="18" para="12" offset="2810">have</wf>
+    <wf wid="w518" sent="18" para="12" offset="2815">been</wf>
+    <wf wid="w519" sent="18" para="12" offset="2820">no</wf>
+    <wf wid="w520" sent="18" para="12" offset="2823">reports</wf>
+    <wf wid="w521" sent="18" para="12" offset="2831">of</wf>
+    <wf wid="w522" sent="18" para="12" offset="2834">blight</wf>
+    <wf wid="w523" sent="18" para="12" offset="2841">and</wf>
+    <wf wid="w524" sent="18" para="12" offset="2845">the</wf>
+    <wf wid="w525" sent="18" para="12" offset="2849">exceptionally</wf>
+    <wf wid="w526" sent="18" para="12" offset="2863">bitter</wf>
+    <wf wid="w527" sent="18" para="12" offset="2870">winter</wf>
+    <wf wid="w528" sent="18" para="12" offset="2877">of</wf>
+    <wf wid="w529" sent="18" para="12" offset="2880">2011-12</wf>
+    <wf wid="w530" sent="18" para="12" offset="2888">was</wf>
+    <wf wid="w531" sent="18" para="12" offset="2892">followed</wf>
+    <wf wid="w532" sent="18" para="12" offset="2901">this</wf>
+    <wf wid="w533" sent="18" para="12" offset="2906">year</wf>
+    <wf wid="w534" sent="18" para="12" offset="2911">by</wf>
+    <wf wid="w535" sent="18" para="12" offset="2914">a</wf>
+    <wf wid="w536" sent="18" para="12" offset="2916">milder</wf>
+    <wf wid="w537" sent="18" para="12" offset="2923">one</wf>
+    <wf wid="w538" sent="18" para="12" offset="2926">,</wf>
+    <wf wid="w539" sent="18" para="12" offset="2928">creating</wf>
+    <wf wid="w540" sent="18" para="12" offset="2937">expectations</wf>
+    <wf wid="w541" sent="18" para="12" offset="2950">of</wf>
+    <wf wid="w542" sent="18" para="12" offset="2953">a</wf>
+    <wf wid="w543" sent="18" para="12" offset="2955">large</wf>
+    <wf wid="w544" sent="18" para="12" offset="2961">crop</wf>
+    <wf wid="w545" sent="18" para="12" offset="2965">.</wf>
+    <wf wid="w546" sent="19" para="13" offset="2966">The</wf>
+    <wf wid="w547" sent="19" para="13" offset="2970">increase</wf>
+    <wf wid="w548" sent="19" para="13" offset="2979">has</wf>
+    <wf wid="w549" sent="19" para="13" offset="2983">come</wf>
+    <wf wid="w550" sent="19" para="13" offset="2988">despite</wf>
+    <wf wid="w551" sent="19" para="13" offset="2996">a</wf>
+    <wf wid="w552" sent="19" para="13" offset="2998">marked</wf>
+    <wf wid="w553" sent="19" para="13" offset="3005">improvement</wf>
+    <wf wid="w554" sent="19" para="13" offset="3017">in</wf>
+    <wf wid="w555" sent="19" para="13" offset="3020">Afghanistan</wf>
+    <wf wid="w556" sent="19" para="13" offset="3031">'s</wf>
+    <wf wid="w557" sent="19" para="13" offset="3034">specialised</wf>
+    <wf wid="w558" sent="19" para="13" offset="3046">counter-narcotics</wf>
+    <wf wid="w559" sent="19" para="13" offset="3064">units</wf>
+    <wf wid="w560" sent="19" para="13" offset="3069">,</wf>
+    <wf wid="w561" sent="19" para="13" offset="3071">Lemahieu</wf>
+    <wf wid="w562" sent="19" para="13" offset="3080">said</wf>
+    <wf wid="w563" sent="19" para="13" offset="3084">.</wf>
+    <wf wid="w564" sent="20" para="13" offset="3086">Fear</wf>
+    <wf wid="w565" sent="20" para="13" offset="3091">of</wf>
+    <wf wid="w566" sent="20" para="13" offset="3094">eradication</wf>
+    <wf wid="w567" sent="20" para="13" offset="3106">has</wf>
+    <wf wid="w568" sent="20" para="13" offset="3110">become</wf>
+    <wf wid="w569" sent="20" para="13" offset="3117">a</wf>
+    <wf wid="w570" sent="20" para="13" offset="3119">far</wf>
+    <wf wid="w571" sent="20" para="13" offset="3123">more</wf>
+    <wf wid="w572" sent="20" para="13" offset="3128">significant</wf>
+    <wf wid="w573" sent="20" para="13" offset="3140">reason</wf>
+    <wf wid="w574" sent="20" para="13" offset="3147">for</wf>
+    <wf wid="w575" sent="20" para="13" offset="3151">farmers</wf>
+    <wf wid="w576" sent="20" para="13" offset="3159">to</wf>
+    <wf wid="w577" sent="20" para="13" offset="3162">stick</wf>
+    <wf wid="w578" sent="20" para="13" offset="3168">to</wf>
+    <wf wid="w579" sent="20" para="13" offset="3171">legal</wf>
+    <wf wid="w580" sent="20" para="13" offset="3177">crops</wf>
+    <wf wid="w581" sent="20" para="13" offset="3183">than</wf>
+    <wf wid="w582" sent="20" para="13" offset="3188">in</wf>
+    <wf wid="w583" sent="20" para="13" offset="3191">the</wf>
+    <wf wid="w584" sent="20" para="13" offset="3195">past</wf>
+    <wf wid="w585" sent="20" para="13" offset="3199">,</wf>
+    <wf wid="w586" sent="20" para="13" offset="3201">the</wf>
+    <wf wid="w587" sent="20" para="13" offset="3205">report</wf>
+    <wf wid="w588" sent="20" para="13" offset="3212">found</wf>
+    <wf wid="w589" sent="20" para="13" offset="3217">.</wf>
+    <wf wid="w590" sent="21" para="14" offset="3218">But</wf>
+    <wf wid="w591" sent="21" para="14" offset="3222">overall</wf>
+    <wf wid="w592" sent="21" para="14" offset="3230">the</wf>
+    <wf wid="w593" sent="21" para="14" offset="3234">government</wf>
+    <wf wid="w594" sent="21" para="14" offset="3245">and</wf>
+    <wf wid="w595" sent="21" para="14" offset="3249">aid</wf>
+    <wf wid="w596" sent="21" para="14" offset="3253">community</wf>
+    <wf wid="w597" sent="21" para="14" offset="3263">has</wf>
+    <wf wid="w598" sent="21" para="14" offset="3267">not</wf>
+    <wf wid="w599" sent="21" para="14" offset="3271">prioritised</wf>
+    <wf wid="w600" sent="21" para="14" offset="3283">efforts</wf>
+    <wf wid="w601" sent="21" para="14" offset="3291">to</wf>
+    <wf wid="w602" sent="21" para="14" offset="3294">cut</wf>
+    <wf wid="w603" sent="21" para="14" offset="3298">back</wf>
+    <wf wid="w604" sent="21" para="14" offset="3303">a</wf>
+    <wf wid="w605" sent="21" para="14" offset="3305">crop</wf>
+    <wf wid="w606" sent="21" para="14" offset="3310">and</wf>
+    <wf wid="w607" sent="21" para="14" offset="3314">trade</wf>
+    <wf wid="w608" sent="21" para="14" offset="3320">that</wf>
+    <wf wid="w609" sent="21" para="14" offset="3325">feeds</wf>
+    <wf wid="w610" sent="21" para="14" offset="3331">global</wf>
+    <wf wid="w611" sent="21" para="14" offset="3338">markets</wf>
+    <wf wid="w612" sent="21" para="14" offset="3346">for</wf>
+    <wf wid="w613" sent="21" para="14" offset="3350">heroin</wf>
+    <wf wid="w614" sent="21" para="14" offset="3356">,</wf>
+    <wf wid="w615" sent="21" para="14" offset="3358">Lemahieu</wf>
+    <wf wid="w616" sent="21" para="14" offset="3367">said</wf>
+    <wf wid="w617" sent="21" para="14" offset="3371">,</wf>
+    <wf wid="w618" sent="21" para="14" offset="3373">despite</wf>
+    <wf wid="w619" sent="21" para="14" offset="3381">its</wf>
+    <wf wid="w620" sent="21" para="14" offset="3385">corrosive</wf>
+    <wf wid="w621" sent="21" para="14" offset="3395">effect</wf>
+    <wf wid="w622" sent="21" para="14" offset="3402">on</wf>
+    <wf wid="w623" sent="21" para="14" offset="3405">security</wf>
+    <wf wid="w624" sent="21" para="14" offset="3413">,</wf>
+    <wf wid="w625" sent="21" para="14" offset="3415">corruption</wf>
+    <wf wid="w626" sent="21" para="14" offset="3426">and</wf>
+    <wf wid="w627" sent="21" para="14" offset="3430">trust</wf>
+    <wf wid="w628" sent="21" para="14" offset="3436">in</wf>
+    <wf wid="w629" sent="21" para="14" offset="3439">Kabul</wf>
+    <wf wid="w630" sent="21" para="14" offset="3444">.</wf>
+    <wf wid="w631" sent="22" para="15" offset="3445">Typical</wf>
+    <wf wid="w632" sent="22" para="15" offset="3453">of</wf>
+    <wf wid="w633" sent="22" para="15" offset="3456">the</wf>
+    <wf wid="w634" sent="22" para="15" offset="3460">official</wf>
+    <wf wid="w635" sent="22" para="15" offset="3469">neglect</wf>
+    <wf wid="w636" sent="22" para="15" offset="3477">are</wf>
+    <wf wid="w637" sent="22" para="15" offset="3481">the</wf>
+    <wf wid="w638" sent="22" para="15" offset="3485">22</wf>
+    <wf wid="w639" sent="22" para="15" offset="3488">"national</wf>
+    <wf wid="w640" sent="22" para="15" offset="3498">priority</wf>
+    <wf wid="w641" sent="22" para="15" offset="3507">programmes</wf>
+    <wf wid="w642" sent="22" para="15" offset="3517">"</wf>
+    <wf wid="w643" sent="22" para="15" offset="3519">drawn</wf>
+    <wf wid="w644" sent="22" para="15" offset="3525">up</wf>
+    <wf wid="w645" sent="22" para="15" offset="3528">by</wf>
+    <wf wid="w646" sent="22" para="15" offset="3531">Kabul</wf>
+    <wf wid="w647" sent="22" para="15" offset="3537">to</wf>
+    <wf wid="w648" sent="22" para="15" offset="3540">focus</wf>
+    <wf wid="w649" sent="22" para="15" offset="3546">aid</wf>
+    <wf wid="w650" sent="22" para="15" offset="3550">money</wf>
+    <wf wid="w651" sent="22" para="15" offset="3556">and</wf>
+    <wf wid="w652" sent="22" para="15" offset="3560">diplomatic</wf>
+    <wf wid="w653" sent="22" para="15" offset="3571">efforts</wf>
+    <wf wid="w654" sent="22" para="15" offset="3579">on</wf>
+    <wf wid="w655" sent="22" para="15" offset="3582">its</wf>
+    <wf wid="w656" sent="22" para="15" offset="3586">key</wf>
+    <wf wid="w657" sent="22" para="15" offset="3590">development</wf>
+    <wf wid="w658" sent="22" para="15" offset="3602">concerns</wf>
+    <wf wid="w659" sent="22" para="15" offset="3611">including</wf>
+    <wf wid="w660" sent="22" para="15" offset="3621">justice</wf>
+    <wf wid="w661" sent="22" para="15" offset="3629">and</wf>
+    <wf wid="w662" sent="22" para="15" offset="3633">education</wf>
+    <wf wid="w663" sent="22" para="15" offset="3642">.</wf>
+    <wf wid="w664" sent="23" para="15" offset="3644">Counter-narcotics</wf>
+    <wf wid="w665" sent="23" para="15" offset="3662">was</wf>
+    <wf wid="w666" sent="23" para="15" offset="3666">not</wf>
+    <wf wid="w667" sent="23" para="15" offset="3670">one</wf>
+    <wf wid="w668" sent="23" para="15" offset="3674">of</wf>
+    <wf wid="w669" sent="23" para="15" offset="3677">them</wf>
+    <wf wid="w670" sent="23" para="15" offset="3681">,</wf>
+    <wf wid="w671" sent="23" para="15" offset="3683">nor</wf>
+    <wf wid="w672" sent="23" para="15" offset="3687">has</wf>
+    <wf wid="w673" sent="23" para="15" offset="3691">it</wf>
+    <wf wid="w674" sent="23" para="15" offset="3694">been</wf>
+    <wf wid="w675" sent="23" para="15" offset="3699">put</wf>
+    <wf wid="w676" sent="23" para="15" offset="3703">at</wf>
+    <wf wid="w677" sent="23" para="15" offset="3706">the</wf>
+    <wf wid="w678" sent="23" para="15" offset="3710">heart</wf>
+    <wf wid="w679" sent="23" para="15" offset="3716">of</wf>
+    <wf wid="w680" sent="23" para="15" offset="3719">the</wf>
+    <wf wid="w681" sent="23" para="15" offset="3723">other</wf>
+    <wf wid="w682" sent="23" para="15" offset="3729">programmes</wf>
+    <wf wid="w683" sent="23" para="15" offset="3739">.</wf>
+    <wf wid="w684" sent="24" para="16" offset="3740">"</wf>
+    <wf wid="w685" sent="24" para="16" offset="3741">We</wf>
+    <wf wid="w686" sent="24" para="16" offset="3744">need</wf>
+    <wf wid="w687" sent="24" para="16" offset="3749">to</wf>
+    <wf wid="w688" sent="24" para="16" offset="3752">have</wf>
+    <wf wid="w689" sent="24" para="16" offset="3757">counter-narcotics</wf>
+    <wf wid="w690" sent="24" para="16" offset="3775">dealt</wf>
+    <wf wid="w691" sent="24" para="16" offset="3781">with</wf>
+    <wf wid="w692" sent="24" para="16" offset="3786">seriously</wf>
+    <wf wid="w693" sent="24" para="16" offset="3796">by</wf>
+    <wf wid="w694" sent="24" para="16" offset="3799">the</wf>
+    <wf wid="w695" sent="24" para="16" offset="3803">entire</wf>
+    <wf wid="w696" sent="24" para="16" offset="3810">government</wf>
+    <wf wid="w697" sent="24" para="16" offset="3821">as</wf>
+    <wf wid="w698" sent="24" para="16" offset="3824">well</wf>
+    <wf wid="w699" sent="24" para="16" offset="3829">as</wf>
+    <wf wid="w700" sent="24" para="16" offset="3832">the</wf>
+    <wf wid="w701" sent="24" para="16" offset="3836">aid</wf>
+    <wf wid="w702" sent="24" para="16" offset="3840">community</wf>
+    <wf wid="w703" sent="24" para="16" offset="3849">,</wf>
+    <wf wid="w704" sent="24" para="16" offset="3850">"</wf>
+    <wf wid="w705" sent="24" para="16" offset="3852">Lemahieu</wf>
+    <wf wid="w706" sent="24" para="16" offset="3861">said</wf>
+    <wf wid="w707" sent="24" para="16" offset="3865">.</wf>
+    <wf wid="w708" sent="25" para="16" offset="3740">"</wf>
+    <wf wid="w709" sent="25" para="16" offset="3868">One</wf>
+    <wf wid="w710" sent="25" para="16" offset="3872">of</wf>
+    <wf wid="w711" sent="25" para="16" offset="3875">the</wf>
+    <wf wid="w712" sent="25" para="16" offset="3879">big</wf>
+    <wf wid="w713" sent="25" para="16" offset="3883">missing</wf>
+    <wf wid="w714" sent="25" para="16" offset="3891">links</wf>
+    <wf wid="w715" sent="25" para="16" offset="3897">here</wf>
+    <wf wid="w716" sent="25" para="16" offset="3902">is</wf>
+    <wf wid="w717" sent="25" para="16" offset="3905">providing</wf>
+    <wf wid="w718" sent="25" para="16" offset="3915">for</wf>
+    <wf wid="w719" sent="25" para="16" offset="3919">the</wf>
+    <wf wid="w720" sent="25" para="16" offset="3923">communities</wf>
+    <wf wid="w721" sent="25" para="16" offset="3935">themselves</wf>
+    <wf wid="w722" sent="25" para="16" offset="3945">.</wf>
+    <wf wid="w723" sent="25" para="16" offset="3946">"</wf>
+    <wf wid="w724" sent="26" para="17" offset="3947">Eradication</wf>
+    <wf wid="w725" sent="26" para="17" offset="3959">programmes</wf>
+    <wf wid="w726" sent="26" para="17" offset="3970">that</wf>
+    <wf wid="w727" sent="26" para="17" offset="3975">do</wf>
+    <wf wid="w728" sent="26" para="17" offset="3978">not</wf>
+    <wf wid="w729" sent="26" para="17" offset="3982">provide</wf>
+    <wf wid="w730" sent="26" para="17" offset="3990">farmers</wf>
+    <wf wid="w731" sent="26" para="17" offset="3998">with</wf>
+    <wf wid="w732" sent="26" para="17" offset="4003">benefits</wf>
+    <wf wid="w733" sent="26" para="17" offset="4012">such</wf>
+    <wf wid="w734" sent="26" para="17" offset="4017">as</wf>
+    <wf wid="w735" sent="26" para="17" offset="4020">healthcare</wf>
+    <wf wid="w736" sent="26" para="17" offset="4031">and</wf>
+    <wf wid="w737" sent="26" para="17" offset="4035">education</wf>
+    <wf wid="w738" sent="26" para="17" offset="4044">,</wf>
+    <wf wid="w739" sent="26" para="17" offset="4046">and</wf>
+    <wf wid="w740" sent="26" para="17" offset="4050">support</wf>
+    <wf wid="w741" sent="26" para="17" offset="4058">growing</wf>
+    <wf wid="w742" sent="26" para="17" offset="4066">other</wf>
+    <wf wid="w743" sent="26" para="17" offset="4072">crops</wf>
+    <wf wid="w744" sent="26" para="17" offset="4078">will</wf>
+    <wf wid="w745" sent="26" para="17" offset="4083">just</wf>
+    <wf wid="w746" sent="26" para="17" offset="4088">push</wf>
+    <wf wid="w747" sent="26" para="17" offset="4093">the</wf>
+    <wf wid="w748" sent="26" para="17" offset="4097">Taliban</wf>
+    <wf wid="w749" sent="26" para="17" offset="4105">or</wf>
+    <wf wid="w750" sent="26" para="17" offset="4108">other</wf>
+    <wf wid="w751" sent="26" para="17" offset="4114">insurgent</wf>
+    <wf wid="w752" sent="26" para="17" offset="4124">groups</wf>
+    <wf wid="w753" sent="26" para="17" offset="4131">that</wf>
+    <wf wid="w754" sent="26" para="17" offset="4136">do</wf>
+    <wf wid="w755" sent="26" para="17" offset="4139">tolerate</wf>
+    <wf wid="w756" sent="26" para="17" offset="4148">or</wf>
+    <wf wid="w757" sent="26" para="17" offset="4151">encourage</wf>
+    <wf wid="w758" sent="26" para="17" offset="4161">poppy</wf>
+    <wf wid="w759" sent="26" para="17" offset="4167">production</wf>
+    <wf wid="w760" sent="26" para="17" offset="4177">,</wf>
+    <wf wid="w761" sent="26" para="17" offset="4179">he</wf>
+    <wf wid="w762" sent="26" para="17" offset="4182">added</wf>
+    <wf wid="w763" sent="26" para="17" offset="4187">.</wf>
   </text>
-  <terms />
-  <entities />
 </KAF>

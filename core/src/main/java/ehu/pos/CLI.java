@@ -29,6 +29,7 @@ import java.util.List;
 
 import net.didion.jwnl.JWNLException;
 import net.sourceforge.argparse4j.ArgumentParsers;
+import net.sourceforge.argparse4j.impl.Arguments;
 import net.sourceforge.argparse4j.inf.ArgumentParser;
 import net.sourceforge.argparse4j.inf.ArgumentParserException;
 import net.sourceforge.argparse4j.inf.MutuallyExclusiveGroup;
@@ -47,7 +48,7 @@ import ehu.lemmatize.MorfologikLemmatizer;
 import ehu.lemmatize.SimpleLemmatizer;
 
 /**
- * IXA-OpenNLP POS tagging using Apache OpenNLP. 
+ * EHU POS tagging using Apache OpenNLP. 
  * 
  * @author ragerri
  * @version 1.0
@@ -80,7 +81,7 @@ public class CLI {
     ArgumentParser parser = ArgumentParsers
         .newArgumentParser("ixa-pipe-pos-1.0.jar")
         .description(
-            "ixa-opennlp-pos-1.0 is a multilingual POS tagger module developed by IXA NLP Group based on Apache OpenNLP.\n");
+            "ehu-pos-1.0 is a multilingual POS tagger module developed by IXA NLP Group based on Apache OpenNLP.\n");
     MutuallyExclusiveGroup group = parser.addMutuallyExclusiveGroup("group"); 
     // specify language
     parser
@@ -88,7 +89,10 @@ public class CLI {
         .choices("en", "es")
         .required(true)
         .help(
-            "It is REQUIRED to choose a language to perform annotation with ixa-pipe-pos");
+            "It is REQUIRED to choose a language to perform annotation with ehu-pos");
+    
+    parser.addArgument("-t","--timestamp").action(Arguments.storeTrue()).help("flag to make timestamp static for continous " +
+        "integration testing");
 
     // specify lemmatization method
     
@@ -114,7 +118,7 @@ public class CLI {
     } catch (ArgumentParserException e) {
       parser.handleError(e);
       System.out
-          .println("Run java -jar target/ixa-pipe-pos-1.0.jar -help for details");
+          .println("Run java -jar target/ehu-pos-1.0.jar -help for details");
       System.exit(1);
     }
 
@@ -182,8 +186,14 @@ public class CLI {
       // processor
       Annotate annotator = new Annotate(lang);
       kaf.addKafHeader(lingProc, kaf);
-      kaf.addlps("terms", "ixa-pipe-pos-" + lang, kaf.getTimestamp(), "1.0");
+      if (parsedArguments.getBoolean("timestamp") == true) {
+        kaf.addlps("terms", "ehu-pos-"+lang, "now", "1.0");
+      }
+      else { 
+        kaf.addlps("terms", "ehu-pos-" + lang, kaf.getTimestamp(), "1.0");
 
+      }
+      
       // annotate POS tags to KAF and lemmatize
       annotator.annotatePOSToKAF(wfs, kaf, lemmatizer, lang);
       XMLOutputter xout = new XMLOutputter(Format.getPrettyFormat());
