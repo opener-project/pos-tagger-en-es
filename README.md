@@ -189,7 +189,7 @@ mvn clean install
 ````
 
 7. USING ehu-pos
-=====================
+================
 
 The program accepts tokenized text in KAF format as standard input and outputs KAF.
 
