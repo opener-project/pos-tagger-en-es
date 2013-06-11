@@ -6,7 +6,9 @@ end
 Given /^I put them through the kernel$/ do
   tmp_filename = "output_#{rand(1000)}_#{@filename}"
   @output = tmp_file(tmp_filename)
-  `#{kernel.command(:input=>@input, :test=>true)} > #{@output}`
+  
+  @args = ['-t']
+  `cat #{@input} | #{kernel.command(@args)} > #{@output}`
 end
 
 Then /^the output should match the fixture "(.*?)"$/ do |filename|

@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require_relative '../lib/opener/pos_taggers/EN'
+require_relative '../lib/opener/pos_taggers/en'
 
 kernel = Opener::POSTaggers::EN.new
 puts kernel.run
