@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <KAF xml:lang="en" version="v1.opener">
   <kafHeader>
-    <fileDesc />
     <linguisticProcessors layer="text">
       <lp name="openlp-en-sent" version="1.0" timestamp="2013-04-23T08:36:44Z"/>
       <lp name="openlp-en-tok" version="1.0" timestamp="2013-04-23T08:36:44Z"/>
