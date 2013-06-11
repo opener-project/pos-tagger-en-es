@@ -1,12 +1,11 @@
-Dir[File.dirname(__FILE__) + '/../../lib/*.rb'].each {|file| require file }
-require 'rspec/expectations'
+require_relative '../../lib/opener/pos_taggers/en'
 require 'tempfile'
-require 'pry'
 
 def kernel_root
   File.expand_path("../../../", __FILE__)
 end
 
 def kernel
-  Opener::Kernel::EHU::POSTagger::EN.new
+  Opener::POSTaggers::EN.new
 end
+

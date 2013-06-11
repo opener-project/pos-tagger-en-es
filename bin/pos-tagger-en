@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require_relative '../lib/opener/pos_taggers/EN'
+
+kernel = Opener::POSTaggers::EN.new
+puts kernel.run

@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in EHU-pos-tagger_EN_kernel.gemspec
+# Specify your gem's dependencies in opener-pos-tagger-en.gemspec
 gemspec
