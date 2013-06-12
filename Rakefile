@@ -8,5 +8,8 @@ task :test => 'java:compile' do
   sh 'cucumber features'
 end
 
+desc 'Cleans the repository'
+task :clean => ['java:clean:packages']
+
 task :build   => 'java:compile'
 task :default => :test
