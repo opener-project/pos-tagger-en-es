@@ -4,7 +4,6 @@
 *.so
 *.so.old
 *.swp
-target
 *.class
 *.classpath
 *.project
