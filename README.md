@@ -1,4 +1,4 @@
-# Opener::Kernel::EHU::POSTagger::EN
+# Opener::POSTaggers::EN
 
 This module uses Apache OpenNLP programatically to perform POS tagging.
 It has been developed by the IXA NLP Group (ixa.si.ehu.es).
@@ -14,7 +14,7 @@ It has been developed by the IXA NLP Group (ixa.si.ehu.es).
 
 Add this line to your application's Gemfile:
 
-    gem 'EHU-pos-tagger_EN_kernel', :git=>"git@github.com/opener-project/EHU-pos-tagger_EN_kernel.git"
+    gem 'opener-pos-tagger-en', :git=>"git@github.com/opener-project/pos-tagger-en.git"
 
 And then execute:
 
@@ -22,7 +22,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem specific_install EHU-pos-tagger_EN_kernel -l https://github.com/opener-project/EHU-pos-tagger_EN_kernel.git
+    $ gem specific_install opener-pos-tagger-en -l https://github.com/opener-project/pos-tagger-en.git
 
 
 If you dont have specific_install already:
@@ -36,7 +36,7 @@ Once installed as a gem you can access the gem from anywhere:
 
 TODO: Change output below as needed
 ````shell
-echo "foo" | EHU-pos-tagger_EN_kernel
+echo "foo" | pos-tagger-en
 ````
 
 Will output
@@ -70,7 +70,7 @@ The contents of the module are the following:
 INSTALLATION
 ============
 
-Installing the ehu-pos requires the following steps:
+Installing the pos-tagger-en requires the following steps:
 
 If you already have installed in your machine JDK6 and MAVEN 3, please go to step 3
 directly. Otherwise, follow these steps:
@@ -135,7 +135,7 @@ You should see reference to the MAVEN version you have just installed plus the J
 --------------------------
 
 ````shell
-git clone git@github.com:opener-project/EHU-pos-tagger_EN_kernel.git
+git clone git@github.com:opener-project/pos-tagger-en.git
 ````
 
 4. Download models and other resources
@@ -188,7 +188,7 @@ To install the module in the local maven repository, usually located at ~/.m2/, 
 mvn clean install
 ````
 
-7. USING ehu-pos
+7. USING pos-tagger-en
 ================
 
 The program accepts tokenized text in KAF format as standard input and outputs KAF.
