@@ -9,10 +9,6 @@ Feature-rich part-of-speech tagging with a cyclic dependency network.  In
 Proceedings of HLT-NAACL’03, 2003. Currently we obtain a performance of 96.48%
 vs 97.24% obtained by Toutanova et al. (2003).
 
-Spanish Maximum Entropy models have been trained and evaluated using the Ancora
-corpus; it was randomly divided in 90% for training (440K words) and 10%
-testing (70K words), obtaining a performance of 98.88%.
-
 ## Requirements
 
 * Java 1.7 or newer
