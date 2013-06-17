@@ -1154,7 +1154,7 @@
       </span>
     </term>
     <!--counter-narcotics-->
-    <term tid="t64" type="open" lemma="counter-narcotics" pos="N" morphofeat="NNS">
+    <term tid="t64" type="open" lemma="counter-narcotics" pos="G" morphofeat="JJ">
       <span>
         <target id="w64" />
       </span>
@@ -1514,7 +1514,7 @@
       </span>
     </term>
     <!--future-->
-    <term tid="t124" type="open" lemma="future" pos="G" morphofeat="JJ">
+    <term tid="t124" type="open" lemma="future" pos="N" morphofeat="NN">
       <span>
         <target id="w124" />
       </span>
@@ -2468,7 +2468,7 @@
       </span>
     </term>
     <!--"-->
-    <term tid="t283" type="open" lemma="&quot;" pos="G" morphofeat="JJ">
+    <term tid="t283" type="open" lemma="&quot;" pos="N" morphofeat="NN">
       <span>
         <target id="w283" />
       </span>
@@ -3499,1634 +3499,1634 @@
         <target id="w454" />
       </span>
     </term>
-    <!--But-->
-    <term tid="t455" type="close" lemma="but" pos="C" morphofeat="CC">
-      <span>
-        <target id="w455" />
-      </span>
-    </term>
-    <!--the-->
-    <term tid="t456" type="close" lemma="the" pos="D" morphofeat="DT">
-      <span>
-        <target id="w456" />
-      </span>
-    </term>
-    <!--decline-->
-    <term tid="t457" type="open" lemma="decline" pos="N" morphofeat="NN">
-      <span>
-        <target id="w457" />
-      </span>
-    </term>
-    <!--in-->
-    <term tid="t458" type="close" lemma="in" pos="P" morphofeat="IN">
-      <span>
-        <target id="w458" />
-      </span>
-    </term>
-    <!--opium-->
-    <term tid="t459" type="open" lemma="opium" pos="N" morphofeat="NN">
-      <span>
-        <target id="w459" />
-      </span>
-    </term>
-    <!--production-->
-    <term tid="t460" type="open" lemma="production" pos="N" morphofeat="NN">
-      <span>
-        <target id="w460" />
-      </span>
-    </term>
-    <!--also-->
-    <term tid="t461" type="open" lemma="also" pos="A" morphofeat="RB">
-      <span>
-        <target id="w461" />
-      </span>
-    </term>
-    <!--drove-->
-    <term tid="t462" type="open" lemma="drive" pos="V" morphofeat="VBD">
-      <span>
-        <target id="w462" />
-      </span>
-    </term>
-    <!--up-->
-    <term tid="t463" type="close" lemma="up" pos="O" morphofeat="RP">
-      <span>
-        <target id="w463" />
-      </span>
-    </term>
-    <!--prices-->
-    <term tid="t464" type="open" lemma="price" pos="N" morphofeat="NNS">
-      <span>
-        <target id="w464" />
-      </span>
-    </term>
-    <!--,-->
-    <term tid="t465" type="close" lemma="," pos="O" morphofeat=",">
-      <span>
-        <target id="w465" />
-      </span>
-    </term>
-    <!--to-->
-    <term tid="t466" type="close" lemma="to" pos="P" morphofeat="TO">
-      <span>
-        <target id="w466" />
-      </span>
-    </term>
-    <!--a-->
-    <term tid="t467" type="close" lemma="a" pos="D" morphofeat="DT">
-      <span>
-        <target id="w467" />
-      </span>
-    </term>
-    <!--record-->
-    <term tid="t468" type="open" lemma="record" pos="N" morphofeat="NN">
-      <span>
-        <target id="w468" />
-      </span>
-    </term>
-    <!--$-->
-    <term tid="t469" type="close" lemma="$" pos="O" morphofeat="$">
-      <span>
-        <target id="w469" />
-      </span>
-    </term>
-    <!--300-->
-    <term tid="t470" type="close" lemma="300" pos="O" morphofeat="CD">
-      <span>
-        <target id="w470" />
-      </span>
-    </term>
-    <!--a-->
-    <term tid="t471" type="close" lemma="a" pos="D" morphofeat="DT">
-      <span>
-        <target id="w471" />
-      </span>
-    </term>
-    <!--kilogramme-->
-    <term tid="t472" type="open" lemma="kilogram" pos="N" morphofeat="NN">
-      <span>
-        <target id="w472" />
-      </span>
-    </term>
-    <!--.-->
-    <term tid="t473" type="close" lemma="." pos="O" morphofeat=".">
-      <span>
-        <target id="w473" />
-      </span>
-    </term>
     <!--Prices-->
-    <term tid="t474" type="close" lemma="Prices" pos="R" morphofeat="NNPS">
+    <term tid="t455" type="open" lemma="price" pos="N" morphofeat="NNS">
       <span>
         <target id="w474" />
       </span>
     </term>
     <!--have-->
-    <term tid="t475" type="open" lemma="have" pos="V" morphofeat="VBP">
+    <term tid="t456" type="open" lemma="have" pos="V" morphofeat="VBP">
       <span>
         <target id="w475" />
       </span>
     </term>
     <!--now-->
-    <term tid="t476" type="open" lemma="now" pos="A" morphofeat="RB">
+    <term tid="t457" type="open" lemma="now" pos="A" morphofeat="RB">
       <span>
         <target id="w476" />
       </span>
     </term>
     <!--slipped-->
-    <term tid="t477" type="open" lemma="slip" pos="V" morphofeat="VBN">
+    <term tid="t458" type="open" lemma="slip" pos="V" morphofeat="VBN">
       <span>
         <target id="w477" />
       </span>
     </term>
     <!--by-->
-    <term tid="t478" type="close" lemma="by" pos="P" morphofeat="IN">
+    <term tid="t459" type="close" lemma="by" pos="P" morphofeat="IN">
       <span>
         <target id="w478" />
       </span>
     </term>
     <!--over-->
-    <term tid="t479" type="open" lemma="over" pos="A" morphofeat="RB">
+    <term tid="t460" type="open" lemma="over" pos="A" morphofeat="RB">
       <span>
         <target id="w479" />
       </span>
     </term>
     <!--$-->
-    <term tid="t480" type="close" lemma="$" pos="O" morphofeat="$">
+    <term tid="t461" type="close" lemma="$" pos="O" morphofeat="$">
       <span>
         <target id="w480" />
       </span>
     </term>
     <!--100-->
-    <term tid="t481" type="close" lemma="100" pos="O" morphofeat="CD">
+    <term tid="t462" type="close" lemma="100" pos="O" morphofeat="CD">
       <span>
         <target id="w481" />
       </span>
     </term>
     <!--but-->
-    <term tid="t482" type="close" lemma="but" pos="C" morphofeat="CC">
+    <term tid="t463" type="close" lemma="but" pos="C" morphofeat="CC">
       <span>
         <target id="w482" />
       </span>
     </term>
     <!--are-->
-    <term tid="t483" type="open" lemma="be" pos="V" morphofeat="VBP">
+    <term tid="t464" type="open" lemma="be" pos="V" morphofeat="VBP">
       <span>
         <target id="w483" />
       </span>
     </term>
     <!--still-->
-    <term tid="t484" type="open" lemma="still" pos="A" morphofeat="RB">
+    <term tid="t465" type="open" lemma="still" pos="A" morphofeat="RB">
       <span>
         <target id="w484" />
       </span>
     </term>
     <!--far-->
-    <term tid="t485" type="open" lemma="far" pos="A" morphofeat="RB">
+    <term tid="t466" type="open" lemma="far" pos="A" morphofeat="RB">
       <span>
         <target id="w485" />
       </span>
     </term>
     <!--above-->
-    <term tid="t486" type="close" lemma="above" pos="P" morphofeat="IN">
+    <term tid="t467" type="close" lemma="above" pos="P" morphofeat="IN">
       <span>
         <target id="w486" />
       </span>
     </term>
     <!--historic-->
-    <term tid="t487" type="open" lemma="historic" pos="G" morphofeat="JJ">
+    <term tid="t468" type="open" lemma="historic" pos="G" morphofeat="JJ">
       <span>
         <target id="w487" />
       </span>
     </term>
     <!--levels-->
-    <term tid="t488" type="open" lemma="level" pos="N" morphofeat="NNS">
+    <term tid="t469" type="open" lemma="level" pos="N" morphofeat="NNS">
       <span>
         <target id="w488" />
       </span>
     </term>
     <!--,-->
-    <term tid="t489" type="close" lemma="," pos="O" morphofeat=",">
+    <term tid="t470" type="close" lemma="," pos="O" morphofeat=",">
       <span>
         <target id="w489" />
       </span>
     </term>
     <!--helping-->
-    <term tid="t490" type="open" lemma="help" pos="V" morphofeat="VBG">
+    <term tid="t471" type="open" lemma="help" pos="V" morphofeat="VBG">
       <span>
         <target id="w490" />
       </span>
     </term>
     <!--tempt-->
-    <term tid="t491" type="open" lemma="tempt" pos="V" morphofeat="VB">
+    <term tid="t472" type="open" lemma="tempt" pos="V" morphofeat="VB">
       <span>
         <target id="w491" />
       </span>
     </term>
     <!--more-->
-    <term tid="t492" type="open" lemma="more" pos="G" morphofeat="JJR">
+    <term tid="t473" type="open" lemma="more" pos="G" morphofeat="JJR">
       <span>
         <target id="w492" />
       </span>
     </term>
     <!--farmers-->
-    <term tid="t493" type="open" lemma="farmer" pos="N" morphofeat="NNS">
+    <term tid="t474" type="open" lemma="farmer" pos="N" morphofeat="NNS">
       <span>
         <target id="w493" />
       </span>
     </term>
     <!--to-->
-    <term tid="t494" type="close" lemma="to" pos="P" morphofeat="TO">
+    <term tid="t475" type="close" lemma="to" pos="P" morphofeat="TO">
       <span>
         <target id="w494" />
       </span>
     </term>
     <!--turn-->
-    <term tid="t495" type="open" lemma="turn" pos="V" morphofeat="VB">
+    <term tid="t476" type="open" lemma="turn" pos="V" morphofeat="VB">
       <span>
         <target id="w495" />
       </span>
     </term>
     <!--land-->
-    <term tid="t496" type="open" lemma="land" pos="A" morphofeat="RB">
+    <term tid="t477" type="open" lemma="land" pos="A" morphofeat="RB">
       <span>
         <target id="w496" />
       </span>
     </term>
     <!--over-->
-    <term tid="t497" type="close" lemma="over" pos="P" morphofeat="IN">
+    <term tid="t478" type="close" lemma="over" pos="P" morphofeat="IN">
       <span>
         <target id="w497" />
       </span>
     </term>
     <!--to-->
-    <term tid="t498" type="close" lemma="to" pos="P" morphofeat="TO">
+    <term tid="t479" type="close" lemma="to" pos="P" morphofeat="TO">
       <span>
         <target id="w498" />
       </span>
     </term>
     <!--poppy-->
-    <term tid="t499" type="open" lemma="poppy" pos="G" morphofeat="JJ">
+    <term tid="t480" type="open" lemma="poppy" pos="V" morphofeat="VB">
       <span>
         <target id="w499" />
       </span>
     </term>
     <!--.-->
-    <term tid="t500" type="close" lemma="." pos="O" morphofeat=".">
+    <term tid="t481" type="close" lemma="." pos="O" morphofeat=".">
       <span>
         <target id="w500" />
       </span>
     </term>
-    <!--It-->
-    <term tid="t501" type="close" lemma="it" pos="Q" morphofeat="PRP">
+    <!--But-->
+    <term tid="t482" type="close" lemma="but" pos="C" morphofeat="CC">
       <span>
-        <target id="w501" />
-      </span>
-    </term>
-    <!--seems-->
-    <term tid="t502" type="open" lemma="seem" pos="V" morphofeat="VBZ">
-      <span>
-        <target id="w502" />
-      </span>
-    </term>
-    <!--unlikely-->
-    <term tid="t503" type="open" lemma="unlikely" pos="G" morphofeat="JJ">
-      <span>
-        <target id="w503" />
-      </span>
-    </term>
-    <!--that-->
-    <term tid="t504" type="close" lemma="that" pos="P" morphofeat="IN">
-      <span>
-        <target id="w504" />
+        <target id="w455" />
       </span>
     </term>
     <!--the-->
-    <term tid="t505" type="close" lemma="the" pos="D" morphofeat="DT">
+    <term tid="t483" type="close" lemma="the" pos="D" morphofeat="DT">
       <span>
-        <target id="w505" />
+        <target id="w456" />
       </span>
     </term>
-    <!--poor-->
-    <term tid="t506" type="open" lemma="poor" pos="G" morphofeat="JJ">
+    <!--decline-->
+    <term tid="t484" type="open" lemma="decline" pos="N" morphofeat="NN">
       <span>
-        <target id="w506" />
+        <target id="w457" />
       </span>
     </term>
-    <!--harvests-->
-    <term tid="t507" type="open" lemma="harvest" pos="N" morphofeat="NNS">
+    <!--in-->
+    <term tid="t485" type="close" lemma="in" pos="P" morphofeat="IN">
       <span>
-        <target id="w507" />
+        <target id="w458" />
       </span>
     </term>
-    <!--of-->
-    <term tid="t508" type="close" lemma="of" pos="P" morphofeat="IN">
+    <!--opium-->
+    <term tid="t486" type="open" lemma="opium" pos="N" morphofeat="NN">
       <span>
-        <target id="w508" />
+        <target id="w459" />
       </span>
     </term>
-    <!--the-->
-    <term tid="t509" type="close" lemma="the" pos="D" morphofeat="DT">
+    <!--production-->
+    <term tid="t487" type="open" lemma="production" pos="N" morphofeat="NN">
       <span>
-        <target id="w509" />
+        <target id="w460" />
       </span>
     </term>
-    <!--last-->
-    <term tid="t510" type="open" lemma="last" pos="G" morphofeat="JJ">
+    <!--also-->
+    <term tid="t488" type="open" lemma="also" pos="A" morphofeat="RB">
       <span>
-        <target id="w510" />
+        <target id="w461" />
       </span>
     </term>
-    <!--year-->
-    <term tid="t511" type="open" lemma="year" pos="N" morphofeat="NN">
+    <!--drove-->
+    <term tid="t489" type="open" lemma="drive" pos="V" morphofeat="VBD">
       <span>
-        <target id="w511" />
+        <target id="w462" />
       </span>
     </term>
-    <!--will-->
-    <term tid="t512" type="close" lemma="will" pos="O" morphofeat="MD">
+    <!--up-->
+    <term tid="t490" type="close" lemma="up" pos="O" morphofeat="RP">
       <span>
-        <target id="w512" />
+        <target id="w463" />
       </span>
     </term>
-    <!--be-->
-    <term tid="t513" type="open" lemma="be" pos="V" morphofeat="VB">
+    <!--prices-->
+    <term tid="t491" type="open" lemma="price" pos="N" morphofeat="NNS">
       <span>
-        <target id="w513" />
-      </span>
-    </term>
-    <!--repeated-->
-    <term tid="t514" type="open" lemma="repeat" pos="V" morphofeat="VBN">
-      <span>
-        <target id="w514" />
-      </span>
-    </term>
-    <!--;-->
-    <term tid="t515" type="close" lemma=";" pos="O" morphofeat=":">
-      <span>
-        <target id="w515" />
-      </span>
-    </term>
-    <!--there-->
-    <term tid="t516" type="close" lemma="there" pos="O" morphofeat="EX">
-      <span>
-        <target id="w516" />
-      </span>
-    </term>
-    <!--have-->
-    <term tid="t517" type="open" lemma="have" pos="V" morphofeat="VBP">
-      <span>
-        <target id="w517" />
-      </span>
-    </term>
-    <!--been-->
-    <term tid="t518" type="open" lemma="be" pos="V" morphofeat="VBN">
-      <span>
-        <target id="w518" />
-      </span>
-    </term>
-    <!--no-->
-    <term tid="t519" type="close" lemma="no" pos="D" morphofeat="DT">
-      <span>
-        <target id="w519" />
-      </span>
-    </term>
-    <!--reports-->
-    <term tid="t520" type="open" lemma="report" pos="N" morphofeat="NNS">
-      <span>
-        <target id="w520" />
-      </span>
-    </term>
-    <!--of-->
-    <term tid="t521" type="close" lemma="of" pos="P" morphofeat="IN">
-      <span>
-        <target id="w521" />
-      </span>
-    </term>
-    <!--blight-->
-    <term tid="t522" type="open" lemma="blight" pos="N" morphofeat="NN">
-      <span>
-        <target id="w522" />
-      </span>
-    </term>
-    <!--and-->
-    <term tid="t523" type="close" lemma="and" pos="C" morphofeat="CC">
-      <span>
-        <target id="w523" />
-      </span>
-    </term>
-    <!--the-->
-    <term tid="t524" type="close" lemma="the" pos="D" morphofeat="DT">
-      <span>
-        <target id="w524" />
-      </span>
-    </term>
-    <!--exceptionally-->
-    <term tid="t525" type="open" lemma="exceptionally" pos="A" morphofeat="RB">
-      <span>
-        <target id="w525" />
-      </span>
-    </term>
-    <!--bitter-->
-    <term tid="t526" type="open" lemma="bitter" pos="G" morphofeat="JJ">
-      <span>
-        <target id="w526" />
-      </span>
-    </term>
-    <!--winter-->
-    <term tid="t527" type="open" lemma="winter" pos="N" morphofeat="NN">
-      <span>
-        <target id="w527" />
-      </span>
-    </term>
-    <!--of-->
-    <term tid="t528" type="close" lemma="of" pos="P" morphofeat="IN">
-      <span>
-        <target id="w528" />
-      </span>
-    </term>
-    <!--2011-12-->
-    <term tid="t529" type="close" lemma="2011-12" pos="O" morphofeat="CD">
-      <span>
-        <target id="w529" />
-      </span>
-    </term>
-    <!--was-->
-    <term tid="t530" type="open" lemma="be" pos="V" morphofeat="VBD">
-      <span>
-        <target id="w530" />
-      </span>
-    </term>
-    <!--followed-->
-    <term tid="t531" type="open" lemma="follow" pos="V" morphofeat="VBN">
-      <span>
-        <target id="w531" />
-      </span>
-    </term>
-    <!--this-->
-    <term tid="t532" type="close" lemma="this" pos="D" morphofeat="DT">
-      <span>
-        <target id="w532" />
-      </span>
-    </term>
-    <!--year-->
-    <term tid="t533" type="open" lemma="year" pos="N" morphofeat="NN">
-      <span>
-        <target id="w533" />
-      </span>
-    </term>
-    <!--by-->
-    <term tid="t534" type="close" lemma="by" pos="P" morphofeat="IN">
-      <span>
-        <target id="w534" />
-      </span>
-    </term>
-    <!--a-->
-    <term tid="t535" type="close" lemma="a" pos="D" morphofeat="DT">
-      <span>
-        <target id="w535" />
-      </span>
-    </term>
-    <!--milder-->
-    <term tid="t536" type="open" lemma="milder" pos="N" morphofeat="NN">
-      <span>
-        <target id="w536" />
-      </span>
-    </term>
-    <!--one-->
-    <term tid="t537" type="close" lemma="one" pos="O" morphofeat="CD">
-      <span>
-        <target id="w537" />
+        <target id="w464" />
       </span>
     </term>
     <!--,-->
-    <term tid="t538" type="close" lemma="," pos="O" morphofeat=",">
+    <term tid="t492" type="close" lemma="," pos="O" morphofeat=",">
       <span>
-        <target id="w538" />
+        <target id="w465" />
       </span>
     </term>
-    <!--creating-->
-    <term tid="t539" type="open" lemma="create" pos="V" morphofeat="VBG">
+    <!--to-->
+    <term tid="t493" type="close" lemma="to" pos="P" morphofeat="TO">
       <span>
-        <target id="w539" />
-      </span>
-    </term>
-    <!--expectations-->
-    <term tid="t540" type="open" lemma="expectation" pos="N" morphofeat="NNS">
-      <span>
-        <target id="w540" />
-      </span>
-    </term>
-    <!--of-->
-    <term tid="t541" type="close" lemma="of" pos="P" morphofeat="IN">
-      <span>
-        <target id="w541" />
+        <target id="w466" />
       </span>
     </term>
     <!--a-->
-    <term tid="t542" type="close" lemma="a" pos="D" morphofeat="DT">
+    <term tid="t494" type="close" lemma="a" pos="D" morphofeat="DT">
       <span>
-        <target id="w542" />
+        <target id="w467" />
       </span>
     </term>
-    <!--large-->
-    <term tid="t543" type="open" lemma="large" pos="G" morphofeat="JJ">
+    <!--record-->
+    <term tid="t495" type="open" lemma="record" pos="N" morphofeat="NN">
       <span>
-        <target id="w543" />
+        <target id="w468" />
       </span>
     </term>
-    <!--crop-->
-    <term tid="t544" type="open" lemma="crop" pos="N" morphofeat="NN">
+    <!--$-->
+    <term tid="t496" type="close" lemma="$" pos="O" morphofeat="$">
       <span>
-        <target id="w544" />
+        <target id="w469" />
+      </span>
+    </term>
+    <!--300-->
+    <term tid="t497" type="close" lemma="300" pos="O" morphofeat="CD">
+      <span>
+        <target id="w470" />
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t498" type="close" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w471" />
+      </span>
+    </term>
+    <!--kilogramme-->
+    <term tid="t499" type="open" lemma="kilogram" pos="N" morphofeat="NN">
+      <span>
+        <target id="w472" />
       </span>
     </term>
     <!--.-->
-    <term tid="t545" type="close" lemma="." pos="O" morphofeat=".">
+    <term tid="t500" type="close" lemma="." pos="O" morphofeat=".">
       <span>
-        <target id="w545" />
+        <target id="w473" />
       </span>
     </term>
     <!--The-->
-    <term tid="t546" type="close" lemma="the" pos="D" morphofeat="DT">
+    <term tid="t501" type="close" lemma="the" pos="D" morphofeat="DT">
       <span>
         <target id="w546" />
       </span>
     </term>
     <!--increase-->
-    <term tid="t547" type="open" lemma="increase" pos="N" morphofeat="NN">
+    <term tid="t502" type="open" lemma="increase" pos="N" morphofeat="NN">
       <span>
         <target id="w547" />
       </span>
     </term>
     <!--has-->
-    <term tid="t548" type="open" lemma="have" pos="V" morphofeat="VBZ">
+    <term tid="t503" type="open" lemma="have" pos="V" morphofeat="VBZ">
       <span>
         <target id="w548" />
       </span>
     </term>
     <!--come-->
-    <term tid="t549" type="open" lemma="come" pos="V" morphofeat="VBN">
+    <term tid="t504" type="open" lemma="come" pos="V" morphofeat="VBN">
       <span>
         <target id="w549" />
       </span>
     </term>
     <!--despite-->
-    <term tid="t550" type="close" lemma="despite" pos="P" morphofeat="IN">
+    <term tid="t505" type="close" lemma="despite" pos="P" morphofeat="IN">
       <span>
         <target id="w550" />
       </span>
     </term>
     <!--a-->
-    <term tid="t551" type="close" lemma="a" pos="D" morphofeat="DT">
+    <term tid="t506" type="close" lemma="a" pos="D" morphofeat="DT">
       <span>
         <target id="w551" />
       </span>
     </term>
     <!--marked-->
-    <term tid="t552" type="open" lemma="mark" pos="V" morphofeat="VBN">
+    <term tid="t507" type="open" lemma="mark" pos="V" morphofeat="VBN">
       <span>
         <target id="w552" />
       </span>
     </term>
     <!--improvement-->
-    <term tid="t553" type="open" lemma="improvement" pos="N" morphofeat="NN">
+    <term tid="t508" type="open" lemma="improvement" pos="N" morphofeat="NN">
       <span>
         <target id="w553" />
       </span>
     </term>
     <!--in-->
-    <term tid="t554" type="close" lemma="in" pos="P" morphofeat="IN">
+    <term tid="t509" type="close" lemma="in" pos="P" morphofeat="IN">
       <span>
         <target id="w554" />
       </span>
     </term>
     <!--Afghanistan-->
-    <term tid="t555" type="close" lemma="Afghanistan" pos="R" morphofeat="NNP">
+    <term tid="t510" type="close" lemma="Afghanistan" pos="R" morphofeat="NNP">
       <span>
         <target id="w555" />
       </span>
     </term>
     <!--'s-->
-    <term tid="t556" type="close" lemma="'s" pos="O" morphofeat="POS">
+    <term tid="t511" type="close" lemma="'s" pos="O" morphofeat="POS">
       <span>
         <target id="w556" />
       </span>
     </term>
     <!--specialised-->
-    <term tid="t557" type="open" lemma="specialise" pos="V" morphofeat="VBN">
+    <term tid="t512" type="open" lemma="specialise" pos="V" morphofeat="VBN">
       <span>
         <target id="w557" />
       </span>
     </term>
     <!--counter-narcotics-->
-    <term tid="t558" type="open" lemma="counter-narcotics" pos="N" morphofeat="NNS">
+    <term tid="t513" type="open" lemma="counter-narcotics" pos="N" morphofeat="NNS">
       <span>
         <target id="w558" />
       </span>
     </term>
     <!--units-->
-    <term tid="t559" type="open" lemma="unit" pos="N" morphofeat="NNS">
+    <term tid="t514" type="open" lemma="unit" pos="N" morphofeat="NNS">
       <span>
         <target id="w559" />
       </span>
     </term>
     <!--,-->
-    <term tid="t560" type="close" lemma="," pos="O" morphofeat=",">
+    <term tid="t515" type="close" lemma="," pos="O" morphofeat=",">
       <span>
         <target id="w560" />
       </span>
     </term>
     <!--Lemahieu-->
-    <term tid="t561" type="close" lemma="Lemahieu" pos="R" morphofeat="NNP">
+    <term tid="t516" type="close" lemma="Lemahieu" pos="R" morphofeat="NNP">
       <span>
         <target id="w561" />
       </span>
     </term>
     <!--said-->
-    <term tid="t562" type="open" lemma="say" pos="V" morphofeat="VBD">
+    <term tid="t517" type="open" lemma="say" pos="V" morphofeat="VBD">
       <span>
         <target id="w562" />
       </span>
     </term>
     <!--.-->
-    <term tid="t563" type="close" lemma="." pos="O" morphofeat=".">
+    <term tid="t518" type="close" lemma="." pos="O" morphofeat=".">
       <span>
         <target id="w563" />
       </span>
     </term>
-    <!--Fear-->
-    <term tid="t564" type="open" lemma="fear" pos="N" morphofeat="NN">
+    <!--It-->
+    <term tid="t519" type="close" lemma="it" pos="Q" morphofeat="PRP">
       <span>
-        <target id="w564" />
+        <target id="w501" />
+      </span>
+    </term>
+    <!--seems-->
+    <term tid="t520" type="open" lemma="seem" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w502" />
+      </span>
+    </term>
+    <!--unlikely-->
+    <term tid="t521" type="open" lemma="unlikely" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w503" />
+      </span>
+    </term>
+    <!--that-->
+    <term tid="t522" type="close" lemma="that" pos="P" morphofeat="IN">
+      <span>
+        <target id="w504" />
+      </span>
+    </term>
+    <!--the-->
+    <term tid="t523" type="close" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w505" />
+      </span>
+    </term>
+    <!--poor-->
+    <term tid="t524" type="open" lemma="poor" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w506" />
+      </span>
+    </term>
+    <!--harvests-->
+    <term tid="t525" type="open" lemma="harvest" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w507" />
       </span>
     </term>
     <!--of-->
-    <term tid="t565" type="close" lemma="of" pos="P" morphofeat="IN">
+    <term tid="t526" type="close" lemma="of" pos="P" morphofeat="IN">
       <span>
-        <target id="w565" />
+        <target id="w508" />
       </span>
     </term>
-    <!--eradication-->
-    <term tid="t566" type="open" lemma="eradication" pos="N" morphofeat="NN">
+    <!--the-->
+    <term tid="t527" type="close" lemma="the" pos="D" morphofeat="DT">
       <span>
-        <target id="w566" />
+        <target id="w509" />
       </span>
     </term>
-    <!--has-->
-    <term tid="t567" type="open" lemma="have" pos="V" morphofeat="VBZ">
+    <!--last-->
+    <term tid="t528" type="open" lemma="last" pos="G" morphofeat="JJ">
       <span>
-        <target id="w567" />
+        <target id="w510" />
       </span>
     </term>
-    <!--become-->
-    <term tid="t568" type="open" lemma="become" pos="V" morphofeat="VBN">
+    <!--year-->
+    <term tid="t529" type="open" lemma="year" pos="N" morphofeat="NN">
       <span>
-        <target id="w568" />
+        <target id="w511" />
+      </span>
+    </term>
+    <!--will-->
+    <term tid="t530" type="close" lemma="will" pos="O" morphofeat="MD">
+      <span>
+        <target id="w512" />
+      </span>
+    </term>
+    <!--be-->
+    <term tid="t531" type="open" lemma="be" pos="V" morphofeat="VB">
+      <span>
+        <target id="w513" />
+      </span>
+    </term>
+    <!--repeated-->
+    <term tid="t532" type="open" lemma="repeat" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w514" />
+      </span>
+    </term>
+    <!--;-->
+    <term tid="t533" type="close" lemma=";" pos="O" morphofeat=":">
+      <span>
+        <target id="w515" />
+      </span>
+    </term>
+    <!--there-->
+    <term tid="t534" type="close" lemma="there" pos="O" morphofeat="EX">
+      <span>
+        <target id="w516" />
+      </span>
+    </term>
+    <!--have-->
+    <term tid="t535" type="open" lemma="have" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w517" />
+      </span>
+    </term>
+    <!--been-->
+    <term tid="t536" type="open" lemma="be" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w518" />
+      </span>
+    </term>
+    <!--no-->
+    <term tid="t537" type="close" lemma="no" pos="D" morphofeat="DT">
+      <span>
+        <target id="w519" />
+      </span>
+    </term>
+    <!--reports-->
+    <term tid="t538" type="open" lemma="report" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w520" />
+      </span>
+    </term>
+    <!--of-->
+    <term tid="t539" type="close" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w521" />
+      </span>
+    </term>
+    <!--blight-->
+    <term tid="t540" type="open" lemma="blight" pos="N" morphofeat="NN">
+      <span>
+        <target id="w522" />
+      </span>
+    </term>
+    <!--and-->
+    <term tid="t541" type="close" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w523" />
+      </span>
+    </term>
+    <!--the-->
+    <term tid="t542" type="close" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w524" />
+      </span>
+    </term>
+    <!--exceptionally-->
+    <term tid="t543" type="open" lemma="exceptionally" pos="A" morphofeat="RB">
+      <span>
+        <target id="w525" />
+      </span>
+    </term>
+    <!--bitter-->
+    <term tid="t544" type="open" lemma="bitter" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w526" />
+      </span>
+    </term>
+    <!--winter-->
+    <term tid="t545" type="open" lemma="winter" pos="N" morphofeat="NN">
+      <span>
+        <target id="w527" />
+      </span>
+    </term>
+    <!--of-->
+    <term tid="t546" type="close" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w528" />
+      </span>
+    </term>
+    <!--2011-12-->
+    <term tid="t547" type="close" lemma="2011-12" pos="O" morphofeat="CD">
+      <span>
+        <target id="w529" />
+      </span>
+    </term>
+    <!--was-->
+    <term tid="t548" type="open" lemma="be" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w530" />
+      </span>
+    </term>
+    <!--followed-->
+    <term tid="t549" type="open" lemma="follow" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w531" />
+      </span>
+    </term>
+    <!--this-->
+    <term tid="t550" type="close" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w532" />
+      </span>
+    </term>
+    <!--year-->
+    <term tid="t551" type="open" lemma="year" pos="N" morphofeat="NN">
+      <span>
+        <target id="w533" />
+      </span>
+    </term>
+    <!--by-->
+    <term tid="t552" type="close" lemma="by" pos="P" morphofeat="IN">
+      <span>
+        <target id="w534" />
       </span>
     </term>
     <!--a-->
-    <term tid="t569" type="close" lemma="a" pos="D" morphofeat="DT">
+    <term tid="t553" type="close" lemma="a" pos="D" morphofeat="DT">
       <span>
-        <target id="w569" />
+        <target id="w535" />
       </span>
     </term>
-    <!--far-->
-    <term tid="t570" type="open" lemma="far" pos="A" morphofeat="RB">
+    <!--milder-->
+    <term tid="t554" type="open" lemma="milder" pos="N" morphofeat="NN">
       <span>
-        <target id="w570" />
+        <target id="w536" />
       </span>
     </term>
-    <!--more-->
-    <term tid="t571" type="open" lemma="more" pos="G" morphofeat="JJR">
+    <!--one-->
+    <term tid="t555" type="close" lemma="one" pos="O" morphofeat="CD">
       <span>
-        <target id="w571" />
-      </span>
-    </term>
-    <!--significant-->
-    <term tid="t572" type="open" lemma="significant" pos="G" morphofeat="JJ">
-      <span>
-        <target id="w572" />
-      </span>
-    </term>
-    <!--reason-->
-    <term tid="t573" type="open" lemma="reason" pos="N" morphofeat="NN">
-      <span>
-        <target id="w573" />
-      </span>
-    </term>
-    <!--for-->
-    <term tid="t574" type="close" lemma="for" pos="P" morphofeat="IN">
-      <span>
-        <target id="w574" />
-      </span>
-    </term>
-    <!--farmers-->
-    <term tid="t575" type="open" lemma="farmer" pos="N" morphofeat="NNS">
-      <span>
-        <target id="w575" />
-      </span>
-    </term>
-    <!--to-->
-    <term tid="t576" type="close" lemma="to" pos="P" morphofeat="TO">
-      <span>
-        <target id="w576" />
-      </span>
-    </term>
-    <!--stick-->
-    <term tid="t577" type="open" lemma="stick" pos="V" morphofeat="VB">
-      <span>
-        <target id="w577" />
-      </span>
-    </term>
-    <!--to-->
-    <term tid="t578" type="close" lemma="to" pos="P" morphofeat="TO">
-      <span>
-        <target id="w578" />
-      </span>
-    </term>
-    <!--legal-->
-    <term tid="t579" type="open" lemma="legal" pos="G" morphofeat="JJ">
-      <span>
-        <target id="w579" />
-      </span>
-    </term>
-    <!--crops-->
-    <term tid="t580" type="open" lemma="crop" pos="N" morphofeat="NNS">
-      <span>
-        <target id="w580" />
-      </span>
-    </term>
-    <!--than-->
-    <term tid="t581" type="close" lemma="than" pos="P" morphofeat="IN">
-      <span>
-        <target id="w581" />
-      </span>
-    </term>
-    <!--in-->
-    <term tid="t582" type="close" lemma="in" pos="P" morphofeat="IN">
-      <span>
-        <target id="w582" />
-      </span>
-    </term>
-    <!--the-->
-    <term tid="t583" type="close" lemma="the" pos="D" morphofeat="DT">
-      <span>
-        <target id="w583" />
-      </span>
-    </term>
-    <!--past-->
-    <term tid="t584" type="open" lemma="past" pos="N" morphofeat="NN">
-      <span>
-        <target id="w584" />
+        <target id="w537" />
       </span>
     </term>
     <!--,-->
-    <term tid="t585" type="close" lemma="," pos="O" morphofeat=",">
+    <term tid="t556" type="close" lemma="," pos="O" morphofeat=",">
       <span>
-        <target id="w585" />
+        <target id="w538" />
       </span>
     </term>
-    <!--the-->
-    <term tid="t586" type="close" lemma="the" pos="D" morphofeat="DT">
+    <!--creating-->
+    <term tid="t557" type="open" lemma="create" pos="V" morphofeat="VBG">
       <span>
-        <target id="w586" />
+        <target id="w539" />
       </span>
     </term>
-    <!--report-->
-    <term tid="t587" type="open" lemma="report" pos="N" morphofeat="NN">
+    <!--expectations-->
+    <term tid="t558" type="open" lemma="expectation" pos="N" morphofeat="NNS">
       <span>
-        <target id="w587" />
+        <target id="w540" />
       </span>
     </term>
-    <!--found-->
-    <term tid="t588" type="open" lemma="find" pos="V" morphofeat="VBD">
+    <!--of-->
+    <term tid="t559" type="close" lemma="of" pos="P" morphofeat="IN">
       <span>
-        <target id="w588" />
+        <target id="w541" />
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t560" type="close" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w542" />
+      </span>
+    </term>
+    <!--large-->
+    <term tid="t561" type="open" lemma="large" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w543" />
+      </span>
+    </term>
+    <!--crop-->
+    <term tid="t562" type="open" lemma="crop" pos="N" morphofeat="NN">
+      <span>
+        <target id="w544" />
       </span>
     </term>
     <!--.-->
-    <term tid="t589" type="close" lemma="." pos="O" morphofeat=".">
+    <term tid="t563" type="close" lemma="." pos="O" morphofeat=".">
       <span>
-        <target id="w589" />
+        <target id="w545" />
       </span>
     </term>
     <!--But-->
-    <term tid="t590" type="close" lemma="but" pos="C" morphofeat="CC">
+    <term tid="t564" type="close" lemma="but" pos="C" morphofeat="CC">
       <span>
         <target id="w590" />
       </span>
     </term>
     <!--overall-->
-    <term tid="t591" type="close" lemma="overall" pos="D" morphofeat="PDT">
+    <term tid="t565" type="close" lemma="overall" pos="D" morphofeat="PDT">
       <span>
         <target id="w591" />
       </span>
     </term>
     <!--the-->
-    <term tid="t592" type="close" lemma="the" pos="D" morphofeat="DT">
+    <term tid="t566" type="close" lemma="the" pos="D" morphofeat="DT">
       <span>
         <target id="w592" />
       </span>
     </term>
     <!--government-->
-    <term tid="t593" type="open" lemma="government" pos="N" morphofeat="NN">
+    <term tid="t567" type="open" lemma="government" pos="N" morphofeat="NN">
       <span>
         <target id="w593" />
       </span>
     </term>
     <!--and-->
-    <term tid="t594" type="close" lemma="and" pos="C" morphofeat="CC">
+    <term tid="t568" type="close" lemma="and" pos="C" morphofeat="CC">
       <span>
         <target id="w594" />
       </span>
     </term>
     <!--aid-->
-    <term tid="t595" type="open" lemma="aid" pos="N" morphofeat="NN">
+    <term tid="t569" type="open" lemma="aid" pos="N" morphofeat="NN">
       <span>
         <target id="w595" />
       </span>
     </term>
     <!--community-->
-    <term tid="t596" type="open" lemma="community" pos="N" morphofeat="NN">
+    <term tid="t570" type="open" lemma="community" pos="N" morphofeat="NN">
       <span>
         <target id="w596" />
       </span>
     </term>
     <!--has-->
-    <term tid="t597" type="open" lemma="have" pos="V" morphofeat="VBZ">
+    <term tid="t571" type="open" lemma="have" pos="V" morphofeat="VBZ">
       <span>
         <target id="w597" />
       </span>
     </term>
     <!--not-->
-    <term tid="t598" type="open" lemma="not" pos="A" morphofeat="RB">
+    <term tid="t572" type="open" lemma="not" pos="A" morphofeat="RB">
       <span>
         <target id="w598" />
       </span>
     </term>
     <!--prioritised-->
-    <term tid="t599" type="open" lemma="prioritise" pos="V" morphofeat="VBN">
+    <term tid="t573" type="open" lemma="prioritise" pos="V" morphofeat="VBN">
       <span>
         <target id="w599" />
       </span>
     </term>
     <!--efforts-->
-    <term tid="t600" type="open" lemma="effort" pos="N" morphofeat="NNS">
+    <term tid="t574" type="open" lemma="effort" pos="N" morphofeat="NNS">
       <span>
         <target id="w600" />
       </span>
     </term>
     <!--to-->
-    <term tid="t601" type="close" lemma="to" pos="P" morphofeat="TO">
+    <term tid="t575" type="close" lemma="to" pos="P" morphofeat="TO">
       <span>
         <target id="w601" />
       </span>
     </term>
     <!--cut-->
-    <term tid="t602" type="open" lemma="cut" pos="V" morphofeat="VB">
+    <term tid="t576" type="open" lemma="cut" pos="V" morphofeat="VB">
       <span>
         <target id="w602" />
       </span>
     </term>
     <!--back-->
-    <term tid="t603" type="open" lemma="back" pos="A" morphofeat="RB">
+    <term tid="t577" type="open" lemma="back" pos="A" morphofeat="RB">
       <span>
         <target id="w603" />
       </span>
     </term>
     <!--a-->
-    <term tid="t604" type="close" lemma="a" pos="D" morphofeat="DT">
+    <term tid="t578" type="close" lemma="a" pos="D" morphofeat="DT">
       <span>
         <target id="w604" />
       </span>
     </term>
     <!--crop-->
-    <term tid="t605" type="open" lemma="crop" pos="N" morphofeat="NN">
+    <term tid="t579" type="open" lemma="crop" pos="N" morphofeat="NN">
       <span>
         <target id="w605" />
       </span>
     </term>
     <!--and-->
-    <term tid="t606" type="close" lemma="and" pos="C" morphofeat="CC">
+    <term tid="t580" type="close" lemma="and" pos="C" morphofeat="CC">
       <span>
         <target id="w606" />
       </span>
     </term>
     <!--trade-->
-    <term tid="t607" type="open" lemma="trade" pos="V" morphofeat="VB">
+    <term tid="t581" type="open" lemma="trade" pos="V" morphofeat="VB">
       <span>
         <target id="w607" />
       </span>
     </term>
     <!--that-->
-    <term tid="t608" type="close" lemma="that" pos="P" morphofeat="IN">
+    <term tid="t582" type="close" lemma="that" pos="P" morphofeat="IN">
       <span>
         <target id="w608" />
       </span>
     </term>
     <!--feeds-->
-    <term tid="t609" type="open" lemma="feed" pos="V" morphofeat="VBZ">
+    <term tid="t583" type="open" lemma="feed" pos="V" morphofeat="VBZ">
       <span>
         <target id="w609" />
       </span>
     </term>
     <!--global-->
-    <term tid="t610" type="open" lemma="global" pos="G" morphofeat="JJ">
+    <term tid="t584" type="open" lemma="global" pos="G" morphofeat="JJ">
       <span>
         <target id="w610" />
       </span>
     </term>
     <!--markets-->
-    <term tid="t611" type="open" lemma="market" pos="N" morphofeat="NNS">
+    <term tid="t585" type="open" lemma="market" pos="N" morphofeat="NNS">
       <span>
         <target id="w611" />
       </span>
     </term>
     <!--for-->
-    <term tid="t612" type="close" lemma="for" pos="P" morphofeat="IN">
+    <term tid="t586" type="close" lemma="for" pos="P" morphofeat="IN">
       <span>
         <target id="w612" />
       </span>
     </term>
     <!--heroin-->
-    <term tid="t613" type="open" lemma="heroin" pos="N" morphofeat="NN">
+    <term tid="t587" type="open" lemma="heroin" pos="N" morphofeat="NN">
       <span>
         <target id="w613" />
       </span>
     </term>
     <!--,-->
-    <term tid="t614" type="close" lemma="," pos="O" morphofeat=",">
+    <term tid="t588" type="close" lemma="," pos="O" morphofeat=",">
       <span>
         <target id="w614" />
       </span>
     </term>
     <!--Lemahieu-->
-    <term tid="t615" type="close" lemma="Lemahieu" pos="R" morphofeat="NNP">
+    <term tid="t589" type="close" lemma="Lemahieu" pos="R" morphofeat="NNP">
       <span>
         <target id="w615" />
       </span>
     </term>
     <!--said-->
-    <term tid="t616" type="open" lemma="say" pos="V" morphofeat="VBD">
+    <term tid="t590" type="open" lemma="say" pos="V" morphofeat="VBD">
       <span>
         <target id="w616" />
       </span>
     </term>
     <!--,-->
-    <term tid="t617" type="close" lemma="," pos="O" morphofeat=",">
+    <term tid="t591" type="close" lemma="," pos="O" morphofeat=",">
       <span>
         <target id="w617" />
       </span>
     </term>
     <!--despite-->
-    <term tid="t618" type="close" lemma="despite" pos="P" morphofeat="IN">
+    <term tid="t592" type="close" lemma="despite" pos="P" morphofeat="IN">
       <span>
         <target id="w618" />
       </span>
     </term>
     <!--its-->
-    <term tid="t619" type="close" lemma="its" pos="Q" morphofeat="PRP$">
+    <term tid="t593" type="close" lemma="its" pos="Q" morphofeat="PRP$">
       <span>
         <target id="w619" />
       </span>
     </term>
     <!--corrosive-->
-    <term tid="t620" type="open" lemma="corrosive" pos="G" morphofeat="JJ">
+    <term tid="t594" type="open" lemma="corrosive" pos="G" morphofeat="JJ">
       <span>
         <target id="w620" />
       </span>
     </term>
     <!--effect-->
-    <term tid="t621" type="open" lemma="effect" pos="N" morphofeat="NN">
+    <term tid="t595" type="open" lemma="effect" pos="N" morphofeat="NN">
       <span>
         <target id="w621" />
       </span>
     </term>
     <!--on-->
-    <term tid="t622" type="close" lemma="on" pos="P" morphofeat="IN">
+    <term tid="t596" type="close" lemma="on" pos="P" morphofeat="IN">
       <span>
         <target id="w622" />
       </span>
     </term>
     <!--security-->
-    <term tid="t623" type="open" lemma="security" pos="N" morphofeat="NN">
+    <term tid="t597" type="open" lemma="security" pos="N" morphofeat="NN">
       <span>
         <target id="w623" />
       </span>
     </term>
     <!--,-->
-    <term tid="t624" type="close" lemma="," pos="O" morphofeat=",">
+    <term tid="t598" type="close" lemma="," pos="O" morphofeat=",">
       <span>
         <target id="w624" />
       </span>
     </term>
     <!--corruption-->
-    <term tid="t625" type="open" lemma="corruption" pos="N" morphofeat="NN">
+    <term tid="t599" type="open" lemma="corruption" pos="N" morphofeat="NN">
       <span>
         <target id="w625" />
       </span>
     </term>
     <!--and-->
-    <term tid="t626" type="close" lemma="and" pos="C" morphofeat="CC">
+    <term tid="t600" type="close" lemma="and" pos="C" morphofeat="CC">
       <span>
         <target id="w626" />
       </span>
     </term>
     <!--trust-->
-    <term tid="t627" type="open" lemma="trust" pos="N" morphofeat="NN">
+    <term tid="t601" type="open" lemma="trust" pos="N" morphofeat="NN">
       <span>
         <target id="w627" />
       </span>
     </term>
     <!--in-->
-    <term tid="t628" type="close" lemma="in" pos="P" morphofeat="IN">
+    <term tid="t602" type="close" lemma="in" pos="P" morphofeat="IN">
       <span>
         <target id="w628" />
       </span>
     </term>
     <!--Kabul-->
-    <term tid="t629" type="close" lemma="Kabul" pos="R" morphofeat="NNP">
+    <term tid="t603" type="close" lemma="Kabul" pos="R" morphofeat="NNP">
       <span>
         <target id="w629" />
       </span>
     </term>
     <!--.-->
-    <term tid="t630" type="close" lemma="." pos="O" morphofeat=".">
+    <term tid="t604" type="close" lemma="." pos="O" morphofeat=".">
       <span>
         <target id="w630" />
       </span>
     </term>
-    <!--Typical-->
-    <term tid="t631" type="open" lemma="typical" pos="G" morphofeat="JJ">
+    <!--Fear-->
+    <term tid="t605" type="open" lemma="fear" pos="N" morphofeat="NN">
       <span>
-        <target id="w631" />
+        <target id="w564" />
       </span>
     </term>
     <!--of-->
-    <term tid="t632" type="close" lemma="of" pos="P" morphofeat="IN">
+    <term tid="t606" type="close" lemma="of" pos="P" morphofeat="IN">
       <span>
-        <target id="w632" />
+        <target id="w565" />
       </span>
     </term>
-    <!--the-->
-    <term tid="t633" type="close" lemma="the" pos="D" morphofeat="DT">
+    <!--eradication-->
+    <term tid="t607" type="open" lemma="eradication" pos="N" morphofeat="NN">
       <span>
-        <target id="w633" />
+        <target id="w566" />
       </span>
     </term>
-    <!--official-->
-    <term tid="t634" type="open" lemma="official" pos="G" morphofeat="JJ">
+    <!--has-->
+    <term tid="t608" type="open" lemma="have" pos="V" morphofeat="VBZ">
       <span>
-        <target id="w634" />
+        <target id="w567" />
       </span>
     </term>
-    <!--neglect-->
-    <term tid="t635" type="open" lemma="neglect" pos="N" morphofeat="NN">
+    <!--become-->
+    <term tid="t609" type="open" lemma="become" pos="V" morphofeat="VBN">
       <span>
-        <target id="w635" />
+        <target id="w568" />
       </span>
     </term>
-    <!--are-->
-    <term tid="t636" type="open" lemma="be" pos="V" morphofeat="VBP">
+    <!--a-->
+    <term tid="t610" type="close" lemma="a" pos="D" morphofeat="DT">
       <span>
-        <target id="w636" />
+        <target id="w569" />
       </span>
     </term>
-    <!--the-->
-    <term tid="t637" type="close" lemma="the" pos="D" morphofeat="DT">
+    <!--far-->
+    <term tid="t611" type="open" lemma="far" pos="A" morphofeat="RB">
       <span>
-        <target id="w637" />
+        <target id="w570" />
       </span>
     </term>
-    <!--22-->
-    <term tid="t638" type="close" lemma="22" pos="O" morphofeat="CD">
+    <!--more-->
+    <term tid="t612" type="open" lemma="more" pos="G" morphofeat="JJR">
       <span>
-        <target id="w638" />
+        <target id="w571" />
       </span>
     </term>
-    <!--"national-->
-    <term tid="t639" type="open" lemma="&quot;national" pos="G" morphofeat="JJ">
+    <!--significant-->
+    <term tid="t613" type="open" lemma="significant" pos="G" morphofeat="JJ">
       <span>
-        <target id="w639" />
+        <target id="w572" />
       </span>
     </term>
-    <!--priority-->
-    <term tid="t640" type="open" lemma="priority" pos="N" morphofeat="NN">
+    <!--reason-->
+    <term tid="t614" type="open" lemma="reason" pos="N" morphofeat="NN">
       <span>
-        <target id="w640" />
+        <target id="w573" />
       </span>
     </term>
-    <!--programmes-->
-    <term tid="t641" type="open" lemma="programme" pos="N" morphofeat="NNS">
+    <!--for-->
+    <term tid="t615" type="close" lemma="for" pos="P" morphofeat="IN">
       <span>
-        <target id="w641" />
+        <target id="w574" />
       </span>
     </term>
-    <!--"-->
-    <term tid="t642" type="open" lemma="&quot;" pos="V" morphofeat="VBP">
+    <!--farmers-->
+    <term tid="t616" type="open" lemma="farmer" pos="N" morphofeat="NNS">
       <span>
-        <target id="w642" />
-      </span>
-    </term>
-    <!--drawn-->
-    <term tid="t643" type="open" lemma="draw" pos="V" morphofeat="VBN">
-      <span>
-        <target id="w643" />
-      </span>
-    </term>
-    <!--up-->
-    <term tid="t644" type="close" lemma="up" pos="O" morphofeat="RP">
-      <span>
-        <target id="w644" />
-      </span>
-    </term>
-    <!--by-->
-    <term tid="t645" type="close" lemma="by" pos="P" morphofeat="IN">
-      <span>
-        <target id="w645" />
-      </span>
-    </term>
-    <!--Kabul-->
-    <term tid="t646" type="close" lemma="Kabul" pos="R" morphofeat="NNP">
-      <span>
-        <target id="w646" />
+        <target id="w575" />
       </span>
     </term>
     <!--to-->
-    <term tid="t647" type="close" lemma="to" pos="P" morphofeat="TO">
+    <term tid="t617" type="close" lemma="to" pos="P" morphofeat="TO">
       <span>
-        <target id="w647" />
+        <target id="w576" />
       </span>
     </term>
-    <!--focus-->
-    <term tid="t648" type="open" lemma="focus" pos="V" morphofeat="VB">
+    <!--stick-->
+    <term tid="t618" type="open" lemma="stick" pos="V" morphofeat="VB">
       <span>
-        <target id="w648" />
+        <target id="w577" />
       </span>
     </term>
-    <!--aid-->
-    <term tid="t649" type="open" lemma="aid" pos="V" morphofeat="VB">
+    <!--to-->
+    <term tid="t619" type="close" lemma="to" pos="P" morphofeat="TO">
       <span>
-        <target id="w649" />
+        <target id="w578" />
       </span>
     </term>
-    <!--money-->
-    <term tid="t650" type="open" lemma="money" pos="N" morphofeat="NN">
+    <!--legal-->
+    <term tid="t620" type="open" lemma="legal" pos="G" morphofeat="JJ">
       <span>
-        <target id="w650" />
+        <target id="w579" />
       </span>
     </term>
-    <!--and-->
-    <term tid="t651" type="close" lemma="and" pos="C" morphofeat="CC">
+    <!--crops-->
+    <term tid="t621" type="open" lemma="crop" pos="N" morphofeat="NNS">
       <span>
-        <target id="w651" />
+        <target id="w580" />
       </span>
     </term>
-    <!--diplomatic-->
-    <term tid="t652" type="open" lemma="diplomatic" pos="G" morphofeat="JJ">
+    <!--than-->
+    <term tid="t622" type="close" lemma="than" pos="P" morphofeat="IN">
       <span>
-        <target id="w652" />
+        <target id="w581" />
       </span>
     </term>
-    <!--efforts-->
-    <term tid="t653" type="open" lemma="effort" pos="N" morphofeat="NNS">
+    <!--in-->
+    <term tid="t623" type="close" lemma="in" pos="P" morphofeat="IN">
       <span>
-        <target id="w653" />
+        <target id="w582" />
       </span>
     </term>
-    <!--on-->
-    <term tid="t654" type="close" lemma="on" pos="P" morphofeat="IN">
+    <!--the-->
+    <term tid="t624" type="close" lemma="the" pos="D" morphofeat="DT">
       <span>
-        <target id="w654" />
+        <target id="w583" />
       </span>
     </term>
-    <!--its-->
-    <term tid="t655" type="close" lemma="its" pos="Q" morphofeat="PRP$">
+    <!--past-->
+    <term tid="t625" type="open" lemma="past" pos="N" morphofeat="NN">
       <span>
-        <target id="w655" />
+        <target id="w584" />
       </span>
     </term>
-    <!--key-->
-    <term tid="t656" type="open" lemma="key" pos="G" morphofeat="JJ">
+    <!--,-->
+    <term tid="t626" type="close" lemma="," pos="O" morphofeat=",">
       <span>
-        <target id="w656" />
+        <target id="w585" />
       </span>
     </term>
-    <!--development-->
-    <term tid="t657" type="open" lemma="development" pos="N" morphofeat="NN">
+    <!--the-->
+    <term tid="t627" type="close" lemma="the" pos="D" morphofeat="DT">
       <span>
-        <target id="w657" />
+        <target id="w586" />
       </span>
     </term>
-    <!--concerns-->
-    <term tid="t658" type="open" lemma="concern" pos="N" morphofeat="NNS">
+    <!--report-->
+    <term tid="t628" type="open" lemma="report" pos="N" morphofeat="NN">
       <span>
-        <target id="w658" />
+        <target id="w587" />
       </span>
     </term>
-    <!--including-->
-    <term tid="t659" type="open" lemma="include" pos="V" morphofeat="VBG">
+    <!--found-->
+    <term tid="t629" type="open" lemma="find" pos="V" morphofeat="VBD">
       <span>
-        <target id="w659" />
-      </span>
-    </term>
-    <!--justice-->
-    <term tid="t660" type="open" lemma="justice" pos="N" morphofeat="NN">
-      <span>
-        <target id="w660" />
-      </span>
-    </term>
-    <!--and-->
-    <term tid="t661" type="close" lemma="and" pos="C" morphofeat="CC">
-      <span>
-        <target id="w661" />
-      </span>
-    </term>
-    <!--education-->
-    <term tid="t662" type="open" lemma="education" pos="N" morphofeat="NN">
-      <span>
-        <target id="w662" />
+        <target id="w588" />
       </span>
     </term>
     <!--.-->
-    <term tid="t663" type="close" lemma="." pos="O" morphofeat=".">
+    <term tid="t630" type="close" lemma="." pos="O" morphofeat=".">
       <span>
-        <target id="w663" />
+        <target id="w589" />
       </span>
     </term>
     <!--Counter-narcotics-->
-    <term tid="t664" type="open" lemma="counter-narcotics" pos="N" morphofeat="NNS">
+    <term tid="t631" type="open" lemma="counter-narcotics" pos="N" morphofeat="NNS">
       <span>
         <target id="w664" />
       </span>
     </term>
     <!--was-->
-    <term tid="t665" type="open" lemma="be" pos="V" morphofeat="VBD">
+    <term tid="t632" type="open" lemma="be" pos="V" morphofeat="VBD">
       <span>
         <target id="w665" />
       </span>
     </term>
     <!--not-->
-    <term tid="t666" type="open" lemma="not" pos="A" morphofeat="RB">
+    <term tid="t633" type="open" lemma="not" pos="A" morphofeat="RB">
       <span>
         <target id="w666" />
       </span>
     </term>
     <!--one-->
-    <term tid="t667" type="close" lemma="one" pos="O" morphofeat="CD">
+    <term tid="t634" type="close" lemma="one" pos="O" morphofeat="CD">
       <span>
         <target id="w667" />
       </span>
     </term>
     <!--of-->
-    <term tid="t668" type="close" lemma="of" pos="P" morphofeat="IN">
+    <term tid="t635" type="close" lemma="of" pos="P" morphofeat="IN">
       <span>
         <target id="w668" />
       </span>
     </term>
     <!--them-->
-    <term tid="t669" type="close" lemma="them" pos="Q" morphofeat="PRP">
+    <term tid="t636" type="close" lemma="them" pos="Q" morphofeat="PRP">
       <span>
         <target id="w669" />
       </span>
     </term>
     <!--,-->
-    <term tid="t670" type="close" lemma="," pos="O" morphofeat=",">
+    <term tid="t637" type="close" lemma="," pos="O" morphofeat=",">
       <span>
         <target id="w670" />
       </span>
     </term>
     <!--nor-->
-    <term tid="t671" type="close" lemma="nor" pos="C" morphofeat="CC">
+    <term tid="t638" type="close" lemma="nor" pos="C" morphofeat="CC">
       <span>
         <target id="w671" />
       </span>
     </term>
     <!--has-->
-    <term tid="t672" type="open" lemma="have" pos="V" morphofeat="VBZ">
+    <term tid="t639" type="open" lemma="have" pos="V" morphofeat="VBZ">
       <span>
         <target id="w672" />
       </span>
     </term>
     <!--it-->
-    <term tid="t673" type="close" lemma="it" pos="Q" morphofeat="PRP">
+    <term tid="t640" type="close" lemma="it" pos="Q" morphofeat="PRP">
       <span>
         <target id="w673" />
       </span>
     </term>
     <!--been-->
-    <term tid="t674" type="open" lemma="be" pos="V" morphofeat="VBN">
+    <term tid="t641" type="open" lemma="be" pos="V" morphofeat="VBN">
       <span>
         <target id="w674" />
       </span>
     </term>
     <!--put-->
-    <term tid="t675" type="open" lemma="put" pos="V" morphofeat="VBN">
+    <term tid="t642" type="open" lemma="put" pos="V" morphofeat="VBN">
       <span>
         <target id="w675" />
       </span>
     </term>
     <!--at-->
-    <term tid="t676" type="close" lemma="at" pos="P" morphofeat="IN">
+    <term tid="t643" type="close" lemma="at" pos="P" morphofeat="IN">
       <span>
         <target id="w676" />
       </span>
     </term>
     <!--the-->
-    <term tid="t677" type="close" lemma="the" pos="D" morphofeat="DT">
+    <term tid="t644" type="close" lemma="the" pos="D" morphofeat="DT">
       <span>
         <target id="w677" />
       </span>
     </term>
     <!--heart-->
-    <term tid="t678" type="open" lemma="heart" pos="N" morphofeat="NN">
+    <term tid="t645" type="open" lemma="heart" pos="N" morphofeat="NN">
       <span>
         <target id="w678" />
       </span>
     </term>
     <!--of-->
-    <term tid="t679" type="close" lemma="of" pos="P" morphofeat="IN">
+    <term tid="t646" type="close" lemma="of" pos="P" morphofeat="IN">
       <span>
         <target id="w679" />
       </span>
     </term>
     <!--the-->
-    <term tid="t680" type="close" lemma="the" pos="D" morphofeat="DT">
+    <term tid="t647" type="close" lemma="the" pos="D" morphofeat="DT">
       <span>
         <target id="w680" />
       </span>
     </term>
     <!--other-->
-    <term tid="t681" type="open" lemma="other" pos="G" morphofeat="JJ">
+    <term tid="t648" type="open" lemma="other" pos="G" morphofeat="JJ">
       <span>
         <target id="w681" />
       </span>
     </term>
     <!--programmes-->
-    <term tid="t682" type="open" lemma="programme" pos="N" morphofeat="NNS">
+    <term tid="t649" type="open" lemma="programme" pos="N" morphofeat="NNS">
       <span>
         <target id="w682" />
       </span>
     </term>
     <!--.-->
-    <term tid="t683" type="close" lemma="." pos="O" morphofeat=".">
+    <term tid="t650" type="close" lemma="." pos="O" morphofeat=".">
       <span>
         <target id="w683" />
       </span>
     </term>
+    <!--Typical-->
+    <term tid="t651" type="open" lemma="typical" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w631" />
+      </span>
+    </term>
+    <!--of-->
+    <term tid="t652" type="close" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w632" />
+      </span>
+    </term>
+    <!--the-->
+    <term tid="t653" type="close" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w633" />
+      </span>
+    </term>
+    <!--official-->
+    <term tid="t654" type="open" lemma="official" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w634" />
+      </span>
+    </term>
+    <!--neglect-->
+    <term tid="t655" type="open" lemma="neglect" pos="N" morphofeat="NN">
+      <span>
+        <target id="w635" />
+      </span>
+    </term>
+    <!--are-->
+    <term tid="t656" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w636" />
+      </span>
+    </term>
+    <!--the-->
+    <term tid="t657" type="close" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w637" />
+      </span>
+    </term>
+    <!--22-->
+    <term tid="t658" type="close" lemma="22" pos="O" morphofeat="CD">
+      <span>
+        <target id="w638" />
+      </span>
+    </term>
+    <!--"national-->
+    <term tid="t659" type="open" lemma="&quot;national" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w639" />
+      </span>
+    </term>
+    <!--priority-->
+    <term tid="t660" type="open" lemma="priority" pos="N" morphofeat="NN">
+      <span>
+        <target id="w640" />
+      </span>
+    </term>
+    <!--programmes-->
+    <term tid="t661" type="open" lemma="programme" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w641" />
+      </span>
+    </term>
     <!--"-->
-    <term tid="t684" type="open" lemma="&quot;" pos="N" morphofeat="NN">
+    <term tid="t662" type="open" lemma="&quot;" pos="V" morphofeat="VBP">
       <span>
-        <target id="w684" />
+        <target id="w642" />
       </span>
     </term>
-    <!--We-->
-    <term tid="t685" type="close" lemma="we" pos="Q" morphofeat="PRP">
+    <!--drawn-->
+    <term tid="t663" type="open" lemma="draw" pos="V" morphofeat="VBN">
       <span>
-        <target id="w685" />
+        <target id="w643" />
       </span>
     </term>
-    <!--need-->
-    <term tid="t686" type="open" lemma="need" pos="V" morphofeat="VBP">
+    <!--up-->
+    <term tid="t664" type="close" lemma="up" pos="O" morphofeat="RP">
       <span>
-        <target id="w686" />
-      </span>
-    </term>
-    <!--to-->
-    <term tid="t687" type="close" lemma="to" pos="P" morphofeat="TO">
-      <span>
-        <target id="w687" />
-      </span>
-    </term>
-    <!--have-->
-    <term tid="t688" type="open" lemma="have" pos="V" morphofeat="VB">
-      <span>
-        <target id="w688" />
-      </span>
-    </term>
-    <!--counter-narcotics-->
-    <term tid="t689" type="open" lemma="counter-narcotics" pos="N" morphofeat="NNS">
-      <span>
-        <target id="w689" />
-      </span>
-    </term>
-    <!--dealt-->
-    <term tid="t690" type="open" lemma="dealt" pos="V" morphofeat="VB">
-      <span>
-        <target id="w690" />
-      </span>
-    </term>
-    <!--with-->
-    <term tid="t691" type="close" lemma="with" pos="P" morphofeat="IN">
-      <span>
-        <target id="w691" />
-      </span>
-    </term>
-    <!--seriously-->
-    <term tid="t692" type="open" lemma="seriously" pos="A" morphofeat="RB">
-      <span>
-        <target id="w692" />
+        <target id="w644" />
       </span>
     </term>
     <!--by-->
-    <term tid="t693" type="close" lemma="by" pos="P" morphofeat="IN">
+    <term tid="t665" type="close" lemma="by" pos="P" morphofeat="IN">
       <span>
-        <target id="w693" />
+        <target id="w645" />
       </span>
     </term>
-    <!--the-->
-    <term tid="t694" type="close" lemma="the" pos="D" morphofeat="DT">
+    <!--Kabul-->
+    <term tid="t666" type="close" lemma="Kabul" pos="R" morphofeat="NNP">
       <span>
-        <target id="w694" />
+        <target id="w646" />
       </span>
     </term>
-    <!--entire-->
-    <term tid="t695" type="open" lemma="entire" pos="G" morphofeat="JJ">
+    <!--to-->
+    <term tid="t667" type="close" lemma="to" pos="P" morphofeat="TO">
       <span>
-        <target id="w695" />
+        <target id="w647" />
       </span>
     </term>
-    <!--government-->
-    <term tid="t696" type="open" lemma="government" pos="N" morphofeat="NN">
+    <!--focus-->
+    <term tid="t668" type="open" lemma="focus" pos="V" morphofeat="VB">
       <span>
-        <target id="w696" />
-      </span>
-    </term>
-    <!--as-->
-    <term tid="t697" type="open" lemma="as" pos="A" morphofeat="RB">
-      <span>
-        <target id="w697" />
-      </span>
-    </term>
-    <!--well-->
-    <term tid="t698" type="open" lemma="well" pos="A" morphofeat="RB">
-      <span>
-        <target id="w698" />
-      </span>
-    </term>
-    <!--as-->
-    <term tid="t699" type="close" lemma="as" pos="P" morphofeat="IN">
-      <span>
-        <target id="w699" />
-      </span>
-    </term>
-    <!--the-->
-    <term tid="t700" type="close" lemma="the" pos="D" morphofeat="DT">
-      <span>
-        <target id="w700" />
+        <target id="w648" />
       </span>
     </term>
     <!--aid-->
-    <term tid="t701" type="open" lemma="aid" pos="N" morphofeat="NN">
+    <term tid="t669" type="open" lemma="aid" pos="V" morphofeat="VB">
       <span>
-        <target id="w701" />
+        <target id="w649" />
       </span>
     </term>
-    <!--community-->
-    <term tid="t702" type="open" lemma="community" pos="N" morphofeat="NN">
+    <!--money-->
+    <term tid="t670" type="open" lemma="money" pos="N" morphofeat="NN">
       <span>
-        <target id="w702" />
+        <target id="w650" />
       </span>
     </term>
-    <!--,-->
-    <term tid="t703" type="close" lemma="," pos="O" morphofeat=",">
+    <!--and-->
+    <term tid="t671" type="close" lemma="and" pos="C" morphofeat="CC">
       <span>
-        <target id="w703" />
+        <target id="w651" />
       </span>
     </term>
-    <!--"-->
-    <term tid="t704" type="open" lemma="&quot;" pos="N" morphofeat="NN">
+    <!--diplomatic-->
+    <term tid="t672" type="open" lemma="diplomatic" pos="G" morphofeat="JJ">
       <span>
-        <target id="w704" />
+        <target id="w652" />
       </span>
     </term>
-    <!--Lemahieu-->
-    <term tid="t705" type="close" lemma="Lemahieu" pos="R" morphofeat="NNP">
+    <!--efforts-->
+    <term tid="t673" type="open" lemma="effort" pos="N" morphofeat="NNS">
       <span>
-        <target id="w705" />
+        <target id="w653" />
       </span>
     </term>
-    <!--said-->
-    <term tid="t706" type="open" lemma="say" pos="V" morphofeat="VBD">
+    <!--on-->
+    <term tid="t674" type="close" lemma="on" pos="P" morphofeat="IN">
       <span>
-        <target id="w706" />
+        <target id="w654" />
+      </span>
+    </term>
+    <!--its-->
+    <term tid="t675" type="close" lemma="its" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w655" />
+      </span>
+    </term>
+    <!--key-->
+    <term tid="t676" type="open" lemma="key" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w656" />
+      </span>
+    </term>
+    <!--development-->
+    <term tid="t677" type="open" lemma="development" pos="N" morphofeat="NN">
+      <span>
+        <target id="w657" />
+      </span>
+    </term>
+    <!--concerns-->
+    <term tid="t678" type="open" lemma="concern" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w658" />
+      </span>
+    </term>
+    <!--including-->
+    <term tid="t679" type="open" lemma="include" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w659" />
+      </span>
+    </term>
+    <!--justice-->
+    <term tid="t680" type="open" lemma="justice" pos="N" morphofeat="NN">
+      <span>
+        <target id="w660" />
+      </span>
+    </term>
+    <!--and-->
+    <term tid="t681" type="close" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w661" />
+      </span>
+    </term>
+    <!--education-->
+    <term tid="t682" type="open" lemma="education" pos="N" morphofeat="NN">
+      <span>
+        <target id="w662" />
       </span>
     </term>
     <!--.-->
-    <term tid="t707" type="close" lemma="." pos="O" morphofeat=".">
+    <term tid="t683" type="close" lemma="." pos="O" morphofeat=".">
       <span>
-        <target id="w707" />
+        <target id="w663" />
       </span>
     </term>
     <!--"-->
-    <term tid="t708" type="open" lemma="&quot;" pos="N" morphofeat="NN">
+    <term tid="t684" type="open" lemma="&quot;" pos="G" morphofeat="JJ">
       <span>
         <target id="w708" />
       </span>
     </term>
     <!--One-->
-    <term tid="t709" type="close" lemma="one" pos="O" morphofeat="CD">
+    <term tid="t685" type="close" lemma="one" pos="O" morphofeat="CD">
       <span>
         <target id="w709" />
       </span>
     </term>
     <!--of-->
-    <term tid="t710" type="close" lemma="of" pos="P" morphofeat="IN">
+    <term tid="t686" type="close" lemma="of" pos="P" morphofeat="IN">
       <span>
         <target id="w710" />
       </span>
     </term>
     <!--the-->
-    <term tid="t711" type="close" lemma="the" pos="D" morphofeat="DT">
+    <term tid="t687" type="close" lemma="the" pos="D" morphofeat="DT">
       <span>
         <target id="w711" />
       </span>
     </term>
     <!--big-->
-    <term tid="t712" type="open" lemma="big" pos="G" morphofeat="JJ">
+    <term tid="t688" type="open" lemma="big" pos="G" morphofeat="JJ">
       <span>
         <target id="w712" />
       </span>
     </term>
     <!--missing-->
-    <term tid="t713" type="open" lemma="missing" pos="G" morphofeat="JJ">
+    <term tid="t689" type="open" lemma="missing" pos="G" morphofeat="JJ">
       <span>
         <target id="w713" />
       </span>
     </term>
     <!--links-->
-    <term tid="t714" type="open" lemma="link" pos="N" morphofeat="NNS">
+    <term tid="t690" type="open" lemma="link" pos="N" morphofeat="NNS">
       <span>
         <target id="w714" />
       </span>
     </term>
     <!--here-->
-    <term tid="t715" type="open" lemma="here" pos="A" morphofeat="RB">
+    <term tid="t691" type="open" lemma="here" pos="A" morphofeat="RB">
       <span>
         <target id="w715" />
       </span>
     </term>
     <!--is-->
-    <term tid="t716" type="open" lemma="be" pos="V" morphofeat="VBZ">
+    <term tid="t692" type="open" lemma="be" pos="V" morphofeat="VBZ">
       <span>
         <target id="w716" />
       </span>
     </term>
     <!--providing-->
-    <term tid="t717" type="open" lemma="provide" pos="V" morphofeat="VBG">
+    <term tid="t693" type="open" lemma="provide" pos="V" morphofeat="VBG">
       <span>
         <target id="w717" />
       </span>
     </term>
     <!--for-->
-    <term tid="t718" type="close" lemma="for" pos="P" morphofeat="IN">
+    <term tid="t694" type="close" lemma="for" pos="P" morphofeat="IN">
       <span>
         <target id="w718" />
       </span>
     </term>
     <!--the-->
-    <term tid="t719" type="close" lemma="the" pos="D" morphofeat="DT">
+    <term tid="t695" type="close" lemma="the" pos="D" morphofeat="DT">
       <span>
         <target id="w719" />
       </span>
     </term>
     <!--communities-->
-    <term tid="t720" type="open" lemma="community" pos="N" morphofeat="NNS">
+    <term tid="t696" type="open" lemma="community" pos="N" morphofeat="NNS">
       <span>
         <target id="w720" />
       </span>
     </term>
     <!--themselves-->
-    <term tid="t721" type="close" lemma="themselves" pos="Q" morphofeat="PRP">
+    <term tid="t697" type="close" lemma="themselves" pos="Q" morphofeat="PRP">
       <span>
         <target id="w721" />
       </span>
     </term>
     <!--.-->
-    <term tid="t722" type="close" lemma="." pos="O" morphofeat=".">
+    <term tid="t698" type="close" lemma="." pos="O" morphofeat=".">
       <span>
         <target id="w722" />
       </span>
     </term>
     <!--"-->
-    <term tid="t723" type="open" lemma="&quot;" pos="A" morphofeat="RB">
+    <term tid="t699" type="open" lemma="&quot;" pos="A" morphofeat="RB">
       <span>
         <target id="w723" />
       </span>
     </term>
+    <!--"-->
+    <term tid="t700" type="open" lemma="&quot;" pos="N" morphofeat="NN">
+      <span>
+        <target id="w684" />
+      </span>
+    </term>
+    <!--We-->
+    <term tid="t701" type="close" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w685" />
+      </span>
+    </term>
+    <!--need-->
+    <term tid="t702" type="open" lemma="need" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w686" />
+      </span>
+    </term>
+    <!--to-->
+    <term tid="t703" type="close" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w687" />
+      </span>
+    </term>
+    <!--have-->
+    <term tid="t704" type="open" lemma="have" pos="V" morphofeat="VB">
+      <span>
+        <target id="w688" />
+      </span>
+    </term>
+    <!--counter-narcotics-->
+    <term tid="t705" type="open" lemma="counter-narcotics" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w689" />
+      </span>
+    </term>
+    <!--dealt-->
+    <term tid="t706" type="open" lemma="dealt" pos="V" morphofeat="VB">
+      <span>
+        <target id="w690" />
+      </span>
+    </term>
+    <!--with-->
+    <term tid="t707" type="close" lemma="with" pos="P" morphofeat="IN">
+      <span>
+        <target id="w691" />
+      </span>
+    </term>
+    <!--seriously-->
+    <term tid="t708" type="open" lemma="seriously" pos="A" morphofeat="RB">
+      <span>
+        <target id="w692" />
+      </span>
+    </term>
+    <!--by-->
+    <term tid="t709" type="close" lemma="by" pos="P" morphofeat="IN">
+      <span>
+        <target id="w693" />
+      </span>
+    </term>
+    <!--the-->
+    <term tid="t710" type="close" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w694" />
+      </span>
+    </term>
+    <!--entire-->
+    <term tid="t711" type="open" lemma="entire" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w695" />
+      </span>
+    </term>
+    <!--government-->
+    <term tid="t712" type="open" lemma="government" pos="N" morphofeat="NN">
+      <span>
+        <target id="w696" />
+      </span>
+    </term>
+    <!--as-->
+    <term tid="t713" type="open" lemma="as" pos="A" morphofeat="RB">
+      <span>
+        <target id="w697" />
+      </span>
+    </term>
+    <!--well-->
+    <term tid="t714" type="open" lemma="well" pos="A" morphofeat="RB">
+      <span>
+        <target id="w698" />
+      </span>
+    </term>
+    <!--as-->
+    <term tid="t715" type="close" lemma="as" pos="P" morphofeat="IN">
+      <span>
+        <target id="w699" />
+      </span>
+    </term>
+    <!--the-->
+    <term tid="t716" type="close" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w700" />
+      </span>
+    </term>
+    <!--aid-->
+    <term tid="t717" type="open" lemma="aid" pos="N" morphofeat="NN">
+      <span>
+        <target id="w701" />
+      </span>
+    </term>
+    <!--community-->
+    <term tid="t718" type="open" lemma="community" pos="N" morphofeat="NN">
+      <span>
+        <target id="w702" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t719" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w703" />
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t720" type="open" lemma="&quot;" pos="N" morphofeat="NN">
+      <span>
+        <target id="w704" />
+      </span>
+    </term>
+    <!--Lemahieu-->
+    <term tid="t721" type="close" lemma="Lemahieu" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w705" />
+      </span>
+    </term>
+    <!--said-->
+    <term tid="t722" type="open" lemma="say" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w706" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t723" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w707" />
+      </span>
+    </term>
     <!--Eradication-->
-    <term tid="t724" type="close" lemma="Eradication" pos="R" morphofeat="NNP">
+    <term tid="t724" type="open" lemma="eradication" pos="N" morphofeat="NN">
       <span>
         <target id="w724" />
       </span>
     </term>
     <!--programmes-->
-    <term tid="t725" type="open" lemma="programme" pos="V" morphofeat="VBZ">
+    <term tid="t725" type="open" lemma="programme" pos="N" morphofeat="NNS">
       <span>
         <target id="w725" />
       </span>
     </term>
     <!--that-->
-    <term tid="t726" type="close" lemma="that" pos="D" morphofeat="DT">
+    <term tid="t726" type="close" lemma="that" pos="O" morphofeat="WDT">
       <span>
         <target id="w726" />
       </span>
@@ -5354,4 +5354,5 @@
       </span>
     </term>
   </terms>
+  <features />
 </KAF>

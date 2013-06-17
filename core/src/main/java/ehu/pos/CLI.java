@@ -35,12 +35,12 @@ import net.sourceforge.argparse4j.inf.ArgumentParserException;
 import net.sourceforge.argparse4j.inf.MutuallyExclusiveGroup;
 import net.sourceforge.argparse4j.inf.Namespace;
 
-import org.jdom2.JDOMException;
-
 import ehu.lemmatize.Dictionary;
 import ehu.lemmatize.JWNLemmatizer;
 import ehu.lemmatize.MorfologikLemmatizer;
 import ehu.lemmatize.SimpleLemmatizer;
+
+import org.jdom2.JDOMException;
 
 /**
  * EHU POS tagging using Apache OpenNLP. 
@@ -67,8 +67,7 @@ public class CLI {
    * @throws JWNLException
    */
 
-  public static void main(String[] args) throws IOException, JDOMException,
-      JWNLException {
+  public static void main(String[] args) throws IOException, JWNLException, JDOMException {
 
     Namespace parsedArguments = null;
 
