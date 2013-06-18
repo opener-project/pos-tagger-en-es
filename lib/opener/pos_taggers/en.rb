@@ -20,7 +20,7 @@ module Opener
       end
       
       def kernel
-        core_dir+'/ehu-pos-1.0.jar'
+        core_dir+'/target/ehu-pos-1.0.jar'
       end      
       
     end
