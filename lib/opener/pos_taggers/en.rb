@@ -33,7 +33,7 @@ module Opener
       # @return [String]
       #
       def command(opts=[])
-        "java -jar #{kernel} -l en #{opts.join(' ')}"
+        "java -jar #{kernel} -l #{lang} #{opts.join(' ')}"
       end
 
       ##
@@ -62,9 +62,16 @@ module Opener
       def kernel
         core_dir+'/target/ehu-pos-1.0.jar'
       end 
+      
+      def lang
+        'en'
+      end
     end # EN
 
     class ES < EN
+      def lang
+        'es'
+      end
     end # ES
 
   end # POSTaggers
