@@ -1,7 +1,7 @@
 require File.expand_path('../lib/opener/pos_taggers/en/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name          = "opener-pos-tagger-en"
+  gem.name          = "opener-pos-tagger-en-es"
   gem.version       = Opener::POSTaggers::EN::VERSION
   gem.authors       = ["development@olery.com"]
   gem.summary       = "POS tagging for english"
