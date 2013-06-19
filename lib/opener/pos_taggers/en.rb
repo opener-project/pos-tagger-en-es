@@ -10,8 +10,6 @@ module Opener
     #  @return [Array]
     # @!attribute [r] options
     #  @return [Hash]
-    # @!attribute [r] option_parser
-    #  @return [OptionParser]
     #
     class EN
       attr_reader :args, :options
