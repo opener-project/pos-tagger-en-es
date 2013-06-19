@@ -32,8 +32,8 @@ module Opener
       #
       # @return [String]
       #
-      def command(opts=[])
-        "java -jar #{kernel} -l #{lang} #{opts.join(' ')}"
+      def command
+        "java -jar #{kernel} -l #{lang} #{args.join(' ')}"
       end
 
       ##
