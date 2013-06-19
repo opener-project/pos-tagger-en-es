@@ -1,6 +1,6 @@
-# English POS Tagger
+# English & Spanish POS Tagger
 
-This repository contains the source code for the English POS tagger of the
+This repository contains the source code for the English & Spanish POS tagger of the
 OpeNER project.
 
 English perceptron models have been trained and evaluated using the WSJ
@@ -8,6 +8,10 @@ treebank as explained in K. Toutanova, D. Klein, and C. D. Manning.
 Feature-rich part-of-speech tagging with a cyclic dependency network.  In
 Proceedings of HLT-NAACL’03, 2003. Currently we obtain a performance of 96.48%
 vs 97.24% obtained by Toutanova et al. (2003).
+
+Spanish Maximum Entropy models have been trained and evaluated using the Ancora 
+corpus; it was randomly divided in 90% for training (440K words) and 10% testing
+(70K words), obtaining a performance of 98.88%.
 
 ## Requirements
 
@@ -20,23 +24,23 @@ vs 97.24% obtained by Toutanova et al. (2003).
 
 Using RubyGems:
 
-    gem install opener-pos-tagger-en
+    gem install opener-pos-tagger-en-es
 
 Using Bundler:
 
-    gem 'opener-pos-tagger-en',
-      :git    => 'git@github.com/opener-project/pos-tagger-en.git',
+    gem 'opener-pos-tagger-en-es',
+      :git    => 'git@github.com/opener-project/pos-tagger-en-es.git',
       :branch => 'master'
 
 Using specific install:
 
     gem install specific_install
-    gem specific_install opener-pos-tagger-en \
-        -l https://github.com/opener-project/pos-tagger-en.git
+    gem specific_install opener-pos-tagger-en-es \
+        -l https://github.com/opener-project/pos-tagger-en-es.git
 
 ## Usage
 
-    cat some_input_file.kaf | pos-tagger-en
+    cat some_input_file.kaf | pos-tagger-en-es
 
 ## Contributing
 
