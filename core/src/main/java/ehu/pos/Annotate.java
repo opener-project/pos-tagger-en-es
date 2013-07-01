@@ -98,6 +98,30 @@ public class Annotate {
     }
   }
   
+  private String mapDutchTagSetToKaf(String postag) {
+    if (postag.startsWith("Adv")) {
+      return "A"; // adverb
+    } else if (postag.equalsIgnoreCase("Conj")) {
+      return "C"; // conjunction
+    } else if (postag.startsWith("Art")) {
+      return "D"; // determiner 
+    } else if (postag.startsWith("Adj")) {
+      return "G"; // adjective
+    } else if (postag.equalsIgnoreCase("N")) {
+      return "N"; // common noun
+    } else if (postag.startsWith("N")) {
+      return "N"; // proper noun
+    } else if (postag.equalsIgnoreCase("Prep")) {
+      return "P"; // preposition
+    } else if (postag.startsWith("Pron")) {
+      return "Q"; // pronoun
+    } else if (postag.startsWith("V")) {
+      return "V"; // verb
+    } else {
+      return "O"; // other
+    }
+  }
+  
   private String getKafTagSet(String lang, String postag) {
     String tag = null;
     if (lang.equalsIgnoreCase("en")) { 
@@ -105,6 +129,9 @@ public class Annotate {
     }
     if (lang.equalsIgnoreCase("es")) { 
       tag = this.mapSpanishTagSetToKaf(postag);
+    }
+    if (lang.equalsIgnoreCase("nl")) { 
+      tag = this.mapDutchTagSetToKaf(postag);
     }
     return tag;
   }

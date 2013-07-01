@@ -38,6 +38,11 @@ public class Resources {
       posModel = getClass().getResourceAsStream(
           "/es-pos-perceptron-500-0.bin");
     }
+    
+    if (cmdOption.equalsIgnoreCase("nl")) { 
+      posModel = getClass().getResourceAsStream("/nl-pos-perceptron.bin");
+    }
+    
     return posModel;
   }
 
@@ -49,6 +54,11 @@ public class Resources {
 	  if (cmdOption.equalsIgnoreCase("es")) {
 		  dict = getClass().getResourceAsStream("/es-lemmas.dict");
 	  }
+	  
+	  if (cmdOption.equalsIgnoreCase("nl")) { 
+	    dict = getClass().getResourceAsStream("/nl-lemmas.dict");
+	  }
+	  
 	  return dict;
   }
 
@@ -59,6 +69,10 @@ public class Resources {
 
 	  if (cmdOption.equalsIgnoreCase("es")) {
 		  dictURL = getClass().getResource("/spanish.dict");
+	  }
+	  
+	  if (cmdOption.equalsIgnoreCase("nl")) { 
+	    dictURL = getClass().getResource("/dutch.dict");
 	  }
 	  return dictURL;
   }
@@ -72,6 +86,11 @@ public class Resources {
     if (lang.equalsIgnoreCase("es")) {
       if (postag.startsWith("NP")){
         constantTag = "NP00000";
+      }
+    }
+    if (lang.equalsIgnoreCase("nl")) { 
+      if (postag.startsWith("N")) { 
+        constantTag = "N";
       }
     }
     return constantTag;

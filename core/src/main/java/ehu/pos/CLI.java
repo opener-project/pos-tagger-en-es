@@ -80,7 +80,7 @@ public class CLI {
     // specify language
     parser
         .addArgument("-l", "--lang")
-        .choices("en", "es")
+        .choices("en", "es", "nl")
         .required(true)
         .help(
             "It is REQUIRED to choose a language to perform annotation with ehu-pos");
