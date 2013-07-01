@@ -52,15 +52,15 @@ module Opener
       #
       def core_dir
         File.expand_path("../../../core", File.dirname(__FILE__))
-      end  
+      end
 
       ##
       # @return [String]
       #
       def kernel
         core_dir+'/target/ehu-pos-1.0.jar'
-      end 
-      
+      end
+
       def lang
         'en'
       end
@@ -71,6 +71,13 @@ module Opener
         'es'
       end
     end # ES
+
+    class NL < EN
+      def lang
+        'nl'
+      end
+    end # ES
+
 
   end # POSTaggers
 end # Opener
