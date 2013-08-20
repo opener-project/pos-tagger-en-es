@@ -1,5 +1,7 @@
 # English & Spanish POS Tagger
 
+**Modified to also do Dutch**
+
 This repository contains the source code for the English & Spanish POS tagger of the
 OpeNER project.
 
