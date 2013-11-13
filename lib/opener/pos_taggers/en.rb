@@ -15,14 +15,21 @@ module Opener
       attr_reader :args, :options
 
       ##
+      # The default language to use.
+      #
+      # @return [String]
+      #
+      DEFAULT_LANGUAGE = 'en'.freeze
+
+      ##
       # @param [Hash] options
       #
       # @option options [Array] :args The commandline arguments to pass to the
       #  underlying Python script.
       #
       def initialize(options = {})
-        @args          = options.delete(:args) || []
-        @options       = options
+        @args    = options.delete(:args) || []
+        @options = options
       end
 
       ##
@@ -31,7 +38,7 @@ module Opener
       # @return [String]
       #
       def command
-        "java -jar #{kernel} -l #{lang} #{args.join(' ')}"
+        "java -jar #{kernel} -l #{language} #{args.join(' ')}"
       end
 
       ##
@@ -61,14 +68,20 @@ module Opener
         core_dir+'/target/ehu-pos-1.0.jar'
       end
 
-      def lang
-        'en'
+      ##
+      # @return [String]
+      #
+      def language
+        return options[:language] || DEFAULT_LANGUAGE
       end
     end # EN
 
     class ES < EN
-      def lang
-        'es'
+      ##
+      # @return [String]
+      #
+      def language
+        return 'es'
       end
     end # ES
   end # POSTaggers
