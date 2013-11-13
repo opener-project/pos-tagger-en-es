@@ -71,20 +71,5 @@ module Opener
         'es'
       end
     end # ES
-
-    class NL < EN
-      def lang
-        'nl'
-      end
-    end # ES
-
-
   end # POSTaggers
 end # Opener
-
-
-
-
-
-
-
