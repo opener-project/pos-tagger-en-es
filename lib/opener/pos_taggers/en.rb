@@ -56,7 +56,7 @@ module Opener
         input     = StringIO.new(input) unless input.kind_of?(IO)
         reader    = InputStreamReader.new(input.to_inputstream)
         kaf       = KAFDocument.create_from_stream(reader)
-        annotator = Annotate.new(language)
+        annotator = Java::ehu.pos.Annotate.new(language)
 
         kaf.addLinguisticProcessor("terms","ehu-pos-"+language,"now","1.0");
         annotator.annotatePOSToKAF(kaf, lemmatizer, language)
