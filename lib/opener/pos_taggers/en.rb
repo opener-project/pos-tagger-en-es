@@ -46,15 +46,6 @@ module Opener
       end
 
       ##
-      # Builds the command used to execute the kernel.
-      #
-      # @return [String]
-      #
-      def command
-        "java -jar #{kernel} -l #{language} #{args.join(' ')}"
-      end
-
-      ##
       # Runs the command and returns the output of STDOUT, STDERR and the
       # process information.
       #
