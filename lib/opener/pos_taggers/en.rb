@@ -1,4 +1,17 @@
 require 'open3'
+require 'stringio'
+
+require 'java'
+
+require File.expand_path('../../../../core/target/ehu-pos-1.0.jar', __FILE__)
+
+import 'java.io.InputStreamReader'
+import 'ixa.kaflib.KAFDocument'
+import 'ehu.pos.Annotate'
+import 'ehu.pos.Resources'
+import 'ehu.lemmatize.MorfologikLemmatizer'
+import 'ehu.lemmatize.Dictionary'
+
 require_relative 'en/version'
 
 module Opener
@@ -49,23 +62,25 @@ module Opener
       # @return [Array]
       #
       def run(input)
-        return Open3.capture3(command, :stdin_data => input)
+        input     = StringIO.new(input) unless input.kind_of?(IO)
+        reader    = InputStreamReader.new(input.to_inputstream)
+        kaf       = KAFDocument.create_from_stream(reader)
+        annotator = Annotate.new(language)
+
+        kaf.addLinguisticProcessor("terms","ehu-pos-"+language,"now","1.0");
+        annotator.annotatePOSToKAF(kaf, lemmatizer, language)
+
+        return kaf.to_string
       end
 
       protected
 
-      ##
-      # @return [String]
-      #
-      def core_dir
-        File.expand_path("../../../core", File.dirname(__FILE__))
+      def dictionary
+        Resources.new.getBinaryDict(language)
       end
 
-      ##
-      # @return [String]
-      #
-      def kernel
-        core_dir+'/target/ehu-pos-1.0.jar'
+      def lemmatizer
+        MorfologikLemmatizer.new(dictionary)
       end
 
       ##
