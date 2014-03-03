@@ -122,6 +122,95 @@ public class Annotate {
     }
   }
   
+  /**
+   * This enum was used by the French tag mapping, I put it here just to avoid changing the French mapping function
+   * @author agarciap
+   *
+   */
+  public static enum KafTag{
+    VERB("V"),
+    COMMON_NOUN("N"),
+    PROPER_NOUN("R"),
+    ADJETIVE("G"),
+    ADVERB("A"),
+    DETERMINER("D"),
+    PREPOSITION("P"),
+    PRONOUN("Q"),
+    CONJUNTION("C"),
+    OTHER("O");
+    
+    private String tagText;
+    private KafTag(String tagText){
+        this.tagText=tagText;
+    }
+    
+    public String getTagText(){
+        return this.tagText;
+    }
+    
+    public String toString(){
+        return this.tagText;
+    }
+}
+  
+  private String mapFrenchTagSetToKaf(String postag) {
+    KafTag kafTag=KafTag.OTHER;
+    if(postag.startsWith("V")){
+        kafTag=KafTag.VERB;
+    }else if(postag.startsWith("NC")){
+        kafTag=KafTag.COMMON_NOUN;
+    }else if(postag.startsWith("N")){
+        kafTag=KafTag.COMMON_NOUN;
+    }else if(postag.startsWith("NP")){
+        kafTag=KafTag.PROPER_NOUN;
+    }else if(postag.startsWith("A")){
+        kafTag=KafTag.ADJETIVE;
+    }else if(postag.startsWith("Adv")){
+        kafTag=KafTag.ADVERB;
+    }else if(postag.startsWith("ADV")){
+        kafTag=KafTag.ADVERB;
+    }else if(postag.startsWith("D")){
+        kafTag=KafTag.DETERMINER;
+    }else if(postag.startsWith("P")){
+        kafTag=KafTag.PREPOSITION;
+    }else if(postag.startsWith("PRO")){
+        kafTag=KafTag.PRONOUN;
+    }else if(postag.startsWith("CL")){ //pronom clitique
+        kafTag=KafTag.PRONOUN;
+    }else if(postag.startsWith("C")){
+        kafTag=KafTag.CONJUNTION;
+    }else if(postag.startsWith("CC")){
+        kafTag=KafTag.CONJUNTION;
+    }else if(postag.startsWith("CS")){
+        kafTag=KafTag.CONJUNTION;
+    }
+    return kafTag.toString();
+  }
+  
+  private String mapItalianTagSetToKaf(String postag) {
+    if(postag.startsWith("V"))
+      return "V";
+  if(postag.startsWith("NOU~C"))
+      return "N";
+  if(postag.startsWith("NOU~P"))
+      return "R";
+  if(postag.startsWith("ART"))
+      return "D";
+  if(postag.startsWith("ADJ"))
+      return "G";
+  if(postag.startsWith("ADVB"))
+      return "A";
+  if(postag.startsWith("CONJ"))
+      return "Q";
+  if(postag.startsWith("PREP"))
+      return "P";
+  if(postag.startsWith("PRON"))
+      return "Q";
+  if(postag.startsWith("NUM"))
+      return "O.Z";
+  return "O";
+  }
+  
   private String getKafTagSet(String lang, String postag) {
     String tag = null;
     if (lang.equalsIgnoreCase("en")) { 
@@ -132,6 +221,12 @@ public class Annotate {
     }
     if (lang.equalsIgnoreCase("nl")) { 
       tag = this.mapDutchTagSetToKaf(postag);
+    }
+    if (lang.equalsIgnoreCase("fr")) { 
+      tag = this.mapFrenchTagSetToKaf(postag);
+    }
+    if (lang.equalsIgnoreCase("it")) { 
+      tag = this.mapItalianTagSetToKaf(postag);
     }
     return tag;
   }

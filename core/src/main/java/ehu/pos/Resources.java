@@ -26,7 +26,6 @@ public class Resources {
   private URL dictURL;
   private String constantTag;
 
-
   public InputStream getPOSModel(String cmdOption) {
 
     if (cmdOption.equals("en")) {
@@ -35,46 +34,65 @@ public class Resources {
     }
 
     if (cmdOption.equals("es")) {
-      posModel = getClass().getResourceAsStream(
-          "/es-pos-perceptron-500-0.bin");
+      posModel = getClass().getResourceAsStream("/es-pos-perceptron-500-0.bin");
     }
-    
-    if (cmdOption.equalsIgnoreCase("nl")) { 
+
+    if (cmdOption.equalsIgnoreCase("nl")) {
       posModel = getClass().getResourceAsStream("/nl-pos-perceptron.bin");
     }
     
+    if (cmdOption.equalsIgnoreCase("fr")) {
+      posModel = getClass().getResourceAsStream("/french-pos-treetagger.bin");
+    }
+    
+    if (cmdOption.equalsIgnoreCase("it")) {
+      posModel = getClass().getResourceAsStream("/it-pos-perceptron.bin");
+    }
+
     return posModel;
   }
 
   public InputStream getDictionary(String cmdOption) {
-	  if (cmdOption.equalsIgnoreCase("en")) {
-		  dict = getClass().getResourceAsStream("/en-lemmas.dict");
-	  }
+    if (cmdOption.equalsIgnoreCase("en")) {
+      dict = getClass().getResourceAsStream("/en-lemmas.dict");
+    }
 
-	  if (cmdOption.equalsIgnoreCase("es")) {
-		  dict = getClass().getResourceAsStream("/es-lemmas.dict");
-	  }
-	  
-	  if (cmdOption.equalsIgnoreCase("nl")) { 
-	    dict = getClass().getResourceAsStream("/nl-lemmas.dict");
-	  }
-	  
-	  return dict;
+    if (cmdOption.equalsIgnoreCase("es")) {
+      dict = getClass().getResourceAsStream("/es-lemmas.dict");
+    }
+
+    if (cmdOption.equalsIgnoreCase("nl")) {
+      dict = getClass().getResourceAsStream("/nl-lemmas.dict");
+    }
+
+    return dict;
   }
 
   public URL getBinaryDict(String cmdOption) {
-	  if (cmdOption.equalsIgnoreCase("en")) {
-		  dictURL = getClass().getResource("/english.dict");
-  }
+    if (cmdOption.equalsIgnoreCase("en")) {
+      dictURL = getClass().getResource("/english.dict");
+    }
 
-	  if (cmdOption.equalsIgnoreCase("es")) {
-		  dictURL = getClass().getResource("/spanish.dict");
-	  }
-	  
-	  if (cmdOption.equalsIgnoreCase("nl")) { 
-	    dictURL = getClass().getResource("/dutch.dict");
-	  }
-	  return dictURL;
+    if (cmdOption.equalsIgnoreCase("es")) {
+      dictURL = getClass().getResource("/spanish.dict");
+    }
+
+    if (cmdOption.equalsIgnoreCase("nl")) {
+      dictURL = getClass().getResource("/dutch.dict");
+    }
+
+    /*
+     * CHANGE THE PATH TO FRENCH AND ITALIAN DICTS WHEN GENERATED!!!
+     */
+    if (cmdOption.equals("fr")) {
+      dictURL = getClass().getResource("/english.dict");
+    }
+    if (cmdOption.equals("it")) {
+      dictURL = getClass().getResource("/english.dict");
+    }
+    /////////////////////////////////////////////////////////////////
+
+    return dictURL;
   }
 
   public String setTagConstant(String lang, String postag) {
@@ -84,12 +102,12 @@ public class Resources {
       }
     }
     if (lang.equalsIgnoreCase("es")) {
-      if (postag.startsWith("NP")){
+      if (postag.startsWith("NP")) {
         constantTag = "NP00000";
       }
     }
-    if (lang.equalsIgnoreCase("nl")) { 
-      if (postag.startsWith("N")) { 
+    if (lang.equalsIgnoreCase("nl")) {
+      if (postag.startsWith("N")) {
         constantTag = "N";
       }
     }
