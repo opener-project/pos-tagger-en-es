@@ -90,5 +90,11 @@ module Opener
         return 'es'
       end
     end # ES
+
+    class NL < EN
+      def language
+        return 'nl'
+      end
+    end
   end # POSTaggers
 end # Opener

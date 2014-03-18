@@ -9,13 +9,5 @@ else
   input = STDIN.read
 end
 
-kernel                  = Opener::POSTaggers::EN.new(:args => ARGV)
-stdout, stderr, process = kernel.run(input)
-
-if process.success?
-  puts stdout
-
-  STDERR.puts(stderr) unless stderr.empty?
-else
-  abort stderr
-end
+kernel = Opener::POSTaggers::EN.new(:args => ARGV)
+puts kernel.run(input)
