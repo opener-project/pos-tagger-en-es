@@ -28,26 +28,31 @@ import opennlp.tools.postag.POSTaggerME;
  * 
  * @author ragerri 2012/11/30
  * 
+ * 
+ * CHANGES: Added a constructor to leverage the static model loading
+ * @author agarciap 2014/04/03
  */
 
 public class POS {
 
-  private POSModel posModel;
+ // private POSModel posModel;
   private POSTaggerME posTagger;
 
   /**
    * It constructs an object POS from the POS class. First it loads a model,
    * then it initializes the nercModel and finally it creates a nercDetector
    * using such model.
+   * @deprecated This is the old way of loading the model, reading it from disk every time the constructor is invoked
    */
+  @Deprecated
   public POS(InputStream trainedModel) {
 
     // InputStream trainedModel =
     // getClass().getResourceAsStream("/en-pos-perceptron-1000-dev.bin");
 
     try {
-      posModel = new POSModel(trainedModel);
-
+     POSModel posModel = new POSModel(trainedModel);
+     posTagger = new POSTaggerME(posModel);
     } catch (IOException e) {
       e.printStackTrace();
     } finally {
@@ -58,7 +63,18 @@ public class POS {
         }
       }
     }
-    posTagger = new POSTaggerME(posModel);
+    
+  }
+  
+  /**
+   * Creates an instance loading the model regarding the language parameter. 
+   * The model loading is delegated to the "Resources" class, the models are lazy initialized, and they are loaded only once (a model per language)
+   * @param lang
+   */
+  public POS(String lang) {
+	  Resources resources=new Resources();
+	  POSModel posModel=resources.getPosModel(lang);
+	  posTagger = new POSTaggerME(posModel);
   }
 
   /**

@@ -34,10 +34,10 @@ import net.sourceforge.argparse4j.inf.ArgumentParser;
 import net.sourceforge.argparse4j.inf.ArgumentParserException;
 import net.sourceforge.argparse4j.inf.MutuallyExclusiveGroup;
 import net.sourceforge.argparse4j.inf.Namespace;
-
 import ehu.lemmatize.Dictionary;
 import ehu.lemmatize.JWNLemmatizer;
 import ehu.lemmatize.MorfologikLemmatizer;
+import ehu.lemmatize.MorfologikLemmatizerFrenchAndItalian;
 import ehu.lemmatize.SimpleLemmatizer;
 
 import org.jdom2.JDOMException;
@@ -150,17 +150,18 @@ public class CLI {
     	  lemmatizer = new JWNLemmatizer(dictionary);
       }
       
-      else if (dictionary != null && lang.equalsIgnoreCase("en") == false) { 
+      else if (dictionary != null && lang.equalsIgnoreCase("en") == false && lang.equalsIgnoreCase("it") == false && lang.equalsIgnoreCase("fr") == false) { 
     	  System.err.println("WordNet lemmatization available for English only. Using" +
     	  		" default Morfologik binary dictionary.");
     	  URL dictLemmatizer = resourceRetriever.getBinaryDict(lang);
 	      lemmatizer = new MorfologikLemmatizer(dictLemmatizer);
       }
     	  
-      else { 
+      else { //lang is "fr" or "it"
 		  System.err.println("Using default Morfologik binary dictionary.");
-    	  URL dictLemmatizer = resourceRetriever.getBinaryDict(lang);
-	      lemmatizer = new MorfologikLemmatizer(dictLemmatizer);
+//    	  URL dictLemmatizer = resourceRetriever.getBinaryDict(lang);
+//	      lemmatizer = new MorfologikLemmatizer(dictLemmatizer);
+		  lemmatizer=new MorfologikLemmatizerFrenchAndItalian();
 	  }  
       
       // add already contained header plus this module linguistic
