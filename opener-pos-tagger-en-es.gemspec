@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.name          = "opener-pos-tagger-en-es"
   gem.version       = Opener::POSTaggers::EN::VERSION
   gem.authors       = ["development@olery.com"]
-  gem.summary       = "POS tagging for english"
+  gem.summary       = "POS tagging for english, spanish, italian and french"
   gem.description   = gem.summary
   gem.homepage      = "http://opener-project.github.com/"
   gem.has_rdoc      = "yard"

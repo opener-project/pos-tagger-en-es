@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="0000-00-00T00:00:00Z" version="0.0.1" />
+      <lp name="opener-tokenizer-en" timestamp="0000-00-00T00:00:00Z" version="1.0.1" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="3">The</wf>
+    <wf wid="w2" sent="1" para="1" offset="4" length="5">quick</wf>
+    <wf wid="w3" sent="1" para="1" offset="10" length="3">fox</wf>
+    <wf wid="w4" sent="1" para="1" offset="14" length="5">jumps</wf>
+    <wf wid="w5" sent="1" para="1" offset="20" length="4">over</wf>
+    <wf wid="w6" sent="1" para="1" offset="25" length="3">the</wf>
+    <wf wid="w7" sent="1" para="1" offset="29" length="4">lazy</wf>
+    <wf wid="w8" sent="1" para="1" offset="34" length="4">dogs</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term tid="t1" type="close" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--quick-->
+    <term tid="t2" type="open" lemma="quick" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--fox-->
+    <term tid="t3" type="open" lemma="fox" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--jumps-->
+    <term tid="t4" type="open" lemma="jump" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t5" type="close" lemma="over" pos="P" morphofeat="IN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--the-->
+    <term tid="t6" type="close" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--lazy-->
+    <term tid="t7" type="open" lemma="lazy" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--dogs-->
+    <term tid="t8" type="open" lemma="dog" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+  </terms>
+</KAF>

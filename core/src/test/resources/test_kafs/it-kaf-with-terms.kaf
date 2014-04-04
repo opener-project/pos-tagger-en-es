@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="0000-00-00T00:00:00Z" version="0.0.1" />
+      <lp name="opener-tokenizer-it" timestamp="0000-00-00T00:00:00Z" version="1.0.1" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2">La</wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="5">volpe</wf>
+    <wf wid="w3" sent="1" para="1" offset="9" length="6">rapido</wf>
+    <wf wid="w4" sent="1" para="1" offset="16" length="2">si</wf>
+    <wf wid="w5" sent="1" para="1" offset="19" length="6">sposta</wf>
+    <wf wid="w6" sent="1" para="1" offset="26" length="5">oltre</wf>
+    <wf wid="w7" sent="1" para="1" offset="32" length="1">i</wf>
+    <wf wid="w8" sent="1" para="1" offset="34" length="4">cani</wf>
+    <wf wid="w9" sent="1" para="1" offset="39" length="5">pigri</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t1" type="close" lemma="La" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--volpe-->
+    <term tid="t2" type="open" lemma="volpe" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--rapido-->
+    <term tid="t3" type="open" lemma="rapido" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t4" type="close" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--sposta-->
+    <term tid="t5" type="open" lemma="spostare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--oltre-->
+    <term tid="t6" type="close" lemma="oltre" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t7" type="close" lemma="il" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--cani-->
+    <term tid="t8" type="open" lemma="cani" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--pigri-->
+    <term tid="t9" type="open" lemma="pigro" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+  </terms>
+</KAF>

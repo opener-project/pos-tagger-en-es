@@ -18,3 +18,8 @@ Gemfile.lock
 *.swp
 core/target
 core/dependency-reduced-pom.xml
+.settings/
+.classpath
+.project
+*~
+core/bin/

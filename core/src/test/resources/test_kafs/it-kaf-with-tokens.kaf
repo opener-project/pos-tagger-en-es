@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" version="0.0.1" timestamp="0000-00-00T00:00:00Z"/>
+      <lp name="opener-tokenizer-it" version="1.0.1" timestamp="0000-00-00T00:00:00Z"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2"><![CDATA[La]]></wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="5"><![CDATA[volpe]]></wf>
+    <wf wid="w3" sent="1" para="1" offset="9" length="6"><![CDATA[rapido]]></wf>
+    <wf wid="w4" sent="1" para="1" offset="16" length="2"><![CDATA[si]]></wf>
+    <wf wid="w5" sent="1" para="1" offset="19" length="6"><![CDATA[sposta]]></wf>
+    <wf wid="w6" sent="1" para="1" offset="26" length="5"><![CDATA[oltre]]></wf>
+    <wf wid="w7" sent="1" para="1" offset="32" length="1"><![CDATA[i]]></wf>
+    <wf wid="w8" sent="1" para="1" offset="34" length="4"><![CDATA[cani]]></wf>
+    <wf wid="w9" sent="1" para="1" offset="39" length="5"><![CDATA[pigri]]></wf>
+  </text>
+</KAF>

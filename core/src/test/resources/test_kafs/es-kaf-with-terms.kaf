@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="es" version="v1.opener">
+  <kafHeader>
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-es" timestamp="0000-00-00T00:00:00Z" version="0.0.1" />
+      <lp name="opener-tokenizer-es" timestamp="0000-00-00T00:00:00Z" version="1.0.1" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2">El</wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="6">rápido</wf>
+    <wf wid="w3" sent="1" para="1" offset="10" length="5">zorro</wf>
+    <wf wid="w4" sent="1" para="1" offset="16" length="5">salta</wf>
+    <wf wid="w5" sent="1" para="1" offset="22" length="5">sobre</wf>
+    <wf wid="w6" sent="1" para="1" offset="28" length="3">los</wf>
+    <wf wid="w7" sent="1" para="1" offset="32" length="9">perezosos</wf>
+    <wf wid="w8" sent="1" para="1" offset="42" length="6">perros</wf>
+  </text>
+  <terms>
+    <!--El-->
+    <term tid="t1" type="close" lemma="el" pos="D" morphofeat="DA0MS0">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--rápido-->
+    <term tid="t2" type="open" lemma="rápido" pos="G" morphofeat="AQ0MS0">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--zorro-->
+    <term tid="t3" type="open" lemma="zorro" pos="N" morphofeat="NCMS000">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--salta-->
+    <term tid="t4" type="open" lemma="salta" pos="G" morphofeat="AQ0FS0">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--sobre-->
+    <term tid="t5" type="close" lemma="sobre" pos="P" morphofeat="SPS00">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--los-->
+    <term tid="t6" type="close" lemma="el" pos="D" morphofeat="DA0MP0">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--perezosos-->
+    <term tid="t7" type="open" lemma="perezoso" pos="G" morphofeat="AQ0MP0">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--perros-->
+    <term tid="t8" type="open" lemma="perro" pos="N" morphofeat="NCMP000">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+  </terms>
+</KAF>
