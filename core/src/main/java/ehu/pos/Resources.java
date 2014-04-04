@@ -132,17 +132,17 @@ public class Resources {
 	}
 
 	private POSModel loadModel(String lang) {
-		InputStream modelInoutStream = null;
+		InputStream modelInputStream = null;
 		try {
-			modelInoutStream = getPOSModelFileInputStream(lang);
-			POSModel model = new POSModel(modelInoutStream);
+			modelInputStream = getPOSModelFileInputStream(lang);
+			POSModel model = new POSModel(modelInputStream);
 			return model;
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		} finally {
-			if (modelInoutStream != null) {
+			if (modelInputStream != null) {
 				try {
-					modelInoutStream.close();
+					modelInputStream.close();
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
