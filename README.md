@@ -1,6 +1,6 @@
 [![Build Status](https://drone.io/github.com/opener-project/pos-tagger-en-es/status.png)](https://drone.io/github.com/opener-project/pos-tagger-en-es/latest)
 
-# English, Spanish, Italian, French POS Tagger
+# English, Spanish,  Dutch, Italian, French POS Tagger
 
 **Modified to also do Dutch**
 
