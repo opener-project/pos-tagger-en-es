@@ -9,7 +9,7 @@
   </kafHeader>
   <text>
     <wf wid="w1" sent="1" para="1" offset="0" length="2"><![CDATA[El]]></wf>
-    <wf wid="w2" sent="1" para="1" offset="3" length="6"><![CDATA[rápido]]></wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="6"><![CDATA[rÃ¡pido]]></wf>
     <wf wid="w3" sent="1" para="1" offset="10" length="5"><![CDATA[zorro]]></wf>
     <wf wid="w4" sent="1" para="1" offset="16" length="5"><![CDATA[salta]]></wf>
     <wf wid="w5" sent="1" para="1" offset="22" length="5"><![CDATA[sobre]]></wf>
