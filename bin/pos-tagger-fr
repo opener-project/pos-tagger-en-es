@@ -9,7 +9,7 @@ else
   input = STDIN.read
 end
 
-kernel                  = Opener::POSTaggers::IT.new(:args => ARGV)
+kernel                  = Opener::POSTaggers::FR.new(:args => ARGV)
 stdout, stderr, process = kernel.run(input)
 
 if process.success?
