@@ -90,5 +90,23 @@ module Opener
         return 'es'
       end
     end # ES
+    
+    class IT < EN
+      ##
+      # @return [String]
+      #
+      def language
+        return 'it'
+      end
+    end # IT
+    
+    class FR < EN
+      ##
+      # @return [String]
+      #
+      def language
+        return 'fr'
+      end
+    end # FR
   end # POSTaggers
 end # Opener
