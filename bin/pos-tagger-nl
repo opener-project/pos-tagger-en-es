@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/opener/pos_taggers/en'
+
+# STDIN.tty? returns `false` if data is being piped into the current process.
+if STDIN.tty?
+  input = nil
+else
+  input = STDIN.read
+end
+
+kernel                  = Opener::POSTaggers::NL.new(:args => ARGV)
+puts kernel.run(input)
