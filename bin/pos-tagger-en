@@ -9,5 +9,5 @@ else
   input = STDIN.read
 end
 
-kernel = Opener::POSTaggers::EN.new(:args => ARGV)
+kernel                  = Opener::POSTaggers::EN.new(:args => ARGV)
 puts kernel.run(input)
