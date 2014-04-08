@@ -8,14 +8,12 @@
 	<version>1.0</version>
 	<name>ehu-pos</name>
 	<description>POS tagging module based on Apache OpenNLP API.
-	All models have been trained by the IXA NLP Group of the University of the
-	Basque Country (ixa.si.ehu.es).
 	</description>
 	<developers>
 		<developer>
-			<id>ragerri</id>
-			<name>Rodrigo Agerri</name>
-			<email>rodrigo.agerri@ehu.es</email>
+			<id></id>
+			<name></name>
+			<email></email>
 		</developer>
 	</developers>
 	<properties>
