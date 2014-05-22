@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KAF xml:lang="es" version="v1.opener">
+  <kafHeader>
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-es" version="0.0.1" timestamp="0000-00-00T00:00:00Z"/>
+      <lp name="opener-tokenizer-es" version="1.0.1" timestamp="0000-00-00T00:00:00Z"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2"><![CDATA[La]]></wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="4"><![CDATA[niña]]></wf>
+    <wf wid="w3" sent="1" para="1" offset="8" length="3"><![CDATA[que]]></wf>
+    <wf wid="w4" sent="1" para="1" offset="12" length="10"><![CDATA[filosofaba]]></wf>
+    <wf wid="w5" sent="1" para="1" offset="23" length="5"><![CDATA[nació]]></wf>
+    <wf wid="w6" sent="1" para="1" offset="29" length="2"><![CDATA[de]]></wf>
+    <wf wid="w7" sent="1" para="1" offset="32" length="2"><![CDATA[la]]></wf>
+    <wf wid="w8" sent="1" para="1" offset="35" length="5"><![CDATA[pluma]]></wf>
+    <wf wid="w9" sent="1" para="1" offset="41" length="2"><![CDATA[de]]></wf>
+    <wf wid="w10" sent="1" para="1" offset="44" length="2"><![CDATA[un]]></wf>
+    <wf wid="w11" sent="1" para="1" offset="47" length="10"><![CDATA[ilustrador]]></wf>
+    <wf wid="w12" sent="1" para="1" offset="58" length="3"><![CDATA[que]]></wf>
+    <wf wid="w13" sent="1" para="1" offset="62" length="5"><![CDATA[pensó]]></wf>
+    <wf wid="w14" sent="1" para="1" offset="68" length="2"><![CDATA[en]]></wf>
+    <wf wid="w15" sent="1" para="1" offset="71" length="5"><![CDATA[hacer]]></wf>
+    <wf wid="w16" sent="1" para="1" offset="77" length="7"><![CDATA[dibujos]]></wf>
+    <wf wid="w17" sent="1" para="1" offset="85" length="5"><![CDATA[mudos]]></wf>
+    <wf wid="w18" sent="1" para="1" offset="90" length="1"><![CDATA[.]]></wf>
+    <wf wid="w19" sent="2" para="1" offset="92" length="5"><![CDATA[Quino]]></wf>
+    <wf wid="w20" sent="2" para="1" offset="97" length="1"><![CDATA[,]]></wf>
+    <wf wid="w21" sent="2" para="1" offset="99" length="2"><![CDATA[el]]></wf>
+    <wf wid="w22" sent="2" para="1" offset="102" length="9"><![CDATA[viñetista]]></wf>
+    <wf wid="w23" sent="2" para="1" offset="112" length="3"><![CDATA[que]]></wf>
+    <wf wid="w24" sent="2" para="1" offset="116" length="3"><![CDATA[hoy]]></wf>
+    <wf wid="w25" sent="2" para="1" offset="120" length="2"><![CDATA[ha]]></wf>
+    <wf wid="w26" sent="2" para="1" offset="123" length="8"><![CDATA[recibido]]></wf>
+    <wf wid="w27" sent="2" para="1" offset="132" length="2"><![CDATA[el]]></wf>
+    <wf wid="w28" sent="2" para="1" offset="135" length="6"><![CDATA[premio]]></wf>
+    <wf wid="w29" sent="2" para="1" offset="142" length="8"><![CDATA[Príncipe]]></wf>
+    <wf wid="w30" sent="2" para="1" offset="151" length="2"><![CDATA[de]]></wf>
+    <wf wid="w31" sent="2" para="1" offset="154" length="8"><![CDATA[Asturias]]></wf>
+    <wf wid="w32" sent="2" para="1" offset="163" length="2"><![CDATA[de]]></wf>
+    <wf wid="w33" sent="2" para="1" offset="166" length="12"><![CDATA[Comunicación]]></wf>
+    <wf wid="w34" sent="2" para="1" offset="179" length="1"><![CDATA[y]]></wf>
+    <wf wid="w35" sent="2" para="1" offset="181" length="11"><![CDATA[Humanidades]]></wf>
+    <wf wid="w36" sent="2" para="1" offset="192" length="1"><![CDATA[,]]></wf>
+    <wf wid="w37" sent="2" para="1" offset="194" length="7"><![CDATA[adoraba]]></wf>
+    <wf wid="w38" sent="2" para="1" offset="202" length="2"><![CDATA[el]]></wf>
+    <wf wid="w39" sent="2" para="1" offset="205" length="4"><![CDATA[arte]]></wf>
+    <wf wid="w40" sent="2" para="1" offset="210" length="7"><![CDATA[silente]]></wf>
+    <wf wid="w41" sent="2" para="1" offset="218" length="2"><![CDATA[de]]></wf>
+    <wf wid="w42" sent="2" para="1" offset="221" length="6"><![CDATA[Buster]]></wf>
+    <wf wid="w43" sent="2" para="1" offset="228" length="6"><![CDATA[Keaton]]></wf>
+    <wf wid="w44" sent="2" para="1" offset="234" length="1"><![CDATA[.]]></wf>
+    <wf wid="w45" sent="3" para="1" offset="236" length="3"><![CDATA[Por]]></wf>
+    <wf wid="w46" sent="3" para="1" offset="240" length="3"><![CDATA[ese]]></wf>
+    <wf wid="w47" sent="3" para="1" offset="244" length="7"><![CDATA[sendero]]></wf>
+    <wf wid="w48" sent="3" para="1" offset="252" length="6"><![CDATA[siguió]]></wf>
+    <wf wid="w49" sent="3" para="1" offset="259" length="5"><![CDATA[hasta]]></wf>
+    <wf wid="w50" sent="3" para="1" offset="265" length="3"><![CDATA[que]]></wf>
+    <wf wid="w51" sent="3" para="1" offset="269" length="2"><![CDATA[en]]></wf>
+    <wf wid="w52" sent="3" para="1" offset="272" length="3"><![CDATA[una]]></wf>
+    <wf wid="w53" sent="3" para="1" offset="276" length="9"><![CDATA[redacción]]></wf>
+    <wf wid="w54" sent="3" para="1" offset="286" length="2"><![CDATA[de]]></wf>
+    <wf wid="w55" sent="3" para="1" offset="289" length="6"><![CDATA[Buenos]]></wf>
+    <wf wid="w56" sent="3" para="1" offset="296" length="5"><![CDATA[Aires]]></wf>
+    <wf wid="w57" sent="3" para="1" offset="302" length="2"><![CDATA[le]]></wf>
+    <wf wid="w58" sent="3" para="1" offset="305" length="7"><![CDATA[dijeron]]></wf>
+    <wf wid="w59" sent="3" para="1" offset="313" length="3"><![CDATA[que]]></wf>
+    <wf wid="w60" sent="3" para="1" offset="317" length="2"><![CDATA[el]]></wf>
+    <wf wid="w61" sent="3" para="1" offset="320" length="5"><![CDATA[humor]]></wf>
+    <wf wid="w62" sent="3" para="1" offset="326" length="10"><![CDATA[necesitaba]]></wf>
+    <wf wid="w63" sent="3" para="1" offset="337" length="8"><![CDATA[palabras]]></wf>
+    <wf wid="w64" sent="3" para="1" offset="345" length="1"><![CDATA[.]]></wf>
+  </text>
+</KAF>

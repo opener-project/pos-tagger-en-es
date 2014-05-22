@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" version="0.0.1" timestamp="0000-00-00T00:00:00Z"/>
+      <lp name="opener-tokenizer-nl" version="1.0.1" timestamp="0000-00-00T00:00:00Z"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="11"><![CDATA[Wijzigingen]]></wf>
+    <wf wid="w2" sent="1" para="1" offset="12" length="2"><![CDATA[in]]></wf>
+    <wf wid="w3" sent="1" para="1" offset="15" length="2"><![CDATA[de]]></wf>
+    <wf wid="w4" sent="1" para="1" offset="18" length="19"><![CDATA[Telecommunicatiewet]]></wf>
+    <wf wid="w5" sent="1" para="1" offset="38" length="5"><![CDATA[maken]]></wf>
+    <wf wid="w6" sent="1" para="1" offset="44" length="3"><![CDATA[dat]]></wf>
+    <wf wid="w7" sent="1" para="1" offset="48" length="6"><![CDATA[iedere]]></wf>
+    <wf wid="w8" sent="1" para="1" offset="55" length="7"><![CDATA[website]]></wf>
+    <wf wid="w9" sent="1" para="1" offset="63" length="2"><![CDATA[de]]></wf>
+    <wf wid="w10" sent="1" para="1" offset="66" length="12"><![CDATA[verplichting]]></wf>
+    <wf wid="w11" sent="1" para="1" offset="79" length="5"><![CDATA[heeft]]></wf>
+    <wf wid="w12" sent="1" para="1" offset="85" length="2"><![CDATA[te]]></wf>
+    <wf wid="w13" sent="1" para="1" offset="88" length="10"><![CDATA[informeren]]></wf>
+    <wf wid="w14" sent="1" para="1" offset="99" length="4"><![CDATA[over]]></wf>
+    <wf wid="w15" sent="1" para="1" offset="104" length="3"><![CDATA[het]]></wf>
+    <wf wid="w16" sent="1" para="1" offset="108" length="7"><![CDATA[gebruik]]></wf>
+    <wf wid="w17" sent="1" para="1" offset="116" length="3"><![CDATA[van]]></wf>
+    <wf wid="w18" sent="1" para="1" offset="120" length="7"><![CDATA[cookies]]></wf>
+    <wf wid="w19" sent="1" para="1" offset="127" length="1"><![CDATA[.]]></wf>
+    <wf wid="w20" sent="2" para="1" offset="129" length="3"><![CDATA[Ook]]></wf>
+    <wf wid="w21" sent="2" para="1" offset="133" length="5"><![CDATA[dient]]></wf>
+    <wf wid="w22" sent="2" para="1" offset="139" length="11"><![CDATA[toestemming]]></wf>
+    <wf wid="w23" sent="2" para="1" offset="151" length="8"><![CDATA[gevraagd]]></wf>
+    <wf wid="w24" sent="2" para="1" offset="160" length="2"><![CDATA[te]]></wf>
+    <wf wid="w25" sent="2" para="1" offset="163" length="6"><![CDATA[worden]]></wf>
+    <wf wid="w26" sent="2" para="1" offset="170" length="4"><![CDATA[voor]]></wf>
+    <wf wid="w27" sent="2" para="1" offset="175" length="3"><![CDATA[het]]></wf>
+    <wf wid="w28" sent="2" para="1" offset="179" length="10"><![CDATA[specifieke]]></wf>
+    <wf wid="w29" sent="2" para="1" offset="190" length="7"><![CDATA[gebruik]]></wf>
+    <wf wid="w30" sent="2" para="1" offset="198" length="3"><![CDATA[van]]></wf>
+    <wf wid="w31" sent="2" para="1" offset="202" length="7"><![CDATA[cookies]]></wf>
+    <wf wid="w32" sent="2" para="1" offset="209" length="1"><![CDATA[.]]></wf>
+    <wf wid="w33" sent="3" para="1" offset="211" length="2"><![CDATA[We]]></wf>
+    <wf wid="w34" sent="3" para="1" offset="214" length="8"><![CDATA[beseffen]]></wf>
+    <wf wid="w35" sent="3" para="1" offset="223" length="3"><![CDATA[dat]]></wf>
+    <wf wid="w36" sent="3" para="1" offset="227" length="3"><![CDATA[dit]]></wf>
+    <wf wid="w37" sent="3" para="1" offset="231" length="6"><![CDATA[lastig]]></wf>
+    <wf wid="w38" sent="3" para="1" offset="238" length="2"><![CDATA[en]]></wf>
+    <wf wid="w39" sent="3" para="1" offset="241" length="5"><![CDATA[zelfs]]></wf>
+    <wf wid="w40" sent="3" para="1" offset="247" length="18"><![CDATA[klantonvriendelijk]]></wf>
+    <wf wid="w41" sent="3" para="1" offset="266" length="3"><![CDATA[kan]]></wf>
+    <wf wid="w42" sent="3" para="1" offset="270" length="9"><![CDATA[overkomen]]></wf>
+    <wf wid="w43" sent="3" para="1" offset="279" length="1"><![CDATA[.]]></wf>
+    <wf wid="w44" sent="4" para="1" offset="281" length="3"><![CDATA[Bij]]></wf>
+    <wf wid="w45" sent="4" para="1" offset="285" length="8"><![CDATA[voorbaat]]></wf>
+    <wf wid="w46" sent="4" para="1" offset="294" length="4"><![CDATA[onze]]></wf>
+    <wf wid="w47" sent="4" para="1" offset="299" length="7"><![CDATA[excuses]]></wf>
+    <wf wid="w48" sent="4" para="1" offset="307" length="8"><![CDATA[hiervoor]]></wf>
+    <wf wid="w49" sent="4" para="1" offset="315" length="1"><![CDATA[.]]></wf>
+  </text>
+</KAF>
