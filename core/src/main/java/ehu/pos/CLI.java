@@ -123,17 +123,31 @@ public class CLI {
       Dictionary lemmatizer = null;
       Resources resourceRetriever = new Resources();
 	
+      /*
+       * NOTE:
+       * The if-else branching was quite confusing (and I think it had some mistakes)
+       * If I understand it, the conditional flow is (or should be) :
+       * 	- if "plain" option is chosen, get the language plain dictionary (any language)
+       * 	- else if language is English, use JWNL dictionary (just for English)
+       * 	- else if any other languages except Italian and French, use Morfologik dictionaries
+       * 	- else (the language is fr or it), use a "special" Morfologik dictionary implementation for them
+       * 
+       * I have commented out some weird conditions 
+       * (e.g. in the else-if branches dictionary can only be null, thus the !=null condition can never be satisfied) 
+       * I hope that this is more correct now...
+       */
+      
       if (lemMethod.equalsIgnoreCase("plain")) {
     	  System.err.println("Using plain text dictionary");
 	    	InputStream dictLemmatizer = resourceRetriever.getDictionary(lang);
 	    	lemmatizer = new SimpleLemmatizer(dictLemmatizer);
 	  }
       
-      else if (dictionary != null && lang.equalsIgnoreCase("en")) {
+      else if (/*dictionary != null && */lang.equalsIgnoreCase("en")) {
     	  lemmatizer = new JWNLemmatizer(dictionary);
       }
       
-      else if (dictionary != null && lang.equalsIgnoreCase("en") == false && lang.equalsIgnoreCase("it") == false && lang.equalsIgnoreCase("fr") == false) { 
+      else if (/*dictionary != null && lang.equalsIgnoreCase("en") == false && */ !lang.equalsIgnoreCase("it") && !lang.equalsIgnoreCase("fr")) { 
     	  System.err.println("WordNet lemmatization available for English only. Using" +
     	  		" default Morfologik binary dictionary.");
     	  URL dictLemmatizer = resourceRetriever.getBinaryDict(lang);
