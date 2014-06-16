@@ -10,7 +10,8 @@ import 'ixa.kaflib.KAFDocument'
 import 'ehu.pos.Annotate'
 import 'ehu.pos.Resources'
 import 'ehu.lemmatize.MorfologikLemmatizer'
-import 'ehu.lemmatize.Dictionary'
+#import 'ehu.lemmatize.Dictionary'
+import 'ehu.lemmatize.LemmatizerDispatcher'
 
 require_relative 'en/version'
 
@@ -65,13 +66,15 @@ module Opener
       end
 
       protected
-
-      def dictionary
-        Resources.new.getBinaryDict(language)
-      end
+	
+	#No need of this dictionary object here anymore(hopefully)
+     # def dictionary
+     #   Resources.new.getBinaryDict(language)
+     # end
 
       def lemmatizer
-        MorfologikLemmatizer.new(dictionary)
+        #MorfologikLemmatizer.new(dictionary)
+	LemmatizerDispatcher.obtainMorfologikLemmatizer(language)
       end
 
       ##

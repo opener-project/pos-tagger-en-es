@@ -1,6 +1,6 @@
 package ehu.lemmatize;
 
-import java.io.IOException;
+//import java.io.IOException;
 import java.net.URL;
 import java.util.List;
 
@@ -23,8 +23,8 @@ public class MorfologikLemmatizerFrenchAndItalian implements ehu.lemmatize.Dicti
 	private static IStemmer frenchDictLookup;
 	private static IStemmer italianDictLookup;
 
-	  public MorfologikLemmatizerFrenchAndItalian() throws IllegalArgumentException,
-	      IOException {
+	  public MorfologikLemmatizerFrenchAndItalian() {
+		  try{
 		  if(frenchDictLookup==null){
 			  Resources resourceRetriever = new Resources();
 			  URL dictLemmatizer = resourceRetriever.getBinaryDict("fr");
@@ -34,6 +34,9 @@ public class MorfologikLemmatizerFrenchAndItalian implements ehu.lemmatize.Dicti
 			  Resources resourceRetriever = new Resources();
 			  URL dictLemmatizer = resourceRetriever.getBinaryDict("it");
 			  italianDictLookup = new DictionaryLookup(Dictionary.read(dictLemmatizer));
+		  }
+		  }catch(Exception e){
+			  throw new RuntimeException(e);
 		  }
 	  }
 	
