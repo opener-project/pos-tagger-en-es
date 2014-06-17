@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-en" timestamp="2013-11-13 17:24:54" version="1.0" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" offset="0" length="3">The</wf>
+    <wf wid="w2" sent="1" offset="4" length="13">disappearance</wf>
+    <wf wid="w3" sent="1" offset="18" length="2">of</wf>
+    <wf wid="w4" sent="1" offset="21" length="4">York</wf>
+    <wf wid="w5" sent="1" offset="26" length="10">University</wf>
+    <wf wid="w6" sent="1" offset="37" length="4">chef</wf>
+    <wf wid="w7" sent="1" offset="42" length="7">Claudia</wf>
+    <wf wid="w8" sent="1" offset="50" length="8">Lawrence</wf>
+    <wf wid="w9" sent="1" offset="59" length="2">is</wf>
+    <wf wid="w10" sent="1" offset="62" length="3">now</wf>
+    <wf wid="w11" sent="1" offset="66" length="5">being</wf>
+    <wf wid="w12" sent="1" offset="72" length="7">treated</wf>
+    <wf wid="w13" sent="1" offset="80" length="2">as</wf>
+    <wf wid="w14" sent="1" offset="83" length="9">suspected</wf>
+    <wf wid="w15" sent="1" offset="93" length="6">murder</wf>
+    <wf wid="w16" sent="1" offset="99" length="1">,</wf>
+    <wf wid="w17" sent="1" offset="101" length="5">North</wf>
+    <wf wid="w18" sent="1" offset="107" length="9">Yorkshire</wf>
+    <wf wid="w19" sent="1" offset="117" length="6">Police</wf>
+    <wf wid="w20" sent="1" offset="124" length="4">said</wf>
+    <wf wid="w21" sent="1" offset="128" length="1">.</wf>
+    <wf wid="w22" sent="2" offset="130" length="7">However</wf>
+    <wf wid="w23" sent="2" offset="138" length="10">detectives</wf>
+    <wf wid="w24" sent="2" offset="149" length="4">said</wf>
+    <wf wid="w25" sent="2" offset="154" length="4">they</wf>
+    <wf wid="w26" sent="2" offset="159" length="3">had</wf>
+    <wf wid="w27" sent="2" offset="163" length="3">not</wf>
+    <wf wid="w28" sent="2" offset="167" length="5">found</wf>
+    <wf wid="w29" sent="2" offset="173" length="3">any</wf>
+    <wf wid="w30" sent="2" offset="177" length="5">proof</wf>
+    <wf wid="w31" sent="2" offset="183" length="4">that</wf>
+    <wf wid="w32" sent="2" offset="188" length="3">the</wf>
+    <wf wid="w33" sent="2" offset="192" length="11">35-year-old</wf>
+    <wf wid="w34" sent="2" offset="203" length="1">,</wf>
+    <wf wid="w35" sent="2" offset="205" length="3">who</wf>
+    <wf wid="w36" sent="2" offset="209" length="4">went</wf>
+    <wf wid="w37" sent="2" offset="214" length="7">missing</wf>
+    <wf wid="w38" sent="2" offset="222" length="2">on</wf>
+    <wf wid="w39" sent="2" offset="225" length="2">18</wf>
+    <wf wid="w40" sent="2" offset="228" length="5">March</wf>
+    <wf wid="w41" sent="2" offset="233" length="1">,</wf>
+    <wf wid="w42" sent="2" offset="235" length="3">was</wf>
+    <wf wid="w43" sent="2" offset="239" length="4">dead</wf>
+    <wf wid="w44" sent="2" offset="243" length="1">.</wf>
+    <wf wid="w45" sent="3" offset="245" length="3">Her</wf>
+    <wf wid="w46" sent="3" offset="249" length="6">father</wf>
+    <wf wid="w47" sent="3" offset="256" length="5">Peter</wf>
+    <wf wid="w48" sent="3" offset="262" length="8">Lawrence</wf>
+    <wf wid="w49" sent="3" offset="271" length="4">made</wf>
+    <wf wid="w50" sent="3" offset="276" length="1">a</wf>
+    <wf wid="w51" sent="3" offset="278" length="6">direct</wf>
+    <wf wid="w52" sent="3" offset="285" length="6">appeal</wf>
+    <wf wid="w53" sent="3" offset="292" length="2">to</wf>
+    <wf wid="w54" sent="3" offset="295" length="3">his</wf>
+    <wf wid="w55" sent="3" offset="299" length="8">daughter</wf>
+    <wf wid="w56" sent="3" offset="308" length="2">to</wf>
+    <wf wid="w57" sent="3" offset="311" length="7">contact</wf>
+    <wf wid="w58" sent="3" offset="319" length="3">him</wf>
+    <wf wid="w59" sent="3" offset="323" length="4">five</wf>
+    <wf wid="w60" sent="3" offset="328" length="5">weeks</wf>
+    <wf wid="w61" sent="3" offset="334" length="5">after</wf>
+    <wf wid="w62" sent="3" offset="340" length="3">she</wf>
+    <wf wid="w63" sent="3" offset="344" length="11">disappeared</wf>
+    <wf wid="w64" sent="3" offset="355" length="1">.</wf>
+    <wf wid="w65" sent="4" offset="357" length="3">His</wf>
+    <wf wid="w66" sent="4" offset="361" length="4">plea</wf>
+    <wf wid="w67" sent="4" offset="366" length="4">came</wf>
+    <wf wid="w68" sent="4" offset="371" length="2">at</wf>
+    <wf wid="w69" sent="4" offset="374" length="1">a</wf>
+    <wf wid="w70" sent="4" offset="376" length="4">news</wf>
+    <wf wid="w71" sent="4" offset="381" length="10">conference</wf>
+    <wf wid="w72" sent="4" offset="392" length="4">held</wf>
+    <wf wid="w73" sent="4" offset="397" length="7">shortly</wf>
+    <wf wid="w74" sent="4" offset="405" length="5">after</wf>
+    <wf wid="w75" sent="4" offset="411" length="1">a</wf>
+    <wf wid="w76" sent="4" offset="413" length="6">10,000</wf>
+    <wf wid="w77" sent="4" offset="420" length="6">reward</wf>
+    <wf wid="w78" sent="4" offset="427" length="3">was</wf>
+    <wf wid="w79" sent="4" offset="431" length="7">offered</wf>
+    <wf wid="w80" sent="4" offset="439" length="2">to</wf>
+    <wf wid="w81" sent="4" offset="442" length="4">help</wf>
+    <wf wid="w82" sent="4" offset="447" length="4">find</wf>
+    <wf wid="w83" sent="4" offset="452" length="4">Miss</wf>
+    <wf wid="w84" sent="4" offset="457" length="8">Lawrence</wf>
+    <wf wid="w85" sent="4" offset="465" length="1">.</wf>
+    <wf wid="w86" sent="5" offset="467" length="13">Crimestoppers</wf>
+    <wf wid="w87" sent="5" offset="481" length="4">said</wf>
+    <wf wid="w88" sent="5" offset="486" length="3">the</wf>
+    <wf wid="w89" sent="5" offset="490" length="3">sum</wf>
+    <wf wid="w90" sent="5" offset="494" length="4">they</wf>
+    <wf wid="w91" sent="5" offset="499" length="4">were</wf>
+    <wf wid="w92" sent="5" offset="504" length="8">offering</wf>
+    <wf wid="w93" sent="5" offset="513" length="3">was</wf>
+    <wf wid="w94" sent="5" offset="517" length="13">significantly</wf>
+    <wf wid="w95" sent="5" offset="531" length="6">higher</wf>
+    <wf wid="w96" sent="5" offset="538" length="4">than</wf>
+    <wf wid="w97" sent="5" offset="543" length="5">usual</wf>
+    <wf wid="w98" sent="5" offset="549" length="7">because</wf>
+    <wf wid="w99" sent="5" offset="557" length="2">of</wf>
+    <wf wid="w100" sent="5" offset="560" length="6">public</wf>
+    <wf wid="w101" sent="5" offset="567" length="8">interest</wf>
+    <wf wid="w102" sent="5" offset="576" length="2">in</wf>
+    <wf wid="w103" sent="5" offset="579" length="3">the</wf>
+    <wf wid="w104" sent="5" offset="583" length="4">case</wf>
+    <wf wid="w105" sent="5" offset="587" length="1">.</wf>
+  </text>
+</KAF>
