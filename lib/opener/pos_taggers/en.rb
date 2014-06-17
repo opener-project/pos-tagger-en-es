@@ -66,15 +66,12 @@ module Opener
       end
 
       protected
-	
-	#No need of this dictionary object here anymore(hopefully)
-     # def dictionary
-     #   Resources.new.getBinaryDict(language)
-     # end
 
+      ##
+      # Returns the lemmatizer to use.
+      #
       def lemmatizer
-        #MorfologikLemmatizer.new(dictionary)
-	LemmatizerDispatcher.obtainMorfologikLemmatizer(language)
+        return LemmatizerDispatcher.obtainMorfologikLemmatizer(language)
       end
 
       ##
@@ -99,7 +96,7 @@ module Opener
         return 'nl'
       end
     end # NL
-    
+
     class IT < EN
       ##
       # @return [String]
@@ -108,7 +105,7 @@ module Opener
         return 'it'
       end
     end # IT
-    
+
     class FR < EN
       ##
       # @return [String]
