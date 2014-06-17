@@ -8,6 +8,10 @@ Feature: Using a dutch file as input and other file as an output
     And I put them through the kernel
     Then the output should match the fixture "<output_file>"
   Examples:
-    | input_file	| output_file		|
-    | input.kaf		| output.kaf	|
+    | input_file	| output_file	|
+    | input-en.kaf	| output-en.kaf	|
+    | input-es.kaf	| output-es.kaf	|
+    | input-fr.kaf	| output-fr.kaf	|
+    | input-it.kaf	| output-it.kaf	|
+    | input-nl.kaf	| output-nl.kaf	|
 
