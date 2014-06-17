@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.net.URL;
+//import java.net.URL;
 
 import net.didion.jwnl.JWNLException;
 import net.sourceforge.argparse4j.ArgumentParsers;
@@ -20,8 +20,9 @@ import net.sourceforge.argparse4j.inf.MutuallyExclusiveGroup;
 import net.sourceforge.argparse4j.inf.Namespace;
 import ehu.lemmatize.Dictionary;
 import ehu.lemmatize.JWNLemmatizer;
-import ehu.lemmatize.MorfologikLemmatizer;
-import ehu.lemmatize.MorfologikLemmatizerFrenchAndItalian;
+import ehu.lemmatize.LemmatizerDispatcher;
+//import ehu.lemmatize.MorfologikLemmatizer;
+//import ehu.lemmatize.MorfologikLemmatizerFrenchAndItalian;
 import ehu.lemmatize.SimpleLemmatizer;
 
 import org.jdom2.JDOMException;
@@ -125,16 +126,11 @@ public class CLI {
 	
       /*
        * NOTE:
-       * The if-else branching was quite confusing (and I think it had some mistakes)
-       * If I understand it, the conditional flow is (or should be) :
-       * 	- if "plain" option is chosen, get the language plain dictionary (any language)
-       * 	- else if language is English, use JWNL dictionary (just for English)
-       * 	- else if any other languages except Italian and French, use Morfologik dictionaries
-       * 	- else (the language is fr or it), use a "special" Morfologik dictionary implementation for them
+       * Corrected the misunderstanding (sorry!), the if-else now consists of:
+       *    - if "plain" option is chosen, get the language plain dictionary (any language)
+       * 	- else if wn dictionary path provided and language==en, then use JWNLemmatizer
+       * 	- else use morfologik dictionary (any language)
        * 
-       * I have commented out some weird conditions 
-       * (e.g. in the else-if branches dictionary can only be null, thus the !=null condition can never be satisfied) 
-       * I hope that this is more correct now...
        */
       
       if (lemMethod.equalsIgnoreCase("plain")) {
@@ -143,23 +139,14 @@ public class CLI {
 	    	lemmatizer = new SimpleLemmatizer(dictLemmatizer);
 	  }
       
-      else if (/*dictionary != null && */lang.equalsIgnoreCase("en")) {
+      else if (dictionary != null && lang.equalsIgnoreCase("en")) {
     	  lemmatizer = new JWNLemmatizer(dictionary);
       }
-      
-      else if (/*dictionary != null && lang.equalsIgnoreCase("en") == false && */ !lang.equalsIgnoreCase("it") && !lang.equalsIgnoreCase("fr")) { 
+      else{
     	  System.err.println("WordNet lemmatization available for English only. Using" +
     	  		" default Morfologik binary dictionary.");
-    	  URL dictLemmatizer = resourceRetriever.getBinaryDict(lang);
-	      lemmatizer = new MorfologikLemmatizer(dictLemmatizer);
+	      lemmatizer=LemmatizerDispatcher.obtainMorfologikLemmatizer(lang);
       }
-    	  
-      else { //lang is "fr" or "it"
-		  System.err.println("Using default Morfologik binary dictionary.");
-//    	  URL dictLemmatizer = resourceRetriever.getBinaryDict(lang);
-//	      lemmatizer = new MorfologikLemmatizer(dictLemmatizer);
-		  lemmatizer=new MorfologikLemmatizerFrenchAndItalian();
-	  }  
       
       // add already contained header plus this module linguistic
       // processor
