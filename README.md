@@ -2,20 +2,25 @@
 
 # English, Spanish,  Dutch, Italian, French POS Tagger
 
-**Modified to also do Dutch**
-
 This repository contains the source code for the English & Spanish POS tagger of the
 OpeNER project.
 
-English perceptron models have been trained and evaluated using the WSJ
-treebank as explained in K. Toutanova, D. Klein, and C. D. Manning.
-Feature-rich part-of-speech tagging with a cyclic dependency network.  In
-Proceedings of HLT-NAACL’03, 2003. Currently we obtain a performance of 96.48%
-vs 97.24% obtained by Toutanova et al. (2003).
+* English perceptron models have been trained and evaluated using the WSJ 
+  treebank as explained in K. Toutanova, D. Klein, and C. D. Manning. 
+  Feature-rich part-of-speech tagging with a cyclic dependency network.  In 
+  Proceedings of HLT-NAACL’03, 2003. Currently we obtain a performance of 96.87% 
+  vs 97.24% obtained by Toutanova et al. (2003).
 
-Spanish Maximum Entropy models have been trained and evaluated using the Ancora 
-corpus; it was randomly divided in 90% for training (440K words) and 10% testing
-(70K words), obtaining a performance of 98.88%.
+* Spanish Maximum Entropy models have been trained and evaluated using the Ancora  
+  corpus; it was randomly divided in 90% for training (450K words) and 10% testing 
+  (50K words), obtaining a performance of 98.88%.
+
+* French Maximum Entropy models trained with the ESTER corpus. 
+
+* Italian Perceptron models trained with the TUT Treebank. 
+
+* Dutch Perceptron model publicly available at Apache OpenNLP website:
+  (http://opennlp.sourceforge.net/models-1.5/)
 
 ## Requirements
 
