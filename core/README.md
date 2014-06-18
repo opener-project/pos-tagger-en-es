@@ -21,6 +21,8 @@ on the Perceptron.
   divided in 90% for training (450K words) and 10% testing (50K words). 
 + **POS tagging model for Dutch** publicly available from the Apache OpenNLP
   website: http://opennlp.sourceforge.net/models-1.5/
++ **Maximum Entropy model for French** trained with the French Treebank using
+  80% for training, and 10% for development and testing.
 + **Dictionary-based lemmatization** for all 5 languages. 
 
 To avoid duplication of efforts, we use the machine learning API 
@@ -41,9 +43,11 @@ Therefore, the following resources are provided within the module:
 
 + **Dutch POS Perceptron**: downloaded from Apache OpenNLP website: http://opennlp.sourceforge.net/models-1.5/
 
-+ **French POS Maxent**: ESTER model, 
++ **French POS Maximum Entropy**: trained with the [French Treebank](http://www.llf.cnrs.fr/Gens/Abeille/French-Treebank-fr.php)
+  divided into 80% of training (500K words), 10% development (42K
+  words) and 10% for testing (42K words). Test word accuracy: 94.9.
 
-+ **Italian Perceptron model**: 
++ **Italian Perceptron model**: trained with TUT Treebank.
 
 + **Lemmatizer Dictionaries for all 5 languages**:
     + **Plain text dictionary**: "Word POStag lemma" dictionary in plain text to perform lemmatization.
@@ -64,10 +68,10 @@ If you want to know more, please follow reading.
 This pos tagger reads KAF documents (with *wf* and *term* elements) via standard input and outputs KAF
 through standard output. 
 
-You can get the necessary input for ixa-pipe-pos by piping it with 
+You can get the necessary input for ehu-pos by piping it with 
 the [OpeNER tokenizer](https://github.com/opener-project/tokenizer). 
 
-There are several options to tag with ixa-pipe-pos: 
+There are several options to tag with ehu-pos: 
 
 + **lang**: choose between en, es, fr, it and nl.
 + **lemmatize**: choose dictionary method to perform lemmatization:
