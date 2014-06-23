@@ -8,8 +8,10 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 //import java.net.URL;
+
 
 import net.didion.jwnl.JWNLException;
 import net.sourceforge.argparse4j.ArgumentParsers;
@@ -52,7 +54,20 @@ public class CLI {
    */
 
   public static void main(String[] args) throws IOException, JWNLException, JDOMException {
-
+	  //Decoupled from main:
+	  //Main works as before (System.in, System.out), but "execute" method can be used for custom input-output streams
+	  execute(System.in, System.out, args);
+  }
+  
+  /**
+   * This method decouples the calling to the main functionality from the standard input and standard output allowing better integration as a library.
+   * The main method invokes it with the console arguments and the required streams (System.in and System.out) so it should work exactly in the same way.
+   * @param is
+   * @param os
+   * @param args
+   * @throws JWNLException
+   */
+  public static void execute(InputStream is,OutputStream os,String[]args) throws JWNLException{
     Namespace parsedArguments = null;
 
     // create Argument Parser
@@ -113,8 +128,8 @@ public class CLI {
     BufferedReader breader = null;
     BufferedWriter bwriter = null;
     try {
-      breader = new BufferedReader(new InputStreamReader(System.in, "UTF-8"));
-      bwriter = new BufferedWriter(new OutputStreamWriter(System.out, "UTF-8"));
+      breader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+      bwriter = new BufferedWriter(new OutputStreamWriter(os, "UTF-8"));
       KAFDocument kaf = KAFDocument.createFromStream(breader);
 
       // choosing Dictionary for lemmatization
