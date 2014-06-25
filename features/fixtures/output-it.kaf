@@ -129,37 +129,37 @@
   </text>
   <terms>
     <!--La-->
-    <term tid="t1" type="close" lemma="La" pos="D" morphofeat="ART~DFS">
+    <term tid="t1" type="close" lemma="La" pos="D" morphofeat="ART~DE">
       <span>
         <target id="w1" />
       </span>
     </term>
     <!--natura-->
-    <term tid="t2" type="open" lemma="natura" pos="N" morphofeat="NOU~CSFS">
+    <term tid="t2" type="open" lemma="natura" pos="N" morphofeat="NOU~CS">
       <span>
         <target id="w2" />
       </span>
     </term>
     <!--è-->
-    <term tid="t3" type="close" lemma="è" pos="R" morphofeat="NOU~PNI">
+    <term tid="t3" type="open" lemma="essere" pos="V" morphofeat="VAU~RE">
       <span>
         <target id="w3" />
       </span>
     </term>
     <!--una-->
-    <term tid="t4" type="close" lemma="una" pos="D" morphofeat="ART~IFS">
+    <term tid="t4" type="close" lemma="uno" pos="D" morphofeat="ART~IN">
       <span>
         <target id="w4" />
       </span>
     </term>
     <!--fonte-->
-    <term tid="t5" type="open" lemma="fonte" pos="N" morphofeat="NOU~CSFS">
+    <term tid="t5" type="open" lemma="fonte" pos="N" morphofeat="NOU~CS">
       <span>
         <target id="w5" />
       </span>
     </term>
     <!--inesauribile-->
-    <term tid="t6" type="open" lemma="inesauribile" pos="G" morphofeat="ADJ~QUNS">
+    <term tid="t6" type="open" lemma="inesauribile" pos="G" morphofeat="ADJ~QU">
       <span>
         <target id="w6" />
       </span>
@@ -171,7 +171,7 @@
       </span>
     </term>
     <!--ispirazione-->
-    <term tid="t8" type="open" lemma="ispirazione" pos="N" morphofeat="NOU~CSFS">
+    <term tid="t8" type="open" lemma="ispirazione" pos="N" morphofeat="NOU~CS">
       <span>
         <target id="w8" />
       </span>
@@ -183,19 +183,19 @@
       </span>
     </term>
     <!--nuove-->
-    <term tid="t10" type="open" lemma="nuovo" pos="G" morphofeat="ADJ~QUFP">
+    <term tid="t10" type="open" lemma="nuovo" pos="G" morphofeat="ADJ~QU">
       <span>
         <target id="w10" />
       </span>
     </term>
     <!--invenzioni-->
-    <term tid="t11" type="open" lemma="invenzioni" pos="N" morphofeat="NOU~CPFP">
+    <term tid="t11" type="open" lemma="invenzione" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w11" />
       </span>
     </term>
     <!--tecnologiche-->
-    <term tid="t12" type="open" lemma="tecnologico" pos="G" morphofeat="ADJ~QUFP">
+    <term tid="t12" type="open" lemma="tecnologico" pos="G" morphofeat="ADJ~QU">
       <span>
         <target id="w12" />
       </span>
@@ -207,13 +207,13 @@
       </span>
     </term>
     <!--I-->
-    <term tid="t14" type="close" lemma="I" pos="D" morphofeat="ART~DMP">
+    <term tid="t14" type="close" lemma="I" pos="D" morphofeat="ART~DE">
       <span>
         <target id="w14" />
       </span>
     </term>
     <!--ragni-->
-    <term tid="t15" type="open" lemma="ragni" pos="N" morphofeat="NOU~CPMP">
+    <term tid="t15" type="open" lemma="ragno" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w15" />
       </span>
@@ -225,49 +225,49 @@
       </span>
     </term>
     <!--le-->
-    <term tid="t17" type="close" lemma="la" pos="D" morphofeat="ART~DFP">
+    <term tid="t17" type="close" lemma="lo" pos="D" morphofeat="ART~DE">
       <span>
         <target id="w17" />
       </span>
     </term>
     <!--loro-->
-    <term tid="t18" type="open" lemma="loro" pos="G" morphofeat="ADJ~PONI">
+    <term tid="t18" type="open" lemma="loro" pos="G" morphofeat="ADJ~PO">
       <span>
         <target id="w18" />
       </span>
     </term>
     <!--ragnatele-->
-    <term tid="t19" type="open" lemma="ragnatele" pos="N" morphofeat="NOU~CPFP">
+    <term tid="t19" type="open" lemma="ragnatela" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w19" />
       </span>
     </term>
     <!--ne-->
-    <term tid="t20" type="close" lemma="ne" pos="Q" morphofeat="PRON~PENI">
+    <term tid="t20" type="close" lemma="ne" pos="O" morphofeat="PRO~PE">
       <span>
         <target id="w20" />
       </span>
     </term>
     <!--costituiscono-->
-    <term tid="t21" type="open" lemma="costituire" pos="V" morphofeat="VMA~REN6">
+    <term tid="t21" type="open" lemma="costituire" pos="V" morphofeat="VMA~RE">
       <span>
         <target id="w21" />
       </span>
     </term>
     <!--un-->
-    <term tid="t22" type="close" lemma="un" pos="D" morphofeat="ART~IMS">
+    <term tid="t22" type="close" lemma="uno" pos="D" morphofeat="ART~IN">
       <span>
         <target id="w22" />
       </span>
     </term>
     <!--capitolo-->
-    <term tid="t23" type="open" lemma="capitolo" pos="N" morphofeat="NOU~CSMS">
+    <term tid="t23" type="open" lemma="capitolare" pos="V" morphofeat="VMA~PA">
       <span>
         <target id="w23" />
       </span>
     </term>
     <!--importante-->
-    <term tid="t24" type="open" lemma="importare" pos="V" morphofeat="VMA~PPNS">
+    <term tid="t24" type="open" lemma="importare" pos="V" morphofeat="VMA~PE">
       <span>
         <target id="w24" />
       </span>
@@ -279,19 +279,19 @@
       </span>
     </term>
     <!--L’-->
-    <term tid="t26" type="close" lemma="L’" pos="R" morphofeat="NOU~PNI">
+    <term tid="t26" type="open" lemma="L’" pos="N" morphofeat="NOU~CA">
       <span>
         <target id="w26" />
       </span>
     </term>
     <!--ultima-->
-    <term tid="t27" type="open" lemma="ultimo" pos="G" morphofeat="ADJ~QUFS">
+    <term tid="t27" type="open" lemma="ultimo" pos="G" morphofeat="ADJ~QU">
       <span>
         <target id="w27" />
       </span>
     </term>
     <!--notizia-->
-    <term tid="t28" type="open" lemma="notizia" pos="N" morphofeat="NOU~CSFS">
+    <term tid="t28" type="open" lemma="notizia" pos="N" morphofeat="NOU~CS">
       <span>
         <target id="w28" />
       </span>
@@ -303,25 +303,25 @@
       </span>
     </term>
     <!--proposito-->
-    <term tid="t30" type="open" lemma="proposito" pos="N" morphofeat="NOU~CSMS">
+    <term tid="t30" type="open" lemma="proposito" pos="N" morphofeat="NOU~CS">
       <span>
         <target id="w30" />
       </span>
     </term>
     <!--riguarda-->
-    <term tid="t31" type="open" lemma="riguardare" pos="V" morphofeat="VMA~REN3">
+    <term tid="t31" type="open" lemma="riguardare" pos="V" morphofeat="VMA~RE">
       <span>
         <target id="w31" />
       </span>
     </term>
     <!--una-->
-    <term tid="t32" type="close" lemma="una" pos="D" morphofeat="ART~IFS">
+    <term tid="t32" type="close" lemma="uno" pos="D" morphofeat="ART~IN">
       <span>
         <target id="w32" />
       </span>
     </term>
     <!--supercolla-->
-    <term tid="t33" type="close" lemma="supercolla" pos="R" morphofeat="NOU~PNI">
+    <term tid="t33" type="close" lemma="supercolla" pos="R" morphofeat="NOU~PR">
       <span>
         <target id="w33" />
       </span>
@@ -333,7 +333,7 @@
       </span>
     </term>
     <!--copiata-->
-    <term tid="t35" type="open" lemma="copiare" pos="V" morphofeat="VMA~PAFS">
+    <term tid="t35" type="open" lemma="copiare" pos="V" morphofeat="VMA~PA">
       <span>
         <target id="w35" />
       </span>
@@ -345,31 +345,31 @@
       </span>
     </term>
     <!--alcune-->
-    <term tid="t37" type="open" lemma="alcune" pos="G" morphofeat="ADJ~FP">
+    <term tid="t37" type="open" lemma="alcuno" pos="G" morphofeat="ADJ~QU">
       <span>
         <target id="w37" />
       </span>
     </term>
     <!--strutture-->
-    <term tid="t38" type="open" lemma="strutture" pos="N" morphofeat="NOU~CPFP">
+    <term tid="t38" type="open" lemma="struttura" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w38" />
       </span>
     </term>
     <!--create-->
-    <term tid="t39" type="open" lemma="creare" pos="V" morphofeat="VMA~PAFP">
+    <term tid="t39" type="open" lemma="creare" pos="V" morphofeat="VMA~PA">
       <span>
         <target id="w39" />
       </span>
     </term>
     <!--dai-->
-    <term tid="t40" type="close" lemma="dai" pos="P" morphofeat="PREPMP">
+    <term tid="t40" type="close" lemma="da" pos="P" morphofeat="PREP">
       <span>
         <target id="w40" />
       </span>
     </term>
     <!--ragni-->
-    <term tid="t41" type="open" lemma="ragni" pos="N" morphofeat="NOU~CPMP">
+    <term tid="t41" type="open" lemma="ragno" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w41" />
       </span>
@@ -381,37 +381,37 @@
       </span>
     </term>
     <!--agganciare-->
-    <term tid="t43" type="open" lemma="agganciare" pos="V" morphofeat="VMA~ININN">
+    <term tid="t43" type="open" lemma="agganciare" pos="V" morphofeat="VMA~IN">
       <span>
         <target id="w43" />
       </span>
     </term>
     <!--i-->
-    <term tid="t44" type="close" lemma="il" pos="D" morphofeat="ART~DMP">
+    <term tid="t44" type="close" lemma="lo" pos="D" morphofeat="ART~DE">
       <span>
         <target id="w44" />
       </span>
     </term>
     <!--fili-->
-    <term tid="t45" type="open" lemma="fili" pos="N" morphofeat="NOU~CPMP">
+    <term tid="t45" type="open" lemma="fili" pos="G" morphofeat="ADJ~QU">
       <span>
         <target id="w45" />
       </span>
     </term>
     <!--della-->
-    <term tid="t46" type="close" lemma="della" pos="P" morphofeat="PREPFS">
+    <term tid="t46" type="close" lemma="di" pos="P" morphofeat="PREP">
       <span>
         <target id="w46" />
       </span>
     </term>
     <!--loro-->
-    <term tid="t47" type="open" lemma="loro" pos="G" morphofeat="ADJ~PONI">
+    <term tid="t47" type="open" lemma="loro" pos="G" morphofeat="ADJ~PO">
       <span>
         <target id="w47" />
       </span>
     </term>
     <!--tela-->
-    <term tid="t48" type="open" lemma="tela" pos="N" morphofeat="NOU~CSFS">
+    <term tid="t48" type="open" lemma="tela" pos="N" morphofeat="NOU~CS">
       <span>
         <target id="w48" />
       </span>
@@ -423,31 +423,31 @@
       </span>
     </term>
     <!--che-->
-    <term tid="t50" type="close" lemma="che" pos="Q" morphofeat="PRON~RENI">
+    <term tid="t50" type="close" lemma="che" pos="O" morphofeat="PRO~RE">
       <span>
         <target id="w50" />
       </span>
     </term>
     <!--potrebbe-->
-    <term tid="t51" type="open" lemma="potere" pos="V" morphofeat="VMO~CON3">
+    <term tid="t51" type="open" lemma="potere" pos="V" morphofeat="VMO~CO">
       <span>
         <target id="w51" />
       </span>
     </term>
     <!--avere-->
-    <term tid="t52" type="open" lemma="avere" pos="V" morphofeat="VAU~ININN">
+    <term tid="t52" type="open" lemma="avere" pos="V" morphofeat="VAU~IN">
       <span>
         <target id="w52" />
       </span>
     </term>
     <!--interessanti-->
-    <term tid="t53" type="open" lemma="interessare" pos="V" morphofeat="VMA~PPNP">
+    <term tid="t53" type="open" lemma="interessare" pos="V" morphofeat="VMA~PE">
       <span>
         <target id="w53" />
       </span>
     </term>
     <!--applicazioni-->
-    <term tid="t54" type="open" lemma="applicazioni" pos="N" morphofeat="NOU~CPFP">
+    <term tid="t54" type="open" lemma="applicazione" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w54" />
       </span>
@@ -459,19 +459,19 @@
       </span>
     </term>
     <!--nei-->
-    <term tid="t56" type="close" lemma="nei" pos="P" morphofeat="PREPMP">
+    <term tid="t56" type="close" lemma="in" pos="P" morphofeat="PREP">
       <span>
         <target id="w56" />
       </span>
     </term>
     <!--settori-->
-    <term tid="t57" type="open" lemma="settori" pos="N" morphofeat="NOU~CPMP">
+    <term tid="t57" type="open" lemma="settore" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w57" />
       </span>
     </term>
     <!--industriali-->
-    <term tid="t58" type="open" lemma="industriale" pos="G" morphofeat="ADJ~QUNP">
+    <term tid="t58" type="open" lemma="industriale" pos="G" morphofeat="ADJ~QU">
       <span>
         <target id="w58" />
       </span>
@@ -483,7 +483,7 @@
       </span>
     </term>
     <!--commerciali-->
-    <term tid="t60" type="open" lemma="commerciale" pos="G" morphofeat="ADJ~QUNP">
+    <term tid="t60" type="open" lemma="commerciale" pos="G" morphofeat="ADJ~QU">
       <span>
         <target id="w60" />
       </span>
@@ -507,13 +507,13 @@
       </span>
     </term>
     <!--campo-->
-    <term tid="t64" type="open" lemma="campo" pos="N" morphofeat="NOU~CSMS">
+    <term tid="t64" type="open" lemma="campo" pos="N" morphofeat="NOU~CS">
       <span>
         <target id="w64" />
       </span>
     </term>
     <!--biomedico-->
-    <term tid="t65" type="open" lemma="biomedico" pos="G" morphofeat="ADJ~QUMS">
+    <term tid="t65" type="open" lemma="biomedico" pos="G" morphofeat="ADJ~QU">
       <span>
         <target id="w65" />
       </span>
@@ -525,13 +525,13 @@
       </span>
     </term>
     <!--potenti-->
-    <term tid="t67" type="open" lemma="potenti" pos="N" morphofeat="NOU~CPMP">
+    <term tid="t67" type="open" lemma="potente" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w67" />
       </span>
     </term>
     <!--adesivi-->
-    <term tid="t68" type="open" lemma="adesivo" pos="G" morphofeat="ADJ~QUMP">
+    <term tid="t68" type="open" lemma="adesivo" pos="G" morphofeat="ADJ~QU">
       <span>
         <target id="w68" />
       </span>
@@ -543,7 +543,7 @@
       </span>
     </term>
     <!--grado-->
-    <term tid="t70" type="open" lemma="grado" pos="N" morphofeat="NOU~CSMS">
+    <term tid="t70" type="open" lemma="grado" pos="N" morphofeat="NOU~CS">
       <span>
         <target id="w70" />
       </span>
@@ -555,43 +555,43 @@
       </span>
     </term>
     <!--potenziare-->
-    <term tid="t72" type="open" lemma="potenziare" pos="V" morphofeat="VMA~ININN">
+    <term tid="t72" type="open" lemma="potenziare" pos="V" morphofeat="VMA~IN">
       <span>
         <target id="w72" />
       </span>
     </term>
     <!--il-->
-    <term tid="t73" type="close" lemma="il" pos="D" morphofeat="ART~DMS">
+    <term tid="t73" type="close" lemma="lo" pos="D" morphofeat="ART~DE">
       <span>
         <target id="w73" />
       </span>
     </term>
     <!--fissaggio-->
-    <term tid="t74" type="open" lemma="fissaggio" pos="N" morphofeat="NOU~CSMS">
+    <term tid="t74" type="open" lemma="fissaggio" pos="N" morphofeat="NOU~CS">
       <span>
         <target id="w74" />
       </span>
     </term>
     <!--dei-->
-    <term tid="t75" type="close" lemma="dei" pos="P" morphofeat="PREPMP">
+    <term tid="t75" type="close" lemma="di" pos="P" morphofeat="PREP">
       <span>
         <target id="w75" />
       </span>
     </term>
     <!--tendini-->
-    <term tid="t76" type="open" lemma="tendini" pos="N" morphofeat="NOU~CPMP">
+    <term tid="t76" type="open" lemma="tendine" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w76" />
       </span>
     </term>
     <!--alle-->
-    <term tid="t77" type="close" lemma="alle" pos="P" morphofeat="PREPFP">
+    <term tid="t77" type="close" lemma="a" pos="P" morphofeat="PREP">
       <span>
         <target id="w77" />
       </span>
     </term>
     <!--ossa-->
-    <term tid="t78" type="open" lemma="ossa" pos="N" morphofeat="NOU~CPFP">
+    <term tid="t78" type="open" lemma="osso" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w78" />
       </span>
@@ -609,19 +609,19 @@
       </span>
     </term>
     <!--riattaccare-->
-    <term tid="t81" type="open" lemma="riattaccare" pos="V" morphofeat="VMA~ININN">
+    <term tid="t81" type="open" lemma="riattaccare" pos="V" morphofeat="VMA~IN">
       <span>
         <target id="w81" />
       </span>
     </term>
     <!--le-->
-    <term tid="t82" type="close" lemma="la" pos="D" morphofeat="ART~DFP">
+    <term tid="t82" type="close" lemma="lo" pos="D" morphofeat="ART~DE">
       <span>
         <target id="w82" />
       </span>
     </term>
     <!--fratture-->
-    <term tid="t83" type="open" lemma="fratture" pos="N" morphofeat="NOU~CPFP">
+    <term tid="t83" type="open" lemma="frattura" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w83" />
       </span>
@@ -633,43 +633,43 @@
       </span>
     </term>
     <!--La-->
-    <term tid="t85" type="close" lemma="La" pos="D" morphofeat="ART~DFS">
+    <term tid="t85" type="close" lemma="La" pos="D" morphofeat="ART~DE">
       <span>
         <target id="w85" />
       </span>
     </term>
     <!--notizia-->
-    <term tid="t86" type="open" lemma="notizia" pos="N" morphofeat="NOU~CSFS">
+    <term tid="t86" type="open" lemma="notizia" pos="N" morphofeat="NOU~CS">
       <span>
         <target id="w86" />
       </span>
     </term>
     <!--giunge-->
-    <term tid="t87" type="open" lemma="giungere" pos="V" morphofeat="VMA~REN3">
+    <term tid="t87" type="open" lemma="giungere" pos="V" morphofeat="VMA~RE">
       <span>
         <target id="w87" />
       </span>
     </term>
     <!--dai-->
-    <term tid="t88" type="close" lemma="dai" pos="P" morphofeat="PREPMP">
+    <term tid="t88" type="close" lemma="da" pos="P" morphofeat="PREP">
       <span>
         <target id="w88" />
       </span>
     </term>
     <!--ricercatori-->
-    <term tid="t89" type="open" lemma="ricercatori" pos="N" morphofeat="NOU~CPMP">
+    <term tid="t89" type="open" lemma="ricercatore" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w89" />
       </span>
     </term>
     <!--dell’-->
-    <term tid="t90" type="close" lemma="dell’" pos="P" morphofeat="PREPMS">
+    <term tid="t90" type="close" lemma="dell’" pos="P" morphofeat="PREP">
       <span>
         <target id="w90" />
       </span>
     </term>
     <!--Università-->
-    <term tid="t91" type="close" lemma="Università" pos="R" morphofeat="NOU~PNI">
+    <term tid="t91" type="open" lemma="Università" pos="N" morphofeat="NOU~CA">
       <span>
         <target id="w91" />
       </span>
@@ -681,7 +681,7 @@
       </span>
     </term>
     <!--Akron-->
-    <term tid="t93" type="close" lemma="Akron" pos="R" morphofeat="NOU~PNI">
+    <term tid="t93" type="close" lemma="Akron" pos="R" morphofeat="NOU~PR">
       <span>
         <target id="w93" />
       </span>
@@ -693,49 +693,49 @@
       </span>
     </term>
     <!--che-->
-    <term tid="t95" type="close" lemma="che" pos="Q" morphofeat="PRON~RENI">
+    <term tid="t95" type="close" lemma="che" pos="O" morphofeat="PRO~RE">
       <span>
         <target id="w95" />
       </span>
     </term>
     <!--hanno-->
-    <term tid="t96" type="open" lemma="avere" pos="V" morphofeat="VAU~REN6">
+    <term tid="t96" type="open" lemma="avere" pos="V" morphofeat="VAU~RE">
       <span>
         <target id="w96" />
       </span>
     </term>
     <!--creato-->
-    <term tid="t97" type="open" lemma="creare" pos="V" morphofeat="VMA~PAMS">
+    <term tid="t97" type="open" lemma="creare" pos="V" morphofeat="VMA~PA">
       <span>
         <target id="w97" />
       </span>
     </term>
     <!--duplicati-->
-    <term tid="t98" type="open" lemma="duplicati" pos="N" morphofeat="NOU~CPMP">
+    <term tid="t98" type="open" lemma="duplicare" pos="V" morphofeat="VMA~PA">
       <span>
         <target id="w98" />
       </span>
     </term>
     <!--sintetici-->
-    <term tid="t99" type="open" lemma="sintetico" pos="G" morphofeat="ADJ~QUMP">
+    <term tid="t99" type="open" lemma="sintetico" pos="G" morphofeat="ADJ~QU">
       <span>
         <target id="w99" />
       </span>
     </term>
     <!--dei-->
-    <term tid="t100" type="close" lemma="dei" pos="P" morphofeat="PREPMP">
+    <term tid="t100" type="close" lemma="di" pos="P" morphofeat="PREP">
       <span>
         <target id="w100" />
       </span>
     </term>
     <!--dischi-->
-    <term tid="t101" type="open" lemma="dischi" pos="N" morphofeat="NOU~CPMP">
+    <term tid="t101" type="open" lemma="disco" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w101" />
       </span>
     </term>
     <!--superadesivi-->
-    <term tid="t102" type="close" lemma="superadesivi" pos="R" morphofeat="NOU~PNI">
+    <term tid="t102" type="open" lemma="superadesivi" pos="G" morphofeat="ADJ~QU">
       <span>
         <target id="w102" />
       </span>
@@ -747,7 +747,7 @@
       </span>
     </term>
     <!--seta-->
-    <term tid="t104" type="open" lemma="seta" pos="N" morphofeat="NOU~CSFS">
+    <term tid="t104" type="open" lemma="seta" pos="N" morphofeat="NOU~CS">
       <span>
         <target id="w104" />
       </span>
@@ -759,55 +759,55 @@
       </span>
     </term>
     <!--i-->
-    <term tid="t106" type="close" lemma="il" pos="D" morphofeat="ART~DMP">
+    <term tid="t106" type="close" lemma="lo" pos="D" morphofeat="ART~DE">
       <span>
         <target id="w106" />
       </span>
     </term>
     <!--quali-->
-    <term tid="t107" type="close" lemma="quali" pos="Q" morphofeat="PRON~REN6">
+    <term tid="t107" type="close" lemma="quali" pos="O" morphofeat="PRO~RE">
       <span>
         <target id="w107" />
       </span>
     </term>
     <!--i-->
-    <term tid="t108" type="close" lemma="il" pos="D" morphofeat="ART~DMP">
+    <term tid="t108" type="close" lemma="lo" pos="D" morphofeat="ART~DE">
       <span>
         <target id="w108" />
       </span>
     </term>
     <!--ragni-->
-    <term tid="t109" type="open" lemma="ragni" pos="N" morphofeat="NOU~CPMP">
+    <term tid="t109" type="open" lemma="ragno" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w109" />
       </span>
     </term>
     <!--attaccano-->
-    <term tid="t110" type="open" lemma="attaccare" pos="V" morphofeat="VMA~REN6">
+    <term tid="t110" type="open" lemma="attaccare" pos="V" morphofeat="VMA~RE">
       <span>
         <target id="w110" />
       </span>
     </term>
     <!--le-->
-    <term tid="t111" type="close" lemma="la" pos="D" morphofeat="ART~DFP">
+    <term tid="t111" type="close" lemma="lo" pos="D" morphofeat="ART~DE">
       <span>
         <target id="w111" />
       </span>
     </term>
     <!--ragnatele-->
-    <term tid="t112" type="open" lemma="ragnatele" pos="N" morphofeat="NOU~CPFP">
+    <term tid="t112" type="open" lemma="ragnatela" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w112" />
       </span>
     </term>
     <!--alle-->
-    <term tid="t113" type="close" lemma="alle" pos="P" morphofeat="PREPFP">
+    <term tid="t113" type="close" lemma="a" pos="P" morphofeat="PREP">
       <span>
         <target id="w113" />
       </span>
     </term>
     <!--superfici-->
-    <term tid="t114" type="open" lemma="superfici" pos="N" morphofeat="NOU~CPFP">
+    <term tid="t114" type="open" lemma="superficie" pos="N" morphofeat="NOU~CP">
       <span>
         <target id="w114" />
       </span>
