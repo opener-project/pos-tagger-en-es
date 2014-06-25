@@ -7,10 +7,8 @@ require File.expand_path('../../../../core/target/ehu-pos-1.0.jar', __FILE__)
 
 import 'java.io.InputStreamReader'
 import 'ixa.kaflib.KAFDocument'
-import 'ehu.pos.Annotate'
 import 'ehu.pos.Resources'
 import 'ehu.lemmatize.MorfologikLemmatizer'
-#import 'ehu.lemmatize.Dictionary'
 import 'ehu.lemmatize.LemmatizerDispatcher'
 
 require_relative 'en/version'
