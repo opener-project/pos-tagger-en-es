@@ -17,7 +17,8 @@ Gem::Specification.new do |gem|
     'core/target/ehu-pos-*.jar',
     'lib/**/*',
     '*.gemspec',
-    'README.md'
+    'README.md',
+    'LICENSE.txt'
   ]).select { |file| File.file?(file) }
 
   gem.executables = Dir.glob('bin/*').map { |file| File.basename(file) }
