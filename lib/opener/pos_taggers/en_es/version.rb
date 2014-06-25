@@ -1,6 +1,6 @@
 module Opener
   module POSTaggers
-    class EN
+    class EnEs
       VERSION = "2.0.2"
     end
   end

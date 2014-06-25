@@ -10,11 +10,13 @@ import java.util.List;
 import ehu.lemmatize.Dictionary;
 
 /**
- * 
+ *
  */
 public class Annotate {
 
 	private POS posTagger;
+
+    public boolean enable_timestamp = true;
 
 	public Annotate(String lang) throws IOException {
 		// Resources modelRetriever = new Resources();
@@ -23,10 +25,20 @@ public class Annotate {
 		posTagger = new POS(lang);
 	}
 
+    /**
+     * Disables the addition of dynamic timestamps.
+     *
+     * This method is mainly intended to be called from Ruby land during the
+     * testing process.
+     */
+    public void disableTimestamp() {
+        enable_timestamp = false;
+    }
+
 	/**
-	 * 
+	 *
 	 * Mapping between Penn Treebank tagset and KAF tagset
-	 * 
+	 *
 	 * @param penn
 	 *            treebank postag
 	 * @return kaf POS tag
@@ -106,9 +118,9 @@ public class Annotate {
 	/**
 	 * This enum was used by the French tag mapping, I put it here just to avoid
 	 * changing the French mapping function
-	 * 
+	 *
 	 * @author agarciap
-	 * 
+	 *
 	 */
 	public static enum KafTag {
 		VERB("V"), COMMON_NOUN("N"), PROPER_NOUN("R"), ADJETIVE("G"), ADVERB("A"), DETERMINER("D"), PREPOSITION("P"), PRONOUN(
@@ -209,7 +221,7 @@ public class Annotate {
 
 	/**
 	 * Set the term type attribute based on the pos value
-	 * 
+	 *
 	 * @param kaf
 	 *            postag
 	 * @return type
@@ -222,16 +234,28 @@ public class Annotate {
 		}
 	}
 
+    /**
+     * Adds a linguisticProcessor node to the given KAF document.
+     */
+    public void addLinguisticProcessor(KAFDocument kaf, String lang) {
+        if ( enable_timestamp ) {
+            kaf.addLinguisticProcessor("terms", "ehu-pos-" + lang, "1.0");
+        }
+        else {
+            kaf.addLinguisticProcessor("terms", "ehu-pos-" + lang, "now", "1.0");
+        }
+    }
+
 	/**
 	 * This method uses the Apache OpenNLP to perform POS tagging.
-	 * 
+	 *
 	 * It gets a Map<SentenceId, tokens> from the input KAF document and
 	 * iterates over the tokens of each sentence to annotated POS tags.
-	 * 
+	 *
 	 * It also reads <wf>, elements from the input KAF document and fills the
 	 * KAF object with those elements plus the annotated POS tags in the <term>
 	 * elements.
-	 * 
+	 *
 	 * @param LinkedHashMap
 	 *            <String,List<String>
 	 * @param List
@@ -239,11 +263,12 @@ public class Annotate {
 	 * @param KAF
 	 *            object. This object is used to take the output data and
 	 *            convert it to KAF.
-	 * 
+	 *
 	 * @return JDOM KAF document containing <wf>, and <terms> elements.
 	 */
 
 	public void annotatePOSToKAF(KAFDocument kaf, Dictionary dictLemmatizer, String lang) throws IOException {
+        addLinguisticProcessor(kaf, lang);
 
 		List<List<WF>> sentences = kaf.getSentences();
 		for (List<WF> sentence : sentences) {

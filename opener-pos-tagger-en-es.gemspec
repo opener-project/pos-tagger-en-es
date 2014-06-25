@@ -1,8 +1,8 @@
-require File.expand_path('../lib/opener/pos_taggers/en/version', __FILE__)
+require File.expand_path('../lib/opener/pos_taggers/en_es/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name          = "opener-pos-tagger-en-es"
-  gem.version       = Opener::POSTaggers::EN::VERSION
+  gem.version       = Opener::POSTaggers::EnEs::VERSION
   gem.authors       = ["development@olery.com"]
   gem.summary       = 'POS tagging for English and Spanish'
   gem.description   = gem.summary
@@ -22,6 +22,8 @@ Gem::Specification.new do |gem|
   ]).select { |file| File.file?(file) }
 
   gem.executables = Dir.glob('bin/*').map { |file| File.basename(file) }
+
+  gem.add_dependency 'nokogiri'
 
   gem.add_development_dependency 'rspec', '~> 3.0'
   gem.add_development_dependency 'cucumber'

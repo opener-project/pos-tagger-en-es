@@ -2,7 +2,7 @@ require_relative '../../lib/opener/pos_taggers/en'
 require 'rspec'
 
 def kernel
-  Opener::POSTaggers::EN.new
+  Opener::POSTaggers::EnEs.new(:enable_time => false)
 end
 
 RSpec.configure do |config|
