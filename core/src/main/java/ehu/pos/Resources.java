@@ -2,14 +2,14 @@ package ehu.pos;
 
 import java.io.InputStream;
 import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 import opennlp.tools.postag.POSModel;
 
 public class Resources {
 
-	private static Map<String, POSModel> posModelMap = new HashMap<String, POSModel>();
+	private static ConcurrentHashMap<String, POSModel> posModelMap =
+        new ConcurrentHashMap<String, POSModel>();
 
 	//private InputStream posModelInputStream;
 	//private InputStream dict;
